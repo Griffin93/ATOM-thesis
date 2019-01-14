@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{51}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -6,13 +6,97 @@
 \providecommand{\href}[2]{\url{#2}}
 \providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
 
+\bibitem[Haggard\ et~al.(1966)Haggard and Isaacs]{Haggard1966}
+Haggard~E~A, Isaacs~K~S.
+\newblock Micromomentary facial expressions as indicators of ego mechanisms in
+  psychotherapy\allowbreak[M/OL].
+\newblock Springer US, 1966: 154-165.
+\newblock \url{https://doi.org/10.1007/978-1-4684-6045-2_14}.
+
+\bibitem[Ekman\ et~al.(1969)Ekman and Friesen]{ekman1969nonverbal}
+Ekman~P, Friesen~W~V.
+\newblock Nonverbal leakage and clues to deception\allowbreak[J].
+\newblock Psychiatry, 1969, 32\penalty0 (1):\penalty0 88-106.
+
+\bibitem[Mehrabian\ et~al.(1967)Mehrabian and Ferris]{Mehrabian1967Inference}
+Mehrabian~A, Ferris~S~R.
+\newblock Inference of attitudes from nonverbal communication in two
+  channels\allowbreak[J].
+\newblock Journal of Consulting Psychology, 1967, 31\penalty0 (3):\penalty0
+  248.
+
+\bibitem[Kazlev(1999)]{Brain1999Kazlev}
+Kazlev~M.
+\newblock The triune brain\allowbreak[J/OL].
+\newblock KHEPER, 1999, 5\penalty0 (19)\allowbreak[2003-11-19].
+\newblock \url{http://www.kheper.net/topics/intelligence/MacLean.htm}.
+
+\bibitem[Chiu\ et~al.(2014)Chiu, Chou, Wu, and Liaw]{Chiu2014The}
+Chiu~M~H, Chou~C~C, Wu~W~L, et~al.
+\newblock The role of facial microexpression state (fmes) change in the process
+  of conceptual conflict\allowbreak[J].
+\newblock British Journal of Educational Technology, 2014, 45\penalty0
+  (3):\penalty0 471-486.
+
+\bibitem[Yan\ et~al.(2013)Yan, Wu, Liang, Chen, and Fu]{Yan2013How}
+Yan~W~J, Wu~Q, Liang~J, et~al.
+\newblock How fast are the leaked facial expressions: The duration of
+  micro-expressions\allowbreak[J].
+\newblock Journal of Nonverbal Behavior, 2013, 37\penalty0 (4):\penalty0
+  217-230.
+
+\bibitem[Matsumoto\ et~al.(2011)Matsumoto and Hwang]{matsumoto2011evidence}
+Matsumoto~D, Hwang~H~S.
+\newblock Evidence for training the ability to read microexpressions of
+  emotion\allowbreak[J].
+\newblock Motivation and Emotion, 2011, 35\penalty0 (2):\penalty0 181-191.
+
+\bibitem[Porter\ et~al.(2008)Porter and Brinke]{Porter2008Reading}
+Porter~S, Brinke~L~T.
+\newblock Reading between the lies: Identifying concealed and falsified
+  emotions in universal facial expressions\allowbreak[J].
+\newblock Psychological Science, 2008, 19\penalty0 (5):\penalty0 508-514.
+
+\bibitem[周凯莉(2010)]{Lie2010to}
+周凯莉.
+\newblock 别对我撒谎，我懂“微表情”\allowbreak[N/OL].
+\newblock 中国青年报, 2010, 11\penalty0 (10).
+\newblock \url{http://zqb.cyol.com/content/2010-11/10/content_3441411.htm}.
+
+\bibitem[Ekman\ et~al.(1999)Ekman, Paul, Sullivan, Maureen, Frank, and
+  Mark]{Ekman2010A}
+Ekman, Paul, Sullivan~O, et~al.
+\newblock A few can catch a liar\allowbreak[J].
+\newblock Psychological Science, 1999, 10\penalty0 (3):\penalty0 263-266.
+
+\bibitem[Li\ et~al.(2017)Li, Hong, Moilanen, Huang, Pfister, Zhao, and
+  Pietikainen]{Li2017Towards}
+Li~X, Hong~X, Moilanen~A, et~al.
+\newblock Towards reading hidden emotions: A comparative study of spontaneous
+  micro-expression spotting and recognition methods\allowbreak[J].
+\newblock IEEE Transactions on Affective Computing, 2017, PP\penalty0
+  (99):\penalty0 1-1.
+
+\bibitem[Li(2017)]{Doctoral2017Li}
+Li~X.
+\newblock Reading subtle information from human faces\allowbreak[D/OL].
+\newblock Doctoral Dissertation: Acta Universitatis Ouluensis. C, Technica,
+  2017\allowbreak[2017-09-08].
+\newblock \url{http://urn.fi/urn:isbn:9789526216386}.
+
+\bibitem[Ekman\ et~al.(1974)Ekman and Friesen]{Ekman1974Detecting}
+Ekman~P, Friesen~W~V.
+\newblock Detecting deception from the body or face\allowbreak[J].
+\newblock Journal of Personality & Social Psychology, 1974, 29\penalty0
+  (3):\penalty0 288-298.
+
 \bibitem[Wikibook(2014)]{wikibook2014latex}
 Wikibook.
 \newblock http://en.wikibooks.org/wiki/latex\allowbreak[M].
 \newblock On-line Resources, 2014.
 
-\bibitem[Lamport(1986)]{lamport1986document}
-Lamport~L.
+\bibitem[Leslie(1986)]{lamport1986document}
+Leslie~L.
 \newblock Document preparation system\allowbreak[M].
 \newblock Addison-Wesley Reading, MA, 1986.
 
@@ -27,7 +111,7 @@ Lamport~L.
 \newblock 编辑学报, 2005, 17\penalty0 (6):\penalty0 413-415.
 
 \bibitem[Walls\ et~al.(2013)Walls, Barichivich, and Brown]{walls2013drought}
-Walls~S~C, Barichivich~W~J, Brown~M~E.
+Walls~S~C, Barichivich~W~J, Brown~M.
 \newblock Drought, deluge and declines: the impact of precipitation extremes on
   amphibians in a changing climate\allowbreak[J/OL].
 \newblock Biology, 2013, 2\penalty0 (1):\penalty0
@@ -43,33 +127,16 @@ Walls~S~C, Barichivich~W~J, Brown~M~E.
 \newblock 中国震旦亚界.
 \newblock 天津: 天津科学技术出版社, 1980: 56-114.
 
-\bibitem[袁训来\ 等(2012{\natexlab{a}})袁训来, 陈哲, and
-  肖书海]{yuan2012lana}
-袁训来, 陈哲, 肖书海.
-\newblock 蓝田生物群:
-  一个认识多细胞生物起源和早期演化的新窗口 --
-  篇一\allowbreak[J].
-\newblock 科学通报, 2012, 57\penalty0 (34):\penalty0 3219.
-
-\bibitem[袁训来\ 等(2012{\natexlab{b}})袁训来, 陈哲, and
-  肖书海]{yuan2012lanb}
-袁训来, 陈哲, 肖书海.
-\newblock 蓝田生物群:
-  一个认识多细胞生物起源和早期演化的新窗口 --
-  篇二\allowbreak[J].
-\newblock 科学通报, 2012, 57\penalty0 (34):\penalty0 3219.
-
-\bibitem[袁训来\ 等(2012{\natexlab{c}})袁训来, 陈哲, and
-  肖书海]{yuan2012lanc}
+\bibitem[袁训来\ 等(2012)袁训来, 陈哲, and 肖书海]{yuan2012lanc}
 袁训来, 陈哲, 肖书海.
 \newblock 蓝田生物群:
   一个认识多细胞生物起源和早期演化的新窗口 --
   篇三\allowbreak[J].
 \newblock 科学通报, 2012, 57\penalty0 (34):\penalty0 3219.
 
-\bibitem[Stamerjohanns\ et~al.(2009)Stamerjohanns, Ginev, David, Misev,
-  Zamdzhiev, and Kohlhase]{stamerjohanns2009mathml}
-Stamerjohanns~H, Ginev~D, David~C, et~al.
+\bibitem[Heinrich\ et~al.(2009)Heinrich, Deyan, Catalin, Dimitar, Vladimir, and
+  Michael]{stamerjohanns2009mathml}
+Heinrich~S, Deyan~G, Catalin~D, et~al.
 \newblock {MathML}-aware article conversion from {LaTeX}\allowbreak[J].
 \newblock Towards a Digital Mathematics Library, 2009, 16\penalty0
   (2):\penalty0 109-120.
@@ -99,14 +166,6 @@ Stamerjohanns~H, Ginev~D, David~C, et~al.
   Первенствующему члену Священного
   Синода\allowbreak[J].
 \newblock Вече, 1906:\penalty0 1-3.
-
-\bibitem[Li\ et~al.(2018)Li, Hong, Moilanen, Huang, Pfister, Zhao, and
-  Pietik{\"a}inen]{li2018towards}
-Li~X, Hong~X, Moilanen~A, et~al.
-\newblock Towards reading hidden emotions: A comparative study of spontaneous
-  micro-expression spotting and recognition methods\allowbreak[J].
-\newblock IEEE Transactions on Affective Computing, 2018, 9\penalty0
-  (4):\penalty0 563-577.
 
 \bibitem[Pfister\ et~al.(2011)Pfister, Li, Zhao, and
   Pietik{\"a}inen]{pfister2011recognising}
@@ -165,8 +224,8 @@ Le~Ngo~A~C, Phan~R~C~W, See~J.
   Wong]{liong2014subtle}
 Liong~S~T, See~J, Phan~R~C~W, et~al.
 \newblock Subtle expression recognition using optical strain weighted
-  features\allowbreak[C]//\allowbreak{}Asian conference on computer vision.
-\newblock Springer, 2014.
+  features\allowbreak[C]//\allowbreak{}Asian Conference on Computer Vision.
+\newblock Springer, 2014: 644-657.
 
 \bibitem[Oh\ et~al.(2015)Oh, Le~Ngo, See, Liong, Phan, and
   Ling]{oh2015monogenic}
@@ -176,20 +235,21 @@ Oh~Y~H, Le~Ngo~A~C, See~J, et~al.
   IEEE International Conference on.
 \newblock IEEE, 2015.
 
+\bibitem[Xiaohua\ et~al.(2017)Xiaohua, Wang, Liu, Zhao, Feng, and
+  Pietik{\"a}inen]{xiaohua2017discriminative}
+Xiaohua~H, Wang~S~J, Liu~X, et~al.
+\newblock Discriminative spatiotemporal local binary pattern with revisited
+  integral projection for spontaneous facial micro-expression
+  recognition\allowbreak[C]//\allowbreak{}IEEE Transactions on Affective
+  Computing.
+\newblock IEEE, 2017.
+
 \bibitem[Liu\ et~al.(2016)Liu, Zhang, Yan, Wang, Zhao, and Fu]{liu2016mainl}
 Liu~Y~J, Zhang~J~K, Yan~W~J, et~al.
 \newblock A main directional mean optical flow feature for spontaneous
   micro-expression recognition\allowbreak[C]//\allowbreak{}IEEE Transactions on
   Affective Computing.
 \newblock IEEE, 2016.
-
-\bibitem[Li\ et~al.(2017)Li, Xiaopeng, Moilanen, Huang, Pfister, Zhao, and
-  Pietik{\"a}inen]{li2017towardsl}
-Li~X, Xiaopeng~H, Moilanen~A, et~al.
-\newblock Towards reading hidden emotions: A comparative study of spontaneous
-  micro-expression spotting and recognition
-  methods\allowbreak[C]//\allowbreak{}IEEE Transactions on Affective Computing.
-\newblock IEEE, 2017.
 
 \bibitem[Lu\ et~al.(2014)Lu, Luo, Zheng, Chen, and Li]{lu2014delaunay}
 Lu~Z, Luo~Z, Zheng~H, et~al.
@@ -217,8 +277,8 @@ Patel~D, Hong~X, Zhao~G.
 \bibitem[Lei\ et~al.(2011)Lei, Ahonen, Pietik{\"a}inen, and Li]{lei2011local}
 Lei~Z, Ahonen~T, Pietik{\"a}inen~M, et~al.
 \newblock Local frequency descriptor for low-resolution face
-  recognition\allowbreak[C]//\allowbreak{}Automatic Face \& Gesture Recognition
-  and Workshops (FG 2011), 2011 IEEE International Conference on.
+  recognition\allowbreak[C]//\allowbreak{}Automatic Face and Gesture
+  Recognition and Workshops (FG 2011), 2011 IEEE International Conference on.
 \newblock IEEE, 2011.
 
 \bibitem[Wang\ et~al.(2014{\natexlab{d}})Wang, Miao, Wu, Wan, and

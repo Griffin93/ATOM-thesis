@@ -1,111 +1,115 @@
 This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: ./Tmp/Thesis.aux
-The style file: Biblio/gbt7714-plain.bst
+The style file: Biblio/gbt7714-unsrt.bst
 Multiple inclusions of entire database
----line 165 of file ./Tmp/Thesis.aux
+---line 205 of file ./Tmp/Thesis.aux
  : \citation{*
  :            }
 I'm skipping whatever remains of this command
 Multiple inclusions of entire database
----line 223 of file ./Tmp/Thesis.aux
+---line 263 of file ./Tmp/Thesis.aux
  : \citation{*
  :            }
 I'm skipping whatever remains of this command
 Multiple inclusions of entire database
----line 280 of file ./Tmp/Thesis.aux
+---line 320 of file ./Tmp/Thesis.aux
  : \citation{*
  :            }
 I'm skipping whatever remains of this command
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Biblio/ref.bib
-I was expecting a `,' or a `}'---line 187 of file Biblio/ref.bib
+I was expecting a `,' or a `}'---line 398 of file Biblio/ref.bib
  :  
  :  TITLE =        {Microexpression identification and categorization using a facial dynamics map},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 309 of file Biblio/ref.bib
+Repeated entry---line 450 of file Biblio/ref.bib
+ : @inproceedings{yan2014casme
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 520 of file Biblio/ref.bib
  : @book{wikibook2014latex
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 315 of file Biblio/ref.bib
+Repeated entry---line 526 of file Biblio/ref.bib
  : @book{lamport1986document
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 321 of file Biblio/ref.bib
+Repeated entry---line 532 of file Biblio/ref.bib
  : @article{chen2005zhulu
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 331 of file Biblio/ref.bib
+Repeated entry---line 542 of file Biblio/ref.bib
  : @book{chu2004tushu
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 339 of file Biblio/ref.bib
+Repeated entry---line 550 of file Biblio/ref.bib
  : @article{stamerjohanns2009mathml
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 349 of file Biblio/ref.bib
+Repeated entry---line 560 of file Biblio/ref.bib
  : @book{hls2012jinji
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 359 of file Biblio/ref.bib
+Repeated entry---line 570 of file Biblio/ref.bib
  : @proceedings{niu2013zonghe
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 367 of file Biblio/ref.bib
+Repeated entry---line 578 of file Biblio/ref.bib
  : @incollection{chen1980zhongguo
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "yuan2012lana"
 Warning--I didn't find a database entry for "yuan2012lanb"
+Warning--I didn't find a database entry for "li2018towards"
 Warning--empty year in xu2017microexpression
+Warning--empty journal in Shreve2011Macro
+Warning--empty journal in Song2013Learning
 Warning--empty journal in FLBPTOP_2016
-Warning--empty year in xu2017microexpression
-Warning--empty year in xu2017microexpression
 Warning--empty title in xu2017microexpression
 Warning--empty booktitle in xu2017microexpression
-You've used 39 entries,
-            4162 wiz_defined-function locations,
-            1077 strings with 13620 characters,
-and the built_in function-call counts, 207501 in all, are:
-= -- 3065
-> -- 23815
-< -- 31404
-+ -- 9004
-- -- 492
-* -- 1721
-:= -- 29041
-add.period$ -- 120
-call.type$ -- 39
-change.case$ -- 236
-chr.to.int$ -- 7932
-cite$ -- 84
-duplicate$ -- 921
-empty$ -- 2252
-format.name$ -- 769
-if$ -- 53474
-int.to.chr$ -- 4
-int.to.str$ -- 1
+Warning--empty year in xu2017microexpression
+Warning--empty year in xu2017microexpression
+You've used 65 entries,
+            3798 wiz_defined-function locations,
+            1183 strings with 18482 characters,
+and the built_in function-call counts, 350833 in all, are:
+= -- 4153
+> -- 40900
+< -- 54372
++ -- 15196
+- -- 591
+* -- 2222
+:= -- 49117
+add.period$ -- 202
+call.type$ -- 65
+change.case$ -- 119
+chr.to.int$ -- 13669
+cite$ -- 73
+duplicate$ -- 1387
+empty$ -- 3461
+format.name$ -- 1086
+if$ -- 90653
+int.to.chr$ -- 6
+int.to.str$ -- 66
 missing$ -- 0
-newline$ -- 207
-num.names$ -- 153
-pop$ -- 10773
+newline$ -- 341
+num.names$ -- 198
+pop$ -- 18714
 preamble$ -- 1
-purify$ -- 206
+purify$ -- 65
 quote$ -- 0
-skip$ -- 21045
+skip$ -- 35986
 stack$ -- 0
-substring$ -- 8736
-swap$ -- 80
-text.length$ -- 388
+substring$ -- 15049
+swap$ -- 200
+text.length$ -- 625
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 444
-warning$ -- 6
-while$ -- 520
+type$ -- 552
+warning$ -- 8
+while$ -- 802
 width$ -- 0
-write$ -- 568
-(There were 12 error messages)
+write$ -- 954
+(There were 13 error messages)

@@ -75,9 +75,6 @@
 % %---------------------------------------------------------------------------%
 % %->> 页面设置
 % %---------------------------------------------------------------------------%
-%---------------------------------------------------------------------------%
-%->> Page layout
-%---------------------------------------------------------------------------%
 %- part one -- horizontal widths
 %- left side width + textwidth + right side width = paperwidth
 %- binding side width + textwidth + nonbinding side width = paperwidth
@@ -310,12 +307,11 @@
     \fi
 }
 %---------------------------------------------------------------------------%
-%->> Author's declaration 声明
+%->> 声明
 %---------------------------------------------------------------------------%
 \newcommand{\makedeclaration}{%
     \cleardoublepage
     \thispagestyle{empty}
-    % \thispagestyle{noheaderstyle}% 如果需要移除当前页的页眉
     {
         \linespread{1.5}
         \zihao{4}

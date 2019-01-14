@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.25)  10 JAN 2019 23:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.25)  14 JAN 2019 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,6 +854,26 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 (d:/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
+(d:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen196
+\lightrulewidth=\dimen197
+\cmidrulewidth=\dimen198
+\belowrulesep=\dimen199
+\belowbottomsep=\dimen256
+\aboverulesep=\dimen257
+\abovetopsep=\dimen258
+\cmidrulesep=\dimen259
+\cmidrulekern=\dimen260
+\defaultaddspace=\dimen261
+\@cmidla=\count296
+\@cmidlb=\count297
+\@aboverulesep=\dimen262
+\@belowrulesep=\dimen263
+\@thisruleclass=\count298
+\@lastruleclass=\count299
+\@thisrulewidth=\dimen264
+)
 (d:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks25
@@ -864,29 +884,29 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 Package: enumitem 2018/11/30 v3.6 Customized lists
 \enitkv@toks@=\toks27
 \labelindent=\skip79
-\enit@outerparindent=\dimen196
+\enit@outerparindent=\dimen265
 \enit@toks=\toks28
 \enit@inbox=\box56
-\enitdp@description=\count296
+\enitdp@description=\count300
 )
 (d:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count297
+\lst@mode=\count301
 \lst@gtempboxa=\box57
 \lst@token=\toks29
-\lst@length=\count298
-\lst@currlwidth=\dimen197
-\lst@column=\count299
-\lst@pos=\count300
-\lst@lostspace=\dimen198
-\lst@width=\dimen199
-\lst@newlines=\count301
-\lst@lineno=\count302
-\lst@maxwidth=\dimen256
+\lst@length=\count302
+\lst@currlwidth=\dimen266
+\lst@column=\count303
+\lst@pos=\count304
+\lst@lostspace=\dimen267
+\lst@width=\dimen268
+\lst@newlines=\count305
+\lst@lineno=\count306
+\lst@maxwidth=\dimen269
 
 (d:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count303
-\lst@skipnumbers=\count304
+\c@lstnumber=\count307
+\lst@skipnumbers=\count308
 \lst@framebox=\box58
 )
 (d:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
@@ -904,15 +924,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count305
-\c@ALG@rem=\count306
-\c@ALG@nested=\count307
+\c@ALG@line=\count309
+\c@ALG@rem=\count310
+\c@ALG@nested=\count311
 \ALG@tlm=\skip80
 \ALG@thistlm=\skip81
-\c@ALG@Lnr=\count308
-\c@ALG@blocknr=\count309
-\c@ALG@storecount=\count310
-\c@ALG@tmpcounter=\count311
+\c@ALG@Lnr=\count312
+\c@ALG@blocknr=\count313
+\c@ALG@storecount=\count314
+\c@ALG@tmpcounter=\count315
 \ALG@tmplength=\skip82
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -923,14 +943,14 @@ nment
 
 (d:/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count312
+\c@float@type=\count316
 \float@exts=\toks30
 \float@box=\box59
 \@float@everytoks=\toks31
 \@floatcapt=\box60
 )
 \@float@every@algorithm=\toks32
-\c@algorithm=\count313
+\c@algorithm=\count317
 )
 (d:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
@@ -984,14 +1004,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (d:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen257
-\Hy@linkcounter=\count314
-\Hy@pagecounter=\count315
+\@linkdim=\dimen270
+\Hy@linkcounter=\count318
+\Hy@pagecounter=\count319
 
 (d:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count316
+\Hy@SavedSpaceFactor=\count320
 
 (d:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1008,17 +1028,17 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count317
+\c@Hy@tempcnt=\count321
 
 (d:/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen258
-\Fld@menulength=\count318
-\Field@Width=\dimen259
-\Fld@charsize=\dimen260
+\XeTeXLinkMargin=\dimen271
+\Fld@menulength=\count322
+\Field@Width=\dimen272
+\Fld@charsize=\dimen273
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -1028,9 +1048,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count319
-\c@Item=\count320
-\c@Hfootnote=\count321
+\Hy@abspage=\count323
+\c@Item=\count324
+\c@Hfootnote=\count325
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -1042,10 +1062,10 @@ Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box61
-\c@Hy@AnnotLevel=\count322
-\HyField@AnnotCount=\count323
-\Fld@listcount=\count324
-\c@bookmark@seq@number=\count325
+\c@Hy@AnnotLevel=\count326
+\HyField@AnnotCount=\count327
+\Fld@listcount=\count328
+\c@bookmark@seq@number=\count329
 
 (d:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1054,9 +1074,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip83
 )
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 391.
-Package hyperref Info: Option `colorlinks' set `true' on input line 391.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 391.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 392.
+Package hyperref Info: Option `colorlinks' set `true' on input line 392.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 392.
 
 
 (d:/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty
@@ -1072,8 +1092,8 @@ LaTeX Warning: You have requested package `Style/artracom',
 Package: artracom 2014/10/01 v0.1 LaTeX macros package
 ) (d:/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count326
-\l__xeCJK_listings_flag_int=\count327
+\l__xeCJK_listings_max_char_int=\count330
+\l__xeCJK_listings_flag_int=\count331
 )
 (Tmp/Thesis.aux
 
@@ -1334,7 +1354,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count328
+\c@lstlisting=\count332
 \AtBeginShipoutBox=\box62
 Package hyperref Info: Link coloring ON on input line 55.
 
@@ -1344,7 +1364,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (d:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count329
+\c@section@level=\count333
 )
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
@@ -1559,13 +1579,11 @@ Overfull \hbox (1.33331pt too wide) in paragraph at lines 13--13
 ] (./Tex/Mainmatter.tex
 (./Tex/Chap_Intro.tex
 第一章
-File: img1.pdf Graphic file (type pdf)
-<use img1.pdf>
-File: img1.pdf Graphic file (type pdf)
-<use img1.pdf>
 [1
 
-] [2] [3] [4] [5]) (./Tex/Chap_Guide.tex [6]
+] [2] [3] [4] [5] [6]) (./Tex/Chap_Guide.tex [7] [8
+
+]
 第二章
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
@@ -1590,22 +1608,21 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-[7
-
-]
+[9]
 Overfull \hbox (3.74387pt too wide) in paragraph at lines 70--71
 []\TU/SimSun(1)/m/n/12.045 用 于 放 置 论 文 中 所 需 要 的 图 类 文 件，|  支 持 格 式 有：| \TU/ent
 extsf/m/n/12.045 .jpg, .png, .pdf\TU/SimSun(1)/m/n/12.045 。|  其 中，| []\TU/lmtt/
 m/n/12.045 ucas_logo.pdf
  []
 
-[8]
+[10]
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 92.
  (d:/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [9]
+)
 File: tc_q_criteria.jpg Graphic file (type bmp)
 <tc_q_criteria.jpg>
+ [11]
 File: shock_cyn.jpg Graphic file (type bmp)
 <shock_cyn.jpg>
 File: oaspl_a.pdf Graphic file (type pdf)
@@ -1618,21 +1635,21 @@ File: oaspl_d.pdf Graphic file (type pdf)
 <use oaspl_d.pdf>
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 176.
- [10] [11]
+ [12] [13]
 Overfull \hbox (21.22607pt too wide) in paragraph at lines 204--205
 [][]\TU/lmtt/m/n/12.045 \citep{lamport1986document, chu2004tushu, chen2005zhulu
 }\TU/SimSun(1)/m/n/12.045 。|  正 如 此 处 所 示$[]$ 
  []
 
 
-Package natbib Warning: Citation `yuan2012lana' on page 12 undefined on input l
+Package natbib Warning: Citation `yuan2012lana' on page 14 undefined on input l
 ine 209.
 
 
-Package natbib Warning: Citation `yuan2012lanb' on page 12 undefined on input l
+Package natbib Warning: Citation `yuan2012lanb' on page 14 undefined on input l
 ine 209.
 
-[12] [13]
+[14] [15]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12.045> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 285.
 
@@ -1644,9 +1661,9 @@ LaTeX Font Warning: Font shape `TU/FangSong(0)/bx/n' undefined
 LaTeX Font Warning: Font shape `TU/SimSun(1)/bx/it' undefined
 (Font)              using `TU/SimSun(1)/bx/n' instead on input line 287.
 
-) (./Tex/Chap_Owner1.tex [14]
+) (./Tex/Chap_Owner1.tex [16]
 第三章
-[15
+[17
 
 ]
 Overfull \hbox (3.74387pt too wide) in paragraph at lines 70--71
@@ -1655,9 +1672,10 @@ extsf/m/n/12.045 .jpg, .png, .pdf\TU/SimSun(1)/m/n/12.045 。|  其 中，| []\T
 m/n/12.045 ucas_logo.pdf
  []
 
-[16] [17]
+[18]
 File: tc_q_criteria.jpg Graphic file (type bmp)
 <tc_q_criteria.jpg>
+ [19]
 File: shock_cyn.jpg Graphic file (type bmp)
 <shock_cyn.jpg>
 File: oaspl_a.pdf Graphic file (type pdf)
@@ -1668,23 +1686,23 @@ File: oaspl_c.pdf Graphic file (type pdf)
 <use oaspl_c.pdf>
 File: oaspl_d.pdf Graphic file (type pdf)
 <use oaspl_d.pdf>
- [18] [19]
+ [20] [21]
 Overfull \hbox (21.22607pt too wide) in paragraph at lines 204--205
 [][]\TU/lmtt/m/n/12.045 \citep{lamport1986document, chu2004tushu, chen2005zhulu
 }\TU/SimSun(1)/m/n/12.045 。|  正 如 此 处 所 示$[]$ 
  []
 
 
-Package natbib Warning: Citation `yuan2012lana' on page 20 undefined on input l
+Package natbib Warning: Citation `yuan2012lana' on page 22 undefined on input l
 ine 209.
 
 
-Package natbib Warning: Citation `yuan2012lanb' on page 20 undefined on input l
+Package natbib Warning: Citation `yuan2012lanb' on page 22 undefined on input l
 ine 209.
 
-[20] [21]) (./Tex/Chap_System.tex [22]
+[22] [23]) (./Tex/Chap_System.tex [24]
 第四章
-[23
+[25
 
 ]
 Overfull \hbox (3.74387pt too wide) in paragraph at lines 70--71
@@ -1693,9 +1711,10 @@ extsf/m/n/12.045 .jpg, .png, .pdf\TU/SimSun(1)/m/n/12.045 。|  其 中，| []\T
 m/n/12.045 ucas_logo.pdf
  []
 
-[24] [25]
+[26]
 File: tc_q_criteria.jpg Graphic file (type bmp)
 <tc_q_criteria.jpg>
+ [27]
 File: shock_cyn.jpg Graphic file (type bmp)
 <shock_cyn.jpg>
 File: oaspl_a.pdf Graphic file (type pdf)
@@ -1706,23 +1725,27 @@ File: oaspl_c.pdf Graphic file (type pdf)
 <use oaspl_c.pdf>
 File: oaspl_d.pdf Graphic file (type pdf)
 <use oaspl_d.pdf>
- [26] [27]
+ [28] [29]
 Overfull \hbox (21.22607pt too wide) in paragraph at lines 204--205
 [][]\TU/lmtt/m/n/12.045 \citep{lamport1986document, chu2004tushu, chen2005zhulu
 }\TU/SimSun(1)/m/n/12.045 。|  正 如 此 处 所 示$[]$ 
  []
 
 
-Package natbib Warning: Citation `yuan2012lana' on page 28 undefined on input l
+Package natbib Warning: Citation `li2018towards' on page 30 undefined on input 
+line 208.
+
+
+Package natbib Warning: Citation `yuan2012lana' on page 30 undefined on input l
 ine 209.
 
 
-Package natbib Warning: Citation `yuan2012lanb' on page 28 undefined on input l
+Package natbib Warning: Citation `yuan2012lanb' on page 30 undefined on input l
 ine 209.
 
-[28] [29]) (./Tex/Chap_Feature.tex [30]
+[30] [31]) (./Tex/Chap_Feature.tex [32]
 第五章
-[31
+[33
 
 ]
 Overfull \hbox (3.74387pt too wide) in paragraph at lines 70--71
@@ -1731,9 +1754,10 @@ extsf/m/n/12.045 .jpg, .png, .pdf\TU/SimSun(1)/m/n/12.045 。|  其 中，| []\T
 m/n/12.045 ucas_logo.pdf
  []
 
-[32] [33]
+[34]
 File: tc_q_criteria.jpg Graphic file (type bmp)
 <tc_q_criteria.jpg>
+ [35]
 File: shock_cyn.jpg Graphic file (type bmp)
 <shock_cyn.jpg>
 File: oaspl_a.pdf Graphic file (type pdf)
@@ -1744,44 +1768,44 @@ File: oaspl_c.pdf Graphic file (type pdf)
 <use oaspl_c.pdf>
 File: oaspl_d.pdf Graphic file (type pdf)
 <use oaspl_d.pdf>
- [34] [35]
+ [36] [37]
 Overfull \hbox (21.22607pt too wide) in paragraph at lines 204--205
 [][]\TU/lmtt/m/n/12.045 \citep{lamport1986document, chu2004tushu, chen2005zhulu
 }\TU/SimSun(1)/m/n/12.045 。|  正 如 此 处 所 示$[]$ 
  []
 
 
-Package natbib Warning: Citation `yuan2012lana' on page 36 undefined on input l
+Package natbib Warning: Citation `yuan2012lana' on page 38 undefined on input l
 ine 209.
 
 
-Package natbib Warning: Citation `yuan2012lanb' on page 36 undefined on input l
+Package natbib Warning: Citation `yuan2012lanb' on page 38 undefined on input l
 ine 209.
 
-[36] [37])) [38] (./Tex/Appendix.tex
+[38] [39])) [40] (./Tex/Appendix.tex
 附录 A
-) [39
+) [41
 
 
-] [40] (Tmp/Thesis.bbl [41
+] [42] (Tmp/Thesis.bbl [43
 
 
 
-] [42]) (./Tex/Backmatter1.tex [43] [44
-
-]
-[45] [46
-
-]) (./Tex/Backmatter2.tex [47
+] [44] [45]) (./Tex/Backmatter1.tex [46]
+[47
 
 ] [48
+
+]) (./Tex/Backmatter2.tex [49
+
+] [50
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
 
-Package caption Warning: Unused \captionsetup[bi-first] on input line 10.
+Package caption Warning: Unused \captionsetup[bi-first] on input line 37.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
@@ -1790,7 +1814,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
+(rerunfilecheck)             Checksum: 9A87D04DDA3F98445AB422C8AA957A84.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1800,12 +1824,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30985 strings out of 492933
- 612898 string characters out of 6136536
- 669909 words of memory out of 5000000
- 34555 multiletter control sequences out of 15000+600000
+ 31156 strings out of 492933
+ 618230 string characters out of 6136536
+ 676156 words of memory out of 5000000
+ 34723 multiletter control sequences out of 15000+600000
  579756 words of font info for 179 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,13n,94p,1576b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,94p,2607b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tmp/Thesis.pdf (70 pages).
+Output written on Tmp/Thesis.pdf (72 pages).

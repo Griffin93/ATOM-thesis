@@ -61,7 +61,7 @@
     \artx@bibertrue
 }
 %-
-%-> Citation and reference style 引用和参考文献风格
+%-> 引用和参考文献格式
 %-
 \newif\ifartx@numbers \artx@numberstrue
 \newif\ifartx@super \artx@superfalse
@@ -248,7 +248,7 @@
         \else
             \RequirePackage[square,comma,numbers,sort&compress]{natbib}% square bracket
         \fi
-        \bibliographystyle{Biblio/gbt7714-plain}% numbered scheme
+        \bibliographystyle{Biblio/gbt7714-unsrt}% numbered scheme
     \fi
     \ifartx@authoryear% enable author year citation style
         \RequirePackage{natbib}% author year citation mode
@@ -352,6 +352,7 @@
 \ifartx@table%
     \RequirePackage{ctable}% imports the array, tabularx and booktabs packages
 \fi
+\usepackage{booktabs}
 %-
 %-> List structures
 %-
@@ -414,8 +415,6 @@
 % \setlength{\parskip}{0.5ex plus 0.25ex minus 0.25ex}% skip space a paragraph
 \setcounter{tocdepth}{3}% depth for the table of contents 目录显示级数
 \setcounter{secnumdepth}{3}% depth for section numbering, default is 2(subsub)
-% \setcounter{figure}{0}
-% \setcounter{table}{0}
 %- Set equation, figure, table numbering
 \usepackage{chngcntr}
 
