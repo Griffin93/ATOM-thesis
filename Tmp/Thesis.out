@@ -9,79 +9,90 @@
 \BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 微表情研究的意义}{section.1.1}% 9
 \BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 计算机视觉对微表情研究的意义}{section.1.1}% 10
 \BOOKMARK [1][-]{section.1.2}{1.2 国内外研究现状}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.3}{1.3 本文的研究内容}{chapter.1}% 12
-\BOOKMARK [0][-]{chapter.2}{第二章  相关工作}{}% 13
-\BOOKMARK [1][-]{section.2.1}{2.1 先试试效果}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.2}{2.2 文档目录简介}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1\040Thesis.tex}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 编译脚本}{section.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Tmp文件夹}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 Style文件夹}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.5}{2.2.5 Tex文件夹}{section.2.2}% 20
-\BOOKMARK [2][-]{subsection.2.2.6}{2.2.6 Img文件夹}{section.2.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.7}{2.2.7 Biblio文件夹}{section.2.2}% 22
-\BOOKMARK [1][-]{section.2.3}{2.3 数学公式、图表、参考文献等功能}{chapter.2}% 23
-\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 数学公式}{section.2.3}% 24
-\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 表格}{section.2.3}% 25
-\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 图片插入}{section.2.3}% 26
-\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 算法}{section.2.3}% 27
-\BOOKMARK [2][-]{subsection.2.3.5}{2.3.5 参考文献引用}{section.2.3}% 28
-\BOOKMARK [1][-]{section.2.4}{2.4 常见使用问题}{chapter.2}% 29
-\BOOKMARK [0][-]{chapter.3}{第三章  个人研究}{}% 30
-\BOOKMARK [1][-]{section.3.1}{3.1 先试试效果}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.2}{3.2 文档目录简介}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1\040Thesis.tex}{section.3.2}% 33
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 编译脚本}{section.3.2}% 34
-\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Tmp文件夹}{section.3.2}% 35
-\BOOKMARK [2][-]{subsection.3.2.4}{3.2.4 Style文件夹}{section.3.2}% 36
-\BOOKMARK [2][-]{subsection.3.2.5}{3.2.5 Tex文件夹}{section.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.2.6}{3.2.6 Img文件夹}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.7}{3.2.7 Biblio文件夹}{section.3.2}% 39
-\BOOKMARK [1][-]{section.3.3}{3.3 数学公式、图表、参考文献等功能}{chapter.3}% 40
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 数学公式}{section.3.3}% 41
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 表格}{section.3.3}% 42
-\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 图片插入}{section.3.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 算法}{section.3.3}% 44
-\BOOKMARK [2][-]{subsection.3.3.5}{3.3.5 参考文献引用}{section.3.3}% 45
-\BOOKMARK [1][-]{section.3.4}{3.4 常见使用问题}{chapter.3}% 46
-\BOOKMARK [0][-]{chapter.4}{第四章  系统设计}{}% 47
-\BOOKMARK [1][-]{section.4.1}{4.1 先试试效果}{chapter.4}% 48
-\BOOKMARK [1][-]{section.4.2}{4.2 文档目录简介}{chapter.4}% 49
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1\040Thesis.tex}{section.4.2}% 50
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 编译脚本}{section.4.2}% 51
-\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Tmp文件夹}{section.4.2}% 52
-\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Style文件夹}{section.4.2}% 53
-\BOOKMARK [2][-]{subsection.4.2.5}{4.2.5 Tex文件夹}{section.4.2}% 54
-\BOOKMARK [2][-]{subsection.4.2.6}{4.2.6 Img文件夹}{section.4.2}% 55
-\BOOKMARK [2][-]{subsection.4.2.7}{4.2.7 Biblio文件夹}{section.4.2}% 56
-\BOOKMARK [1][-]{section.4.3}{4.3 数学公式、图表、参考文献等功能}{chapter.4}% 57
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 数学公式}{section.4.3}% 58
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 表格}{section.4.3}% 59
-\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 图片插入}{section.4.3}% 60
-\BOOKMARK [2][-]{subsection.4.3.4}{4.3.4 算法}{section.4.3}% 61
-\BOOKMARK [2][-]{subsection.4.3.5}{4.3.5 参考文献引用}{section.4.3}% 62
-\BOOKMARK [1][-]{section.4.4}{4.4 常见使用问题}{chapter.4}% 63
-\BOOKMARK [0][-]{chapter.5}{第五章  总结与展望}{}% 64
-\BOOKMARK [1][-]{section.5.1}{5.1 先试试效果}{chapter.5}% 65
-\BOOKMARK [1][-]{section.5.2}{5.2 文档目录简介}{chapter.5}% 66
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1\040Thesis.tex}{section.5.2}% 67
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 编译脚本}{section.5.2}% 68
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Tmp文件夹}{section.5.2}% 69
-\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Style文件夹}{section.5.2}% 70
-\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Tex文件夹}{section.5.2}% 71
-\BOOKMARK [2][-]{subsection.5.2.6}{5.2.6 Img文件夹}{section.5.2}% 72
-\BOOKMARK [2][-]{subsection.5.2.7}{5.2.7 Biblio文件夹}{section.5.2}% 73
-\BOOKMARK [1][-]{section.5.3}{5.3 数学公式、图表、参考文献等功能}{chapter.5}% 74
-\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 数学公式}{section.5.3}% 75
-\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 表格}{section.5.3}% 76
-\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 图片插入}{section.5.3}% 77
-\BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 算法}{section.5.3}% 78
-\BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 参考文献引用}{section.5.3}% 79
-\BOOKMARK [1][-]{section.5.4}{5.4 常见使用问题}{chapter.5}% 80
-\BOOKMARK [0][-]{appendix.A}{附录 A  附录}{}% 81
-\BOOKMARK [1][-]{section.A.1}{A.1 论文无附录者无需附录部分}{appendix.A}% 82
-\BOOKMARK [1][-]{section.A.2}{A.2 测试公式编号}{appendix.A}% 83
-\BOOKMARK [1][-]{section.A.3}{A.3 测试生僻字}{appendix.A}% 84
-\BOOKMARK [0][-]{section*.27}{参考文献}{}% 85
-\BOOKMARK [0][-]{appendix*.29}{攻读博士/硕士学位期间取得的科研成果}{}% 86
-\BOOKMARK [0][-]{appendix*.33}{作者简介}{}% 87
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 人工微表情识别训练工具研究}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 自动微表情识别研究}{section.1.2}% 13
+\BOOKMARK [1][-]{section.1.3}{1.3 本文的研究内容}{chapter.1}% 14
+\BOOKMARK [0][-]{chapter.2}{第二章  相关工作}{}% 15
+\BOOKMARK [1][-]{section.2.1}{2.1 宏表情和微表情}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 宏表情数据集}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 早期微表情数据集}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 自发微表情数据集}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 宏表情与微表情比较}{section.2.1}% 20
+\BOOKMARK [1][-]{section.2.2}{2.2 微表情特征提取的一般方法}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1\040LBP-TOP}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 光流法}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Gabor特征}{section.2.2}% 24
+\BOOKMARK [1][-]{section.2.3}{2.3 相关深度学习网络}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1\0403DCNN}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2\040ResNet}{section.2.3}% 27
+\BOOKMARK [0][-]{chapter.3}{第三章  个人研究1}{}% 28
+\BOOKMARK [1][-]{section.3.1}{3.1 低分辨率微表情数据获取}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{3.2 数据预处理}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1\040ASM}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2\040LWM}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3\040TIM}{section.3.2}% 33
+\BOOKMARK [1][-]{section.3.3}{3.3 超分辨重建}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 基于块方法}{section.3.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 基于像素的方法}{section.3.3}% 36
+\BOOKMARK [1][-]{section.3.4}{3.4 LSVM及参数设置}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1\040LSVM}{section.3.4}% 38
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 参数设置}{section.3.4}% 39
+\BOOKMARK [1][-]{section.3.5}{3.5 实验及分析}{chapter.3}% 40
+\BOOKMARK [0][-]{chapter.4}{第四章  个人研究2}{}% 41
+\BOOKMARK [1][-]{section.4.1}{4.1 先试试效果}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.2}{4.2 文档目录简介}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1\040Thesis.tex}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 编译脚本}{section.4.2}% 45
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Tmp文件夹}{section.4.2}% 46
+\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Style文件夹}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.5}{4.2.5 Tex文件夹}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.6}{4.2.6 Img文件夹}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.7}{4.2.7 Biblio文件夹}{section.4.2}% 50
+\BOOKMARK [1][-]{section.4.3}{4.3 数学公式、图表、参考文献等功能}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 数学公式}{section.4.3}% 52
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 表格}{section.4.3}% 53
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 图片插入}{section.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.3.4}{4.3.4 算法}{section.4.3}% 55
+\BOOKMARK [2][-]{subsection.4.3.5}{4.3.5 参考文献引用}{section.4.3}% 56
+\BOOKMARK [1][-]{section.4.4}{4.4 常见使用问题}{chapter.4}% 57
+\BOOKMARK [0][-]{chapter.5}{第五章  系统设计}{}% 58
+\BOOKMARK [1][-]{section.5.1}{5.1 先试试效果}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.2}{5.2 文档目录简介}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1\040Thesis.tex}{section.5.2}% 61
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 编译脚本}{section.5.2}% 62
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Tmp文件夹}{section.5.2}% 63
+\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Style文件夹}{section.5.2}% 64
+\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Tex文件夹}{section.5.2}% 65
+\BOOKMARK [2][-]{subsection.5.2.6}{5.2.6 Img文件夹}{section.5.2}% 66
+\BOOKMARK [2][-]{subsection.5.2.7}{5.2.7 Biblio文件夹}{section.5.2}% 67
+\BOOKMARK [1][-]{section.5.3}{5.3 数学公式、图表、参考文献等功能}{chapter.5}% 68
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 数学公式}{section.5.3}% 69
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 表格}{section.5.3}% 70
+\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 图片插入}{section.5.3}% 71
+\BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 算法}{section.5.3}% 72
+\BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 参考文献引用}{section.5.3}% 73
+\BOOKMARK [1][-]{section.5.4}{5.4 常见使用问题}{chapter.5}% 74
+\BOOKMARK [0][-]{chapter.6}{第六章  总结与展望}{}% 75
+\BOOKMARK [1][-]{section.6.1}{6.1 先试试效果}{chapter.6}% 76
+\BOOKMARK [1][-]{section.6.2}{6.2 文档目录简介}{chapter.6}% 77
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1\040Thesis.tex}{section.6.2}% 78
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 编译脚本}{section.6.2}% 79
+\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Tmp文件夹}{section.6.2}% 80
+\BOOKMARK [2][-]{subsection.6.2.4}{6.2.4 Style文件夹}{section.6.2}% 81
+\BOOKMARK [2][-]{subsection.6.2.5}{6.2.5 Tex文件夹}{section.6.2}% 82
+\BOOKMARK [2][-]{subsection.6.2.6}{6.2.6 Img文件夹}{section.6.2}% 83
+\BOOKMARK [2][-]{subsection.6.2.7}{6.2.7 Biblio文件夹}{section.6.2}% 84
+\BOOKMARK [1][-]{section.6.3}{6.3 数学公式、图表、参考文献等功能}{chapter.6}% 85
+\BOOKMARK [2][-]{subsection.6.3.1}{6.3.1 数学公式}{section.6.3}% 86
+\BOOKMARK [2][-]{subsection.6.3.2}{6.3.2 表格}{section.6.3}% 87
+\BOOKMARK [2][-]{subsection.6.3.3}{6.3.3 图片插入}{section.6.3}% 88
+\BOOKMARK [2][-]{subsection.6.3.4}{6.3.4 算法}{section.6.3}% 89
+\BOOKMARK [2][-]{subsection.6.3.5}{6.3.5 参考文献引用}{section.6.3}% 90
+\BOOKMARK [1][-]{section.6.4}{6.4 常见使用问题}{chapter.6}% 91
+\BOOKMARK [0][-]{appendix.A}{附录 A  附录}{}% 92
+\BOOKMARK [1][-]{section.A.1}{A.1 论文无附录者无需附录部分}{appendix.A}% 93
+\BOOKMARK [1][-]{section.A.2}{A.2 测试公式编号}{appendix.A}% 94
+\BOOKMARK [1][-]{section.A.3}{A.3 测试生僻字}{appendix.A}% 95
+\BOOKMARK [0][-]{section*.30}{参考文献}{}% 96
+\BOOKMARK [0][-]{appendix*.32}{攻读博士/硕士学位期间取得的科研成果}{}% 97
+\BOOKMARK [0][-]{appendix*.36}{作者简介}{}% 98

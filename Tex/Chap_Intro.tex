@@ -6,7 +6,7 @@
 
 \section{研究背景与意义}
 
-达尔文在1872年出版了《The Expression of Emotions in Man and Animals》，从此拉开了人类对面部表情的系统性研究。时至今日，人类对面部表情的研究已经非常丰富与成熟，但主要关注的是显而易见的宏观表情（Macro Expressions）,虽然在1966年Haggard和Isaacs首次提出了微表情现象（Micro-momentary Facial Expressions），但当时并未引起人们的普遍重视。直到三年后（1969年），Ekman和Friesen在临床发现了微表情，这一发现奠定了微表情在临床辅助治疗上的重要地位\citep{ekman1969nonverbal}，也开启了微表情的研究热潮。
+达尔文在1872年出版了《The Expression of Emotions in Man and Animals》，从此拉开了人类对面部表情的系统性研究。时至今日，人类对面部表情的研究已经非常丰富与成熟，但主要关注的是显而易见的宏观表情（Macro Expressions），虽然在1966年Haggard和Isaacs首次提出了微表情现象（Micro-momentary Facial Expressions），但当时并未引起人们的普遍重视。直到三年后（1969年），Ekman和Friesen在临床发现了微表情，这一发现奠定了微表情在临床辅助治疗上的重要地位\citep{ekman1969nonverbal}，也开启了微表情的研究热潮。
 
 本节将从微表情研究的意义和计算机视觉对微表情研究的意义两方面分析。
 
@@ -26,41 +26,57 @@
 
 由于微表情识别务实的使用价值，其提出者Ekman从2005年开始对英国情报机构、美国中央情报局等各国机构进行微表情识别培训，而那时他已经71岁高龄了\citep{Lie2010to}。他教辩护律师、健康专家、扑克选手，甚至对配偶心怀猜疑的人识破谎言，并且制作了网络课程。但他坦言人类对于微表情的识别能力终归是有限的，不仅要花费大量的人力和物力培训微表情识别专家，而且准确度不高，同时还伴有影响正常生活的风险\citep{Ekman2010A}。Ekman曾说自己的识谎能力影响到了日常生活，他从不试图去识破周围朋友、亲戚的微表情，“去揭露每个人的微表情，揭穿每个人的谎言，这只会让自己的生活痛苦万分”。
 
+同时当前对微表情研究的研究中，需要使用FACS（Facial Action Coding System）对包含被试微表情的视频进行逐帧的编码\citep{ekman1978facial}。但是，不仅FACS编码的训练比较费时，编码者一般都需要接受100小时的训练才能达到初步熟练的程度；而且使用FACS进行编码也很费时，编码1分钟的视频平均需要2个小时\citep{Maja2009Machine}。为了更快地对基本表情编码，在FACS基础上，研究者发展出了一套附加的编码系统EMFACS（Emotion Facial Action Coding System），但人工对视频进行逐帧编码依然费时费力，这极大地限制了目前的微表情研究。因此，有效的微表情自动分析工具是开展微表情表达研究需要解决的一个重要问题。
+
 计算机的发明是为了帮助人类更好地处理人类不想去处理的任务，而识别人脸微表情这种会影响到日常生活的任务就是计算机存在的价值所在。而且当通过摄像机和计算机系统对待分析者分析时，不仅采集到的表情真实可靠（采集中采集对象并不知情，不存在任何干扰）而且通过计算机算法可以发现细微的人类无法察觉的表情变化，并且已经有大量的实验证明计算机的识别能力确实高于人类\citep{Li2017Towards}。我们可以更好更快的训练计算机完成人类能够完成的任务，如人脸检测、人脸识别，同时我们还可以训练计算机执行我们无法完成的任务，如捕获肉眼难以察觉的细微信息\citep{Doctoral2017Li}。
 
 \section{国内外研究现状}\label{sec:system}
 
-早期研究中，研究人员注重于测量或训练个体的微表情识别能力。Ekman 和Friesen在1974年制定了第一个微表情识别标准测验机制——BART（Brief Affect Recognition Test），但当时的微表情识别标准测验有着很大的缺陷，它所呈现的微表情是孤立的呈现，这与现实生活中微表情的动态呈现方式完全不相符，这样的测验没有任何生态效度\citep{Ekman1974Detecting, 殷明2016微表情}。1978年，Ekman发布了面部动作编码系统FACS（Facial Action Coding System），他们将人脸部的肌肉划分为43块，将它们随机组合获得了1万多种表情，但其中只有3000种具有情感意义，Ekman等人又根据人脸解剖学特点，将这43块肌肉划分成相互独立又相互联系的运动单元（Action Unit，AU），分析这些运动单元的运动特征和其所控制的主要区域，将这些信息与相关的表情匹配就能得出面部表情的标准运动\citep{ekman1978facial}。为了克服BART的缺陷, Matsumoto等人在2000年开发了更完善的微表情识别测量工具（Japanese and Caucasian Brief Affect Recognition Test，JACBART），该测验具有很好的可信度和严密的实验过程\citep{Matsumoto2000A}。Ekman等人在2002年根据日本人与高加索人短暂表情识别测验开发出了一个新的微表情识别训练工具METT（Micro Expression Training Tool），该训练工具有7种基本情绪的微表情，包括悲伤、恐惧、愤怒、厌恶、轻蔑、惊讶和高兴，METT 被应用在多种人群和领域，且对微表情受训者的识别能力有明显的提升\citep{ekman2003mett}。
+\subsection{人工微表情识别训练工具研究}
+
+早期研究中，研究人员注重于测量或训练个体的微表情识别能力。Ekman 和Friesen在1974年制定了第一个微表情识别标准测验机制——BART（Brief Affect Recognition Test），但当时的微表情识别标准测验有着很大的缺陷，它所呈现的微表情是孤立的呈现，这与现实生活中微表情的动态呈现方式完全不相符，这样的测验没有任何生态效度\citep{Ekman1974Detecting, 殷明2016微表情}。1978年，Ekman发布了面部动作编码系统FACS，他们将人脸部的肌肉划分为43块，将它们随机组合获得了1万多种表情，但其中只有3000种具有情感意义，Ekman等人又根据人脸解剖学特点，将这43块肌肉划分成相互独立又相互联系的运动单元（Action Unit，AU），分析这些运动单元的运动特征和其所控制的主要区域，将这些信息与相关的表情匹配就能得出面部表情的标准运动。为了克服BART的缺陷， Matsumoto等人在2000年开发了更完善的微表情识别测量工具（Japanese and Caucasian Brief Affect Recognition Test，JACBART），该测验具有很好的可信度和严密的实验过程\citep{Matsumoto2000A}。Ekman等人在2002年根据日本人与高加索人短暂表情识别测验开发出了一个新的微表情识别训练工具METT（Micro Expression Training Tool），该训练工具有7种基本情绪的微表情，包括悲伤、恐惧、愤怒、厌恶、轻蔑、惊讶和高兴，METT 被应用在多种人群和领域，且对微表情受训者的识别能力有明显的提升\citep{ekman2003mett}。
+
+\subsection{自动微表情识别研究}
 
 除上述通过训练提升人工识别能力外自动地微表情识别系统也在如火如荼的发展中，研究者们已经开发出很多相关的算法，甚至在某些数据集的准确度可达90\%以上，但这些数据集有个明显的缺点，所有的微表情均为摆拍（Posed），这一缺点有其产生的必然性，但也严重违背了微表情的定义。为了解决这一问题，国内外的研究团队相继发表了自发微表情数据集，如中科院心理所分别在2013年和2014年发布了CASME\citep{Yan2013CASME}和CAMSE II\citep{Yan2014CASME}两个版本的数据集，后者比前者有着更高的时空分辨率和更多的数据量，但参与者全部为蒙古利亚人种（中国人），在数据的多样性上有一定的不足；芬兰奥卢大学的CMVS团队在2013年发布了SMIC数据集\citep{Li2013A}，包括8名高加索人种和8名蒙古利亚人种，同时数据集中包含了高速视频数据（High speed video，HS）、近红外视频数据（Near infrared videos，NIR）和普通彩色视频数据（Normal color video，VIS）；英国曼彻斯特城市大学在2017年发布了SAMM数据集\citep{Davison2018SAMM}，是目前发表最新的数据集，包括了几乎全部的人种（蒙古利亚人种、高加索人种、尼格罗人种和大洋洲人种）和均衡的性别比，但其数据集只包含了高速灰度视频数据（见表~\ref{tab1}）。优秀的数据集提供了良好的实验基础，自动微表情识别系统的研究主要集中在微表情检测（Micro-expression Spotting）和微表情识别（Micro-expression Recognition）。
 
+微表情的检测指在一个图像序列（视频帧）中检测微表情发生的起始时间点。有许多研究致力于类似的任务，如检测普通的人脸表情、眨眼和人脸AU\citep{zeng2006spontaneous,Kr2012Eye, Liwicki2012Incremental}，以及各种有效的算法被提出，与微表情识别研究相比，微表情检测的研究较少。由于缺乏自发的微表达数据，大多数早期的微表达检测研究多采用摆拍的微表情数据。Shreve等首次先提出了一种基于应变的光流方法来识别视频中的宏表情(普通人脸表情，微表情的反义词)和微表情，在USF-HD数据集（摆拍的数据集）中进行了测试，同时他们还对从在线视频中收集的28个微表情进行了测试，但是这个数据集很小，没有发表\citep{shreve2009towards, Shreve2011Macro}。在另一组研究中，Polikovsky等人提出了一种新的微表情检测方法，他们使用三维梯度直方图作为特征描述符，对中性面部微表情帧进行不同阶段(起始、顶峰和终止)分类\citep{Polikovsky2009Facial, Polikovsky2013Facial}。在他们的研究中，将微表情检测任务作为分类任务，并训练模型根据所涉及动作的阶段将视频片段分为四类。关于Polikovsky的研究，有一点很好，那就是作者试图在一个精细的层面上构建微表情的时间范围。这可能适用于摆拍的微表情片段，因为它们具有相似的时间结构，但不适用于自发的微表情，因为在真实场景中，微表情在其时间范围上存在显著差异。分类任务需要对视频预分割，这在实际应用中也是一个问题。Wu等人提出利用Gabor滤波器构建微表情识别系统进行微表情检测\citep{Qi2011The}。该方法在METT训练数据上进行了测试，取得了良好的效果。但有一点需要说明的是，METT训练样本完全是合成的视频片段（在一系列相同的中性人脸图像中间插入一张有情感的人脸图像）。在这些视频片段中，表情的“开始”和“结束”非常的尖锐和突然，上下文界线也非常清晰，所以它们根本不能代表计算机真正的微表情检测问题。
+
+虽然上述研究可能会为微表情检测提供潜在的贡献，但一个主要的缺点是，它们仅在摆拍的(或METT等合成的)微表达数据集上进行了测试。与自发微表情相比，提出的数据更容易完成微表情的检测任务。摆拍或合成的微表情数据通常具有相似的时间范围结构，即人为控制的起止时间点，这与自发微表情之间存在显著差异。考虑到视频的上下文，摆拍的微表情片段通常在视频中会禁止无关的动作，所以摆拍的微表情片段通常具有更清晰的上下文。自发微表情视频的情况更加复杂，由于普通人脸表情(包含相同或相反的情绪价\citep{Warren2009Detecting})、眨眼和其他头部动作也可能发生，并且还可能与自然情绪相互重叠。这些在自发微表达数据中遇到的挑战，在以往的研究中利用摆拍的微表情数据都无法解决，因此利用自发微表情数据进行微表情检测还需要更多的工作。
+论文\citepns{pfister2011recognising}和其他几项研究使用了一种更简单的方法，即微表达“探测”来解决这个问题\citep{ruiz2013encoding, Davison2014Micro, Yao2014Micro}。在这些研究中，微表情检测被视为二分类问题，一组带标签的微表达片段与另一组非微表达片段进行分类。这些研究都是在自发微表情数据集中测试的，这是一个很大的优点。但是对于分类任务，训练和测试视频都需要进行适当的分割，这在实际应用中可能会遇到困难。二分类方法与直接从长视频中提取自发微表情的实际应用目标仍有较大差异。Li等人提出了一种将特征差异（Feature Difference，FD）比较和峰值检测（Peak Detection，PD）相结合的微表情识别框架，这种方法是第一个用于真实微表情数据集检测微表情且行之有效的方法\citep{pfister2011recognising}。在最近的另一篇文章中作者提出了一种基于概率框架的随机游走模型（Random walk model）来检测微表情，通过几何变形建模从视频片段中识别自发微表情片段，该方法被证明对SMIC和CASMEII都是有效的\citep{Xia2016Spontaneous}。
+
+微表情识别的任务类似于普通人脸表情识别，差异处在于微表情片段(包含微弱面部运动的起始到终止的帧序列)的标签，具体是指根据表达的情感内容训练一个分类器将其分类为两个或两个以上的类别(例如快乐、悲伤等)。在众多已发表的文献中微表情识别的研究比微表情检测的研究更为突出，在摆拍和自发的数据集上提出并测试了很多算法。早期的工作都是从摆拍的微表情数据开始的。Polikovsky和Kameda等人采用三维梯度描述符对AU标记的微表情进行识别，将提出的方法在自己采集的摆拍微表情数据上进行了测试\citep{Polikovsky2013Facial}。Wu等人将Gentleboost和支持向量机（Support Vector Machine，SVM）分类器结合，在METT训练工具中识别合成的微表达样本。随着自发微表达数据库的出现，利用自发微表达数据库进行微表达识别的研究也越来越多。2011年，论文\citepns{pfister2011recognising}提出了第一个微表情识别方法，并在第一版的SMIC数据集上取得了很好的效果（第一版的SMIC数据集包含77个自发的微表情样本）。该方法采用时间插值模型(temporal interpolation model，TIM)对微表情计算帧数，将其与和多核学习（Multiple Kernel Learning，MKL）结合捕获图像序列的主要变化，使用三正交平面的局部二值模型（Local Binary Patterns on Three Orthogonal Planes，LBP-TOP）特征作为描述符提取动态纹理作为微表情识别的特征，再用随机森林（Random forest，RF）作为分类器分类。这是首次尝试构建一个可行的方法来识别这些细微的面部行为，并在77个微表情样本上取得了很好的效果(二分类准确度为71.4\%)。同样的方法在新版本的SMIC数据集上进行了测试，在包含164个微表情的SMIC-HS数据集上得到了48.78\%(三分类)的识别结果。此后，论文\citepns{pfister2011recognising}的研究结果被许多其他研究人员引用为微表情识别研究的基准。Ruiz-Hernandez和Pietikäinen等人利用二阶高斯流的再参数化来生成更鲁棒的直方图，在第一版SMIC数据库上得到了比论文\citepns{pfister2011recognising}更好的识别结果\citep{ruiz2013encoding}。Huang等人通过在时空域中的积分投影获得被试者（目标）的形状属性，将形状属性与时空域上的纹理信息结合组成新的特征，提出了时空局部量化模式(SpatioTemporal Completed Local Quantization Patterns，STCLQP)作为微表情识别的特征，在SMIC上实现了64.02\%的精度\citep{Huang2015Facial}。
+
+几个其他的微表情识别研究使用了CASMEII微表情数据库。Wang等人从张量独立颜色空间(非普通的RGB颜色空间，Tensor independent color space，TICS)中提取LBP-TOP进行微表情识别，并在CASMEII数据集进行测试\citep{wang2014micro2}。Wang等人在其另一篇论文中，将局部时空方向特征与鲁棒主成分分析（Principal Component Analysis，PCA）的稀疏部分相结合一起用于微表情识别，在CASMEII上实现了65.4\%的准确率\citep{wang2014micro}。Wang等人提出利用6个交叉点的局部二值模式（LBP-Six Intersection Points，LBP-SIP）进行微表情识别，并在CASMEII和SMIC上进行了测试，该方法是减少了LBP-TOP中的冗余信息\citep{wang2014lbp}。Huang等人为了提高微表情的辨别力，提出一种新的基于Laplacian的特征选择方法，在已发表的数据集中得到了很好的识别效果\citep{xiaohua2017discriminative}。Wang等人提出了一种紧实的LBP-TOP描述符（Super-compact LBP-Three Mean Orthogonal Planes，MOP），MOP所描述的紧实鲁棒形式不仅保留了基本模式而且减少了影响编码特征判别的冗余\citep{wang2015efficient}。Hong等人为提高LBP-TOP在时空信息上的计算效率，引入了张量的概念，这加速从三维空间到二维空间的实现过程\citep{FLBPTOP_2016}。
+
+除LBP及其变体外，部分研究人员致力于对光流特性的研究。如Liu等人提出利用主方向平均光流特征（Main direction Mean opticflow，MDMO）进行微表情识别，同时还考虑了局部统计运动和空间位置信息，在SMIC和CASMEII数据库上都取得了良好的性能，但是他们只使用了SMIC的第一个版本，而不是SMIC的完整版\citep{liu2016mainl}。Liong等人从光学应变量值得到一个时间段内人脸的细微相对位移量，并对局部特征赋予不同的权重，形成新的特征\citep{liong2014subtle}。Xu等人利用光流估计对微表情图像序列选择的粒度进行像素级对齐，得到主光流方向，将其作为精细的面部动态特征描述符\citep{xu2017microexpression}。
+
+近年来，对微表情识别的研究十分活跃。到目前为止，大多数提出的方法都考虑使用基于纹理的特性来完成任务。时空纹理特征是描述面部运动的合适选择，但单独使用它们可能不足以进行微表情识别，识别性能仍有很大的提升空间。Li等人将低强度的微表情视频经过欧拉视频放大，在三个正交平面上利用不同的特征提取符提取特征对微表情进行识别。随后Li等人基于LBP-TOP的思想在三个正交平面上扩展了梯度方向直方图（HOG）和图像梯度方向直方图（HIGO）提出了HOG-TOP和HIGO-TOP。Song等人通过从面部和身体微弱运动中学习的稀疏编码来识别情绪，他们的微表情定义更加广泛，将身体部位（脸部除外）的姿势包括在内\citep{Song2013Learning}。Ngo等人提出了一种用于微表情图像序列预处理的选择性转移机（Selective Transfer Machine，STM），用于解决数据库中不平衡和不同面部形态的问题\citep{le2014spontaneous}。Lu等人发现微表情的图像序列在时空域中基于Delaunay三角归一化，提出了基于Delaunay的时间编码模型（Delaunay-based temporal coding model，DTCM）\citep{lu2014delaunay}。Oh等人通过Riesz小波变换获得多尺度单原信号，提取其幅值、相位、方向特征组成新的特征描述符进行微表情识别\citep{oh2015monogenic}。He等人提出了一种多任务的中层特征学习方法进行特征提取，该方法能够获得更具识别能力和泛化能力的中层特征\citep{he2017multi}。由于深度学习模型需要大量的数据进行训练，而现有的微表情数据还远远不够，但最近，Patel等人提出了一种利用深度学习模型解决微表情识别问题的方法\citep{Patel2016Selective}。作者建议选择性使用基于普通人脸表情数据库训练的卷积神经网络(Convolutional Neural Networks，CNN)模型的深度特征，但效果并不理想。Li等人发现微表情的峰值帧能够表达更丰富的情感，他们提出了一种在峰值帧应用深度神经网络的方法检识别表情，在CASME II上取得了不错的成果\citep{canYan18}。表~\ref{tab2}对目前提出的大多数方法做了列举。
+
 \begin{table}[!htbp]
-   \caption{自发微表情数据集比较}
-   \label{tab1}
-   \centering
-   \footnotesize% fontsize
-   \setlength{\tabcolsep}{4pt}% column separation
-   \renewcommand{\arraystretch}{1.2}%row space
-   \begin{tabular}{c|ccccccc}
-     \toprule[0.7pt]
-        & SMIC-HS &  SMIC-subHS &  SMIC-NIR &  SMIC-VIS &  CASME II &  SAMM \\ \hline
-微表情片段    & 164       & 71         & 71       & 71       & 247           & 159             \\
-参与者      & 16        & 8          & 8        & 8        & 26            & 32              \\
-分辨率      & $640\times480$   & $640\times480$    & $640\times480$  & $640\times480$  & $640\times480$       & $2040\times1088$      \\
-人脸分辨率    & $190\times230$   & $190\times230$    & $190\times230$  & $190\times230$  & $280\times340$       & $400\times400$         \\
-FPS      & 100       & 100        & 100      & 100      & 200           & 200             \\
-性别比（F/M） & 6/10      &  2/6          &  2/6        &  2/6        & 15/11         & 16/16           \\
-FACS     & NO        & NO         & NO       & NO       & YES           & YES             \\
-表情类      & 3         & 3          & 3        & 3        & 5             & 7               \\
-平均年龄（SD） & 26.7（N/A） &   26.7（N/A） &  26.7（N/A） & 26.7（N/A）  & 22.03（SD=1.6） & 33.24（SD=11.32） \\
-人种       & 2         & 2           &  2        & 2         & 1             & 4               \\
-\bottomrule[0.7pt]
-   \end{tabular}
+\centering
+\caption{微表情的研究方法}
+\label{tab2}
+\footnotesize% fontsize
+\setlength{\tabcolsep}{4pt}% column separation
+\renewcommand{\arraystretch}{1.2}%row space
+\begin{tabular}{c|c|c|c}
+\hline
+\multicolumn{2}{c|}{摆拍微表情数据集（Posed）} & \multicolumn{2}{c}{自发微表情数据集（Spontaneous）} \\ \hline
+微表情检测 & 微表情识别 & 微表情检测 & 微表情识别 \\ \hline
+\multirow{3}{*}{3D梯度} & \multirow{6}{*}{Gentleboost和SVM} & \multirow{6}{*}{特征差异与峰值检测} & TIM+MKL+LBP-TOP+RF \\
+ &  &  & 二阶高斯射流的再参数化 \\
+ &  &  & 从张量独立色彩空间中提取LBP-TOP \\
+\multirow{4}{*}{Gabor滤波器} &  &  & 局部时空方向特征+鲁棒PCA \\
+ &  &  & 低强度的微表情视频经过欧拉视频放大 \\
+ &  &  & 基于普通表情的迁移学习 \\
+ & \multirow{5}{*}{人脸与身体微弱运动结合} & \multirow{5}{*}{基于概率的随机游走模型} & LBP-SIP、STM、MOP、STCLQP、DTCM \\
+\multirow{4}{*}{应变的光流方法} &  &  & Riesz小波变换、光流估计 \\
+ &  &  & 引入张量概念的Fast LBP-TOP \\
+ &  &  & MDMO+局部运动+空间位置 \\
+ &  &  & HOG/HIGO-TOP \\ \hline
+\end{tabular}
 \end{table}
-
-微表情的检测指在一个图像序列（视频帧）中自动的检测微表情发生的起始时间间隔。在论文\citepns{Polikovsky2010Facial}中，作者以3D梯度描述为依据，提出了一种基于3D梯度投影描述检测微表情关键帧的方法，对微表情的发现提供了开创性的贡献。Wu等人提出使用Gabor滤波器构建一个自动的微表情识别系统，他们在METT训练集上达到了很高的检测性能\citep{Qi2011The}。Shreve等人使用基于应变的光流方法检测宏观表情和微表情\citep{Shreve2009Towards, Shreve2011Macro}。Li等人提出将特征差异（Feature Difference，FD）比较和峰值检测（Peak Detection，PD）相结合检测微表情，这种方法是第一个用于真实微表情数据集检测微表情且行之有效的方法。
-
-微表情的识别是指在一段已经被确认包含微表情的图像序列里区分该段微表情属于具体的哪一类（如快乐、悲伤、厌倦等）。Polikovsky等人使用3D梯度描述符来识别AU标记的微表情，通过机器学习算法学习后分类\citep{Polikovsky2013Facial}。Wu等人结合Gentleboost和支持向量机（Support Vector Machine，SVM）分类器来识别来自METT的合成微表情样本。Pfister等人将时间插值模型（Temporal interpolation model，TIM）和多核学习（Multiple Kernel Learning，MKL）结合捕获图像序列的主要变化，利用三正交平面的局部二值模型（Local Binary Patterns on Three Orthogonal Planes，LBP-TOP）特征提取符提取动态纹理特征\citep{zhao2007dynamic}，再用随机森林（Random forest，RF）作为分类器分类，这是第一个基于真实的微表情数据集上提出的微表情识别方法，该方法在SMIC数据集的第一版上实现的识别准确度达71.4\%（两类分类）\citep{pfister2011recognising}。Ruiz-Hernandez和Pietikäinen使用二阶高斯射流的重新参数化来生成更鲁棒的直方图，并且在SMIC数据集第一版上获得了更好的微表情识别结果\citep{ruiz2013encoding}。Song等人通过从面部和身体微弱运动中学习的稀疏编码来识别情绪，他们的微表情定义更加广泛，将身体部位（脸部除外）的姿势包括在内\citep{Song2013Learning}。Wang等人从张量独立色彩空间（不是普通RGB，Tensor independent color space，TICS）中提取LBP-TOP特征来识别微表情\citep{wang2014micro2}。Wang等人的另一篇论文中将局部时空方向特征与鲁棒主成分分析（Principal Component Analysis，PCA）的稀疏部分相结合一起用于微表情识别，在CASMEII上达到了65.4\%的准确度\citep{wang2014micro}。Huang等人为了提高微表情的辨别力，提出一种新的基于Laplacian的特征选择方法，在已发表的数据集中得到了很好的识别效果\citep{xiaohua2017discriminative}。Liong等人从光学应变量值得到一个时间段内人脸的细微相对位移量，并对局部特征赋予不同的权重，形成新的特征\citep{liong2014subtle}。Li等人将低强度的微表情视频经过欧拉视频放大，在三个正交平面上利用不同的特征提取符提取特征对微表情进行识别。随后的一段时间里大多都是在LBP-TOP特征提取符上做更改得到的变体版本，例如Huang等人通过在时空域中的积分投影获得被试者（目标）的形状属性，将人脸的形状属性与时空域上的纹理信息结合组成新的特征，即时空局部二值模式（Spatial-temporal local binary pattern，STLBP）\citep{Huang2015Facial}。Wang等人提出了六交叉点的LBP-TOP微表情识别特征描述符（LBP-Six Intersection Points，SIP），该方法是为了减少LBP-TOP中的冗余信息\citep{wang2014lbp}。Wang等人在随后的一年里进一步的又提出了一种紧实的LBP-TOP描述符（Super-compact LBP-Three Mean Orthogonal Planes，MOP），MOP所描述的紧实鲁棒形式不仅保留了基本模式而且减少了影响编码特征判别的冗余\citep{wang2015efficient}。Hong等人为提高LBP-TOP在时空信息上的计算效率，引入了张量的概念，这加速从三维空间到二维空间的实现过程\citep{FLBPTOP_2016}。Ngo等人提出了一种用于微表情图像序列预处理的选择性转移机（Selective Transfer Machine，STM），用于解决数据库中不平衡和不同面部形态的问题\citep{le2014spontaneous}。Lu等人发现微表情的图像序列在时空域中基于Delaunay三角归一化，提出了基于Delaunay的时间编码模型（Delaunay-based temporal coding model，DTCM）\citep{lu2014delaunay}。Oh等人通过Riesz小波变换获得多尺度单原信号，提取其幅值、相位、方向特征组成新的特征描述符进行微表情识别\citep{oh2015monogenic}。Liu等人提出了主方向平均光流法探索微表达的鉴别特征（Main direction Mean opticflow，MDMO），在利用鲁棒光流模型的同时考虑局部统计运动和空间位置信息\citep{liu2016mainl}。Li等人基于LBP-TOP的思想在三个正交平面上扩展了梯度方向直方图（HOG）和图像梯度方向直方图（HIGO）提出了HOG-TOP和HIGO-TOP。Xu等人利用光流估计对微表情图像序列选择的粒度进行像素级对齐，得到主光流方向，将其作为精细的面部动态特征描述符\citep{xu2017microexpression}。He等人提出了一种多任务的中层特征学习方法进行特征提取，该方法能够获得更具识别能力和泛化能力的中层特征\citep{he2017multi}。近年来，一些研究者利用时下流行的深度学习算法从微表情中学习深度特征，但效果并不理想。主要原因是深度学习算法需要大量的训练样本，但当前数据集的规模非常有限\citep{patel2016selective}。
 
 \section{本文的研究内容}
 
