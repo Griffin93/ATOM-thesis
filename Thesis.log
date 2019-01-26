@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.25)  25 JAN 2019 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.25)  26 JAN 2019 23:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1188,6 +1188,18 @@ LaTeX Warning: Label `fig14' multiply defined.
 
 LaTeX Warning: Label `fig15' multiply defined.
 
+
+LaTeX Warning: Label `eq6' multiply defined.
+
+
+LaTeX Warning: Label `eq6' multiply defined.
+
+
+LaTeX Warning: Label `eq6' multiply defined.
+
+
+LaTeX Warning: Label `eq6' multiply defined.
+
 )
 \openout1 = `Thesis.aux'.
 
@@ -1368,7 +1380,7 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.05249pt on input line 34.
-<Img/nwu_logo.pdf, id=293, 734.11165pt x 170.64052pt>
+<Img/nwu_logo.pdf, id=305, 734.11165pt x 170.64052pt>
 File: Img/nwu_logo.pdf Graphic file (type pdf)
 <use Img/nwu_logo.pdf>
 Package pdftex.def Info: Img/nwu_logo.pdf  used on input line 34.
@@ -1883,7 +1895,7 @@ Overfull \hbox (4.11578pt too wide) in paragraph at lines 17--18
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME31.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/ME31.pdf, id=862, 540.60208pt x 369.8859pt>
+<Img/ME31.pdf, id=879, 540.60208pt x 369.8859pt>
 File: Img/ME31.pdf Graphic file (type pdf)
 <use Img/ME31.pdf>
 Package pdftex.def Info: Img/ME31.pdf  used on input line 22.
@@ -1897,7 +1909,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME32.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/ME32.pdf, id=863, 540.60281pt x 369.8859pt>
+<Img/ME32.pdf, id=880, 540.60281pt x 369.8859pt>
 File: Img/ME32.pdf Graphic file (type pdf)
 <use Img/ME32.pdf>
 Package pdftex.def Info: Img/ME32.pdf  used on input line 27.
@@ -1906,7 +1918,7 @@ Package pdftex.def Info: Img/ME32.pdf  used on input line 27.
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME33.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/ME33.pdf, id=864, 540.60196pt x 369.8859pt>
+<Img/ME33.pdf, id=881, 540.60196pt x 369.8859pt>
 File: Img/ME33.pdf Graphic file (type pdf)
 <use Img/ME33.pdf>
 Package pdftex.def Info: Img/ME33.pdf  used on input line 31.
@@ -1915,7 +1927,7 @@ Package pdftex.def Info: Img/ME33.pdf  used on input line 31.
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME34.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/ME34.pdf, id=865, 540.60251pt x 369.8859pt>
+<Img/ME34.pdf, id=882, 540.60251pt x 369.8859pt>
 File: Img/ME34.pdf Graphic file (type pdf)
 <use Img/ME34.pdf>
 Package pdftex.def Info: Img/ME34.pdf  used on input line 36.
@@ -1924,7 +1936,7 @@ Package pdftex.def Info: Img/ME34.pdf  used on input line 36.
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME35.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/ME35.pdf, id=866, 540.6022pt x 369.8859pt>
+<Img/ME35.pdf, id=883, 540.6022pt x 369.8859pt>
 File: Img/ME35.pdf Graphic file (type pdf)
 <use Img/ME35.pdf>
 Package pdftex.def Info: Img/ME35.pdf  used on input line 40.
@@ -1933,7 +1945,7 @@ Package pdftex.def Info: Img/ME35.pdf  used on input line 40.
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME36.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/ME36.pdf, id=867, 540.6022pt x 369.8859pt>
+<Img/ME36.pdf, id=884, 540.6022pt x 369.8859pt>
 File: Img/ME36.pdf Graphic file (type pdf)
 <use Img/ME36.pdf>
 Package pdftex.def Info: Img/ME36.pdf  used on input line 44.
@@ -1942,7 +1954,7 @@ Package pdftex.def Info: Img/ME36.pdf  used on input line 44.
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME37.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/ME37.pdf, id=868, 540.6019pt x 369.8859pt>
+<Img/ME37.pdf, id=885, 540.6019pt x 369.8859pt>
 File: Img/ME37.pdf Graphic file (type pdf)
 <use Img/ME37.pdf>
 Package pdftex.def Info: Img/ME37.pdf  used on input line 48.
@@ -1951,7 +1963,7 @@ Package pdftex.def Info: Img/ME37.pdf  used on input line 48.
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME38.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/ME38.pdf, id=869, 540.6019pt x 369.8859pt>
+<Img/ME38.pdf, id=886, 540.6019pt x 369.8859pt>
 File: Img/ME38.pdf Graphic file (type pdf)
 <use Img/ME38.pdf>
 Package pdftex.def Info: Img/ME38.pdf  used on input line 52.
@@ -1966,7 +1978,7 @@ Package natbib Warning: Citation `Li2013A' on page 13 undefined on input line 9
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME1.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Img/ME1.pdf, id=901, 2421.6846pt x 358.64691pt>
+<Img/ME1.pdf, id=918, 2421.6846pt x 358.64691pt>
 File: Img/ME1.pdf Graphic file (type pdf)
 <use Img/ME1.pdf>
 Package pdftex.def Info: Img/ME1.pdf  used on input line 96.
@@ -1996,7 +2008,7 @@ rm/m/n/12.045/9f „ \C70/rm/m/n/12.045/4e Î\T1/ntxtlf/m/n/12.045 22\C70/rm/m/n/1
 
 pdfTeX warning: pdflatex.exe (file ./Img/collect.pdf): PDF inclusion: found PDF
  version <1.6>, but at most version <1.5> allowed
-<Img/collect.pdf, id=914, 164.7491pt x 139.52928pt>
+<Img/collect.pdf, id=931, 164.7491pt x 139.52928pt>
 File: Img/collect.pdf Graphic file (type pdf)
 <use Img/collect.pdf>
 Package pdftex.def Info: Img/collect.pdf  used on input line 113.
@@ -2053,7 +2065,7 @@ Overfull \hbox (6.3186pt too wide) in paragraph at lines 143--157
 
 pdfTeX warning: pdflatex.exe (file ./Img/ME2.pdf): PDF inclusion: found PDF ver
 sion <1.6>, but at most version <1.5> allowed
-<Img/ME2.pdf, id=979, 1175.71387pt x 1342.59392pt>
+<Img/ME2.pdf, id=996, 1175.71387pt x 1342.59392pt>
 File: Img/ME2.pdf Graphic file (type pdf)
 <use Img/ME2.pdf>
 Package pdftex.def Info: Img/ME2.pdf  used on input line 165.
@@ -2082,7 +2094,7 @@ line 182.
 
 pdfTeX warning: pdflatex.exe (file ./Img/LBP0.pdf): PDF inclusion: found PDF ve
 rsion <1.6>, but at most version <1.5> allowed
-<Img/LBP0.pdf, id=998, 485.12775pt x 277.52585pt>
+<Img/LBP0.pdf, id=1015, 485.12775pt x 277.52585pt>
 File: Img/LBP0.pdf Graphic file (type pdf)
 <use Img/LBP0.pdf>
 Package pdftex.def Info: Img/LBP0.pdf  used on input line 188.
@@ -2093,7 +2105,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 pdfTeX warning: pdflatex.exe (file ./Img/LBP1.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/LBP1.pdf, id=1008, 930.3558pt x 204.85132pt>
+<Img/LBP1.pdf, id=1026, 930.3558pt x 204.85132pt>
 File: Img/LBP1.pdf Graphic file (type pdf)
 <use Img/LBP1.pdf>
 Package pdftex.def Info: Img/LBP1.pdf  used on input line 199.
@@ -2137,7 +2149,7 @@ e 208.
 
 pdfTeX warning: pdflatex.exe (file ./Img/OF0.pdf): PDF inclusion: found PDF ver
 sion <1.6>, but at most version <1.5> allowed
-<Img/OF0.pdf, id=1064, 90.7641pt x 83.65152pt>
+<Img/OF0.pdf, id=1081, 90.7641pt x 83.65152pt>
 File: Img/OF0.pdf Graphic file (type pdf)
 <use Img/OF0.pdf>
 Package pdftex.def Info: Img/OF0.pdf  used on input line 212.
@@ -2176,7 +2188,7 @@ Package natbib Warning: Citation `Shuiwang20133D' on page 22 undefined on input
 
 pdfTeX warning: pdflatex.exe (file ./Img/3DCNN1.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.5> allowed
-<Img/3DCNN1.pdf, id=1179, 464.91801pt x 156.27383pt>
+<Img/3DCNN1.pdf, id=1197, 464.91801pt x 156.27383pt>
 File: Img/3DCNN1.pdf Graphic file (type pdf)
 <use Img/3DCNN1.pdf>
 Package pdftex.def Info: Img/3DCNN1.pdf  used on input line 245.
@@ -2217,7 +2229,7 @@ e 270.
 
 pdfTeX warning: pdflatex.exe (file ./Img/RESNET0.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<Img/RESNET0.pdf, id=1265, 170.7167pt x 145.52669pt>
+<Img/RESNET0.pdf, id=1282, 170.7167pt x 145.52669pt>
 File: Img/RESNET0.pdf Graphic file (type pdf)
 <use Img/RESNET0.pdf>
 Package pdftex.def Info: Img/RESNET0.pdf  used on input line 274.
@@ -2235,7 +2247,7 @@ n input line 281.
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR0.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Img/LR0.pdf, id=1311, 1618.91924pt x 404.02141pt>
+<Img/LR0.pdf, id=1328, 1618.91924pt x 404.02141pt>
 File: Img/LR0.pdf Graphic file (type pdf)
 <use Img/LR0.pdf>
 Package pdftex.def Info: Img/LR0.pdf  used on input line 13.
@@ -2244,7 +2256,7 @@ Package pdftex.def Info: Img/LR0.pdf  used on input line 13.
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR1.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Img/LR1.pdf, id=1319, 879.285pt x 319.1925pt>
+<Img/LR1.pdf, id=1336, 879.285pt x 319.1925pt>
 File: Img/LR1.pdf Graphic file (type pdf)
 <use Img/LR1.pdf>
 Package pdftex.def Info: Img/LR1.pdf  used on input line 24.
@@ -2256,7 +2268,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 6.0pt on input line 34.
 [28 <./Img/LR0.pdf> <./Img/LR1.pdf>]
-Overfull \hbox (3.30806pt too wide) in paragraph at lines 46--47
+Overfull \hbox (3.30806pt too wide) in paragraph at lines 52--53
 []\C70/rm/m/n/12.045/4e Î \C70/rm/m/n/12.045/91 Ç \C70/rm/m/n/12.045/96 Æ \C70/
 rm/m/n/12.045/76 „ \C70/rm/m/n/12.045/89 Æ \C70/rm/m/n/12.045/98 ‘ \C70/rm/m/n/
 12.045/4e - \C70/rm/m/n/12.045/90 	 \C70/rm/m/n/12.045/53 Ö \C70/rm/m/n/12.045/
@@ -2270,17 +2282,17 @@ C70/rm/m/n/12.045/5e ” \C70/rm/m/n/12.045/75 (\T1/ntxtlf/m/n/12.045 ASM\C70/rm/
 m/n/12.045/7b —
  []
 
-
+[29]
 
 pdfTeX warning: pdflatex.exe (file ./Img/3LR1.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/3LR1.pdf, id=1359, 469.49454pt x 174.14159pt>
+<Img/3LR1.pdf, id=1385, 469.49454pt x 174.14159pt>
 File: Img/3LR1.pdf Graphic file (type pdf)
 <use Img/3LR1.pdf>
-Package pdftex.def Info: Img/3LR1.pdf  used on input line 55.
+Package pdftex.def Info: Img/3LR1.pdf  used on input line 61.
 (pdftex.def)             Requested size: 295.90587pt x 109.76025pt.
 
-Overfull \hbox (1.15627pt too wide) in paragraph at lines 71--73
+Overfull \hbox (1.15627pt too wide) in paragraph at lines 77--79
 \C70/rm/m/n/12.045/51 v \C70/rm/m/n/12.045/4e -$[]$: \C70/rm/m/n/12.045/7b ,$\O
 ML/ntxmi/m/it/12.045 j$\C70/rm/m/n/12.045/4e * \C70/rm/m/n/12.045/89 Æ \C70/rm/
 m/n/12.045/98 ‘ \C70/rm/m/n/12.045/72 G \C70/rm/m/n/12.045/6b µ \C70/rm/m/n/12.
@@ -2299,49 +2311,61 @@ ntxmi/m/it/12.045 j$\C70/rm/m/n/12.045/4e * \C70/rm/m/n/12.045/89 Æ \C70/rm/m/n
 
 pdfTeX warning: pdflatex.exe (file ./Img/3LR2.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/3LR2.pdf, id=1361, 469.49454pt x 173.57147pt>
+<Img/3LR2.pdf, id=1387, 469.49454pt x 173.57147pt>
 File: Img/3LR2.pdf Graphic file (type pdf)
 <use Img/3LR2.pdf>
-Package pdftex.def Info: Img/3LR2.pdf  used on input line 76.
+Package pdftex.def Info: Img/3LR2.pdf  used on input line 82.
 (pdftex.def)             Requested size: 295.90587pt x 109.40091pt.
-[29 <./Img/3LR1.pdf>]
+
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR2.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Img/LR2.pdf, id=1406, 480.79625pt x 260.975pt>
+<Img/LR2.pdf, id=1390, 480.79625pt x 260.975pt>
 File: Img/LR2.pdf Graphic file (type pdf)
 <use Img/LR2.pdf>
-Package pdftex.def Info: Img/LR2.pdf  used on input line 87.
+Package pdftex.def Info: Img/LR2.pdf  used on input line 93.
 (pdftex.def)             Requested size: 295.90587pt x 160.62013pt.
-[30 <./Img/3LR2.pdf> <./Img/LR2.pdf>]
+[30 <./Img/3LR1.pdf>] [31 <./Img/3LR2.pdf> <./Img/LR2.pdf>] [32]
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR3.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Img/LR3.pdf, id=1465, 1368.53961pt x 574.73822pt>
+<Img/LR3.pdf, id=1492, 1368.53961pt x 574.73822pt>
 File: Img/LR3.pdf Graphic file (type pdf)
 <use Img/LR3.pdf>
-Package pdftex.def Info: Img/LR3.pdf  used on input line 114.
+Package pdftex.def Info: Img/LR3.pdf  used on input line 132.
 (pdftex.def)             Requested size: 341.43306pt x 143.38602pt.
-[31 <./Img/LR3.pdf>] [32]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 149.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 149.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 149.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 149.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 149.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 149.
+[33 <./Img/LR3.pdf>] [34] [35] [36] [37] [38]
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR41.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/LR41.pdf, id=1498, 529.18504pt x 514.98697pt>
+<Img/LR41.pdf, id=1544, 529.18504pt x 514.98697pt>
 File: Img/LR41.pdf Graphic file (type pdf)
 <use Img/LR41.pdf>
-Package pdftex.def Info: Img/LR41.pdf  used on input line 182.
+Package pdftex.def Info: Img/LR41.pdf  used on input line 241.
 (pdftex.def)             Requested size: 159.3382pt x 155.06306pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR42.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/LR42.pdf, id=1499, 529.18504pt x 514.98697pt>
+<Img/LR42.pdf, id=1545, 529.18504pt x 514.98697pt>
 File: Img/LR42.pdf Graphic file (type pdf)
 <use Img/LR42.pdf>
-Package pdftex.def Info: Img/LR42.pdf  used on input line 187.
+Package pdftex.def Info: Img/LR42.pdf  used on input line 247.
 (pdftex.def)             Requested size: 159.3382pt x 155.06306pt.
-[33]
-Overfull \hbox (39.11832pt too wide) in paragraph at lines 222--223
+
+Overfull \hbox (39.11832pt too wide) in paragraph at lines 284--285
 \C70/rm/m/n/12.045/52 ^^W \C70/rm/m/n/12.045/76 „ \C70/rm/m/n/12.045/52 ^^F \C7
 0/rm/m/n/12.045/8f ¨ \C70/rm/m/n/12.045/73 ‡ \C70/rm/m/n/12.045/62 ^^P \C70/rm/
 m/n/12.045/6b c Ô|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/n/12.045/4f ‹ \C70/rm/m/
@@ -2354,84 +2378,74 @@ n/12.045/59 ‚|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/57 (\T1/ntxtlf/m/n/
 m/m/n/12.045/4f N\T1/ntxtlf/m/n/12.045 6.42dB|\C70/rm/m/n/12.045/ff ^^L|
  []
 
-
+[39]
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR5.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Img/LR5.pdf, id=1507, 1311.63524pt x 563.4842pt>
+<Img/LR5.pdf, id=1552, 1311.63524pt x 563.4842pt>
 File: Img/LR5.pdf Graphic file (type pdf)
 <use Img/LR5.pdf>
-Package pdftex.def Info: Img/LR5.pdf  used on input line 226.
+Package pdftex.def Info: Img/LR5.pdf  used on input line 288.
 (pdftex.def)             Requested size: 341.43306pt x 146.6744pt.
-[34 <./Img/LR41.pdf> <./Img/LR42.pdf>]
+[40 <./Img/LR41.pdf> <./Img/LR42.pdf> <./Img/LR5.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR6.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Img/LR6.pdf, id=1543, 463.7325pt x 304.13625pt>
+<Img/LR6.pdf, id=1612, 463.7325pt x 304.13625pt>
 File: Img/LR6.pdf Graphic file (type pdf)
 <use Img/LR6.pdf>
-Package pdftex.def Info: Img/LR6.pdf  used on input line 239.
+Package pdftex.def Info: Img/LR6.pdf  used on input line 301.
 (pdftex.def)             Requested size: 273.14922pt x 179.14645pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
-
-[35 <./Img/LR5.pdf>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 246.
 
 
 
 pdfTeX warning: pdflatex.exe (file ./Img/LR7.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Img/LR7.pdf, id=1573, 207.77625pt x 191.71625pt>
+<Img/LR7.pdf, id=1613, 207.77625pt x 191.71625pt>
 File: Img/LR7.pdf Graphic file (type pdf)
 <use Img/LR7.pdf>
-Package pdftex.def Info: Img/LR7.pdf  used on input line 248.
+Package pdftex.def Info: Img/LR7.pdf  used on input line 310.
 (pdftex.def)             Requested size: 341.43306pt x 315.08072pt.
-[36 <./Img/LR6.pdf>]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 278.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 278.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 278.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 278.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 278.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 278.
- [37 <./Img/LR7.pdf>]) (./Tex/Chap_Owner2.tex [38]
+[41 <./Img/LR6.pdf>] [42 <./Img/LR7.pdf>] [43]) (./Tex/Chap_Owner2.tex [44]
 ç¬¬å››ç« 
+[45
+
+] [46]
+
+pdfTeX warning: pdflatex.exe (file ./Img/4LR1.pdf): PDF inclusion: found PDF ve
+rsion <1.6>, but at most version <1.5> allowed
+<Img/4LR1.pdf, id=1704, 374.88365pt x 180.0336pt>
+File: Img/4LR1.pdf Graphic file (type pdf)
+<use Img/4LR1.pdf>
+Package pdftex.def Info: Img/4LR1.pdf  used on input line 32.
+(pdftex.def)             Requested size: 341.43306pt x 163.97092pt.
+[47 <./Img/4LR1.pdf>] [48] [49] [50] [51]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 46.
+               Default added (so using `tbp') on input line 131.
 
 
 
 pdfTeX warning: pdflatex.exe (file ./Img/P3D0.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Img/P3D0.pdf, id=1646, 452.39816pt x 254.65137pt>
+<Img/P3D0.pdf, id=1741, 452.39816pt x 254.65137pt>
 File: Img/P3D0.pdf Graphic file (type pdf)
 <use Img/P3D0.pdf>
-Package pdftex.def Info: Img/P3D0.pdf  used on input line 48.
+Package pdftex.def Info: Img/P3D0.pdf  used on input line 133.
 (pdftex.def)             Requested size: 341.43306pt x 192.19649pt.
-[39
+[52]) (./Tex/Chap_System.tex [53 <./Img/P3D0.pdf>] [54
 
-]) (./Tex/Chap_System.tex [40 <./Img/P3D0.pdf>]
+]
 ç¬¬äº”ç« 
-) (./Tex/Chap_Conclusions.tex [41
-
-] [42
+) (./Tex/Chap_Conclusions.tex [55] [56
 
 ]
 ç¬¬å…­ç« 
-)) [43] [44
-
-] (./Tex/Appendix.tex
+[57])) [58] (./Tex/Appendix.tex
 é™„å½• A
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 10.84042pt on input line 12.
@@ -2439,29 +2453,30 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 7.19995pt on input line 12.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 5.39996pt on input line 12.
-) [45
+) [59
 
-] [46] (./Thesis.bbl
+
+] [60] (./Thesis.bbl
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 14.
- [47
+ [61
 
 
 
 ]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.53937pt on input line 145.
- [48]) (./Tex/Acknowledgement.tex [49] [50
+ [62]) (./Tex/Acknowledgement.tex [63] [64
 
 ]
-[51] [52
+[65] [66
 
 ]) (./Tex/Achievement.tex
 Package CJKpunct Info: use punctuation spaces for family 'zhhei' with punctstyl
 e (quanjiao) on input line 9.
- [53
+ [67
 
-] [54
+] [68
 
 ])
 
@@ -2477,7 +2492,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3C120D2F85D856D24C029CB869629B5D;9089.
+(rerunfilecheck)             Checksum: ACD03EDC90B3FB39FF00D83F1F694D72;9717.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2492,44 +2507,44 @@ LaTeX Warning: There were multiply-defined labels.
 (\end occurred when \ifx on line 37 was incomplete)
 (\end occurred when \ifx on line 37 was incomplete) 
 Here is how much of TeX's memory you used:
- 37360 strings out of 492616
- 606745 string characters out of 6132767
- 569721 words of memory out of 5000000
- 39769 multiletter control sequences out of 15000+600000
- 794345 words of font info for 697 fonts, out of 8000000 for 9000
+ 37495 strings out of 492616
+ 608485 string characters out of 6132767
+ 569769 words of memory out of 5000000
+ 39875 multiletter control sequences out of 15000+600000
+ 799271 words of font info for 703 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,21n,94p,4458b,694s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,21n,94p,4458b,692s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simsun.ttc
->{d:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/Windows/Fon
-ts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Win
+><c:/Windows/Fonts/simsun.ttc>{d:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-g
+yre/q-ts1.enc}<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Win
 dows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf>{d:/texlive/2018/texmf-dist/
 fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}<c:/Windows/Fonts/simhei.ttf><c:/Windows/
-Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf>{d:/
-texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Windows/Fonts/simsun.tt
-c><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
-imhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows
-/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
+Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/
+Windows/Fonts/simhei.ttf>{d:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.en
+c}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/s
+imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows
+/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:
 /Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun
-.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
-s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
-ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf>
+.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
+s/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
+ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
 <c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/sim
 hei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
 onts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/W
-indows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
-tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/
-simhei.ttf>{d:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/Wi
-ndows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.tt
+indows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.t
+tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
+simhei.ttf><c:/Windows/Fonts/simhei.ttf>{d:/texlive/2018/texmf-dist/fonts/enc/d
+vips/tex-gyre/q-ec.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.tt
 c><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
-/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{d:
-/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/Windows/Fonts
-/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windo
+/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
+/Windows/Fonts/simsun.ttc>{d:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx
+-ec-tlf.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windo
 ws/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><
 c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sims
 un.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fo
-nts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Wi
-ndows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.tt
+nts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wi
+ndows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.tt
 c><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
 imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
 /Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
@@ -2544,8 +2559,8 @@ indows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
 tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
 simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
 s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
-:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhe
-i.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fon
+:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsu
+n.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fon
 ts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Win
 dows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf
 ><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/si
@@ -2558,39 +2573,40 @@ ws/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><
 c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simh
 ei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fo
 nts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Wi
-ndows/Fonts/simhei.ttf><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2018/t
-exmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><d:/texlive/2018/texmf-dist/font
-s/type1/public/tex-gyre/qtmb.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public
-/tex-gyre/qtmr.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxbmi
-.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxbmi5.pfb><d:/texl
-ive/2018/texmf-dist/fonts/type1/public/newtx/rntxbmi7.pfb><d:/texlive/2018/texm
-f-dist/fonts/type1/public/newtx/rntxmi.pfb><d:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/newtx/rntxmi7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/new
-tx/rtxbmi-rev.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rtxbmi7-
-rev.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><d:/te
-xlive/2018/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb><d:/texlive/2018/texm
-f-dist/fonts/type1/public/txfonts/rtxr.pfb><d:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/newtx/txbexs.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/newt
-x/txbsys.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb><d:
-/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txmia.pfb><d:/texlive/2018/
-texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><d:/texlive/2018/texmf-dist/fon
-ts/type1/public/newtx/txsys.pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/
-texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (76 pages, 61123070 bytes).
+ndows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><d:
+/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><d:/texlive/2018/
+texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2018/texmf-dist/fon
+ts/type1/public/newtx/rntxbmi.pfb><d:/texlive/2018/texmf-dist/fonts/type1/publi
+c/newtx/rntxbmi5.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxb
+mi7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi.pfb><d:/tex
+live/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb><d:/texlive/2018/texm
+f-dist/fonts/type1/public/newtx/rtxbmi-rev.pfb><d:/texlive/2018/texmf-dist/font
+s/type1/public/newtx/rtxbmi7-rev.pfb><d:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/txfonts/rtxmi.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rtx
+mi7.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><d:/tex
+live/2018/texmf-dist/fonts/type1/public/newtx/txbexs.pfb><d:/texlive/2018/texmf
+-dist/fonts/type1/public/newtx/txbsys.pfb><d:/texlive/2018/texmf-dist/fonts/typ
+e1/public/newtx/txexs.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/txfont
+s/txmia.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><d
+:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><d:/texlive/2018
+/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive/2018/texmf-dist/font
+s/type1/urw/times/utmb8a.pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (90 pages, 61207887 bytes).
 PDF statistics:
- 2372 PDF objects out of 2487 (max. 8388607)
- 1722 compressed objects within 18 object streams
- 247 named destinations out of 1000 (max. 500000)
- 1058 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2479 PDF objects out of 2487 (max. 8388607)
+ 1807 compressed objects within 19 object streams
+ 269 named destinations out of 1000 (max. 500000)
+ 1091 words of extra memory for PDF output out of 10000 (max. 10000000)
 

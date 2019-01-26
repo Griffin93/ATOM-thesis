@@ -17,16 +17,17 @@
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {10 }{\ignorespaces 低分辨率环境下微表情识别框架\relax }}{28}{figure.caption.22}% 
 \contentsline {figure}{\numberline {11 }{\ignorespaces 来自SMIC-HS数据集的两帧\relax }}{28}{figure.caption.23}% 
-\contentsline {figure}{\numberline {12 }{\ignorespaces ASM算法标定的68个人脸关键点\relax }}{29}{figure.caption.24}% 
-\contentsline {figure}{\numberline {13 }{\ignorespaces LWM算法人脸对齐后的图像\relax }}{30}{figure.caption.25}% 
-\contentsline {figure}{\numberline {14 }{\ignorespaces 输入为原始图像序列，输出为TIM算法插值后图像序列\relax }}{30}{figure.caption.26}% 
-\contentsline {figure}{\numberline {15 }{\ignorespaces Super-resolution Reconstruction.\relax }}{31}{figure.caption.27}% 
-\contentsline {figure}{\numberline {16 }{\ignorespaces 低分辨率图像 \footnotesize \textmd {(a) SMIC-HS/SMIC-subHS数据集低分辨率图像，(b) CASME II数据集低分辨率图像}\relax }}{34}{figure.caption.29}% 
-\contentsline {figure}{\numberline {17 }{\ignorespaces 不同分辨率图像重建结果比较\relax }}{35}{figure.caption.32}% 
-\contentsline {figure}{\numberline {18 }{\ignorespaces 不同数据集不同分辨率的图像序列的识别准确度\relax }}{36}{figure.caption.33}% 
-\contentsline {figure}{\numberline {19 }{\ignorespaces 不同分辨率图像序列的识别准确度混淆矩阵\relax }}{37}{figure.caption.34}% 
+\contentsline {figure}{\numberline {12 }{\ignorespaces ASM算法标定的68个人脸关键点\relax }}{30}{figure.caption.24}% 
+\contentsline {figure}{\numberline {13 }{\ignorespaces LWM算法人脸对齐后的图像\relax }}{31}{figure.caption.25}% 
+\contentsline {figure}{\numberline {14 }{\ignorespaces 输入为原始图像序列，输出为TIM算法插值后图像序列\relax }}{31}{figure.caption.26}% 
+\contentsline {figure}{\numberline {15 }{\ignorespaces 超分辨重建过程\relax }}{33}{figure.caption.27}% 
+\contentsline {figure}{\numberline {16 }{\ignorespaces 低分辨率图像 \footnotesize \textmd {(a) SMIC-HS/SMIC-subHS数据集低分辨率图像，(b) CASME II数据集低分辨率图像}\relax }}{40}{figure.caption.29}% 
+\contentsline {figure}{\numberline {17 }{\ignorespaces 不同分辨率图像重建结果比较\relax }}{40}{figure.caption.32}% 
+\contentsline {figure}{\numberline {18 }{\ignorespaces 不同数据集不同分辨率的图像序列的识别准确度\relax }}{41}{figure.caption.33}% 
+\contentsline {figure}{\numberline {19 }{\ignorespaces 不同分辨率图像序列的识别准确度混淆矩阵\relax }}{42}{figure.caption.34}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {20 }{\ignorespaces 伪3D残差网络三种设计模型\relax }}{40}{figure.caption.36}% 
+\contentsline {figure}{\numberline {20 }{\ignorespaces 直方图均衡化\relax }}{47}{figure.caption.36}% 
+\contentsline {figure}{\numberline {21 }{\ignorespaces 伪3D残差网络三种设计模型\relax }}{53}{figure.caption.37}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

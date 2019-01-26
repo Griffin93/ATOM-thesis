@@ -1,6 +1,16 @@
 \chapter{总结与展望}\label{chap:conclusions}
 
-% 为方便使用及更好地展示\LaTeX{}排版的优秀特性，ucasthesis的框架和文件体系进行了细致地处理，尽可能地对各个功能和板块进行了模块化和封装，对于初学者来说，众多的文件目录也许一开始让人觉得有些无所适从，但阅读完下面的使用说明后，会发现原来使用思路是简单而清晰的，而且，当对\LaTeX{}有一定的认识和了解后，会发现其相对Word类排版系统极具吸引力的优秀特性。所以，如果是初学者，请不要退缩，请稍加尝试和坚持，以领略到\LaTeX{}的非凡魅力，并可以通过阅读相关资料如\LaTeX{} Wikibook\citep{wikibook2014latex}来完善自己的使用知识。
+The current ME studies can be continued and improved from four aspects in future work. First, about the ME database: more spontaneous ME data are still needed in order to develop more sophisticate computational models. Compared to ordinary FE databases, the size of current ME databases are not big enough. Future collection of ME data can be improved from three ways: the first is to increase the sample size; the second is to involve AU labelling; the third is to include depth information to build 3D ME models. A large 3D ME database is now under construction with collaboration of a group of UK researchers.
+在今后的工作中，可以从四个方面继续和完善目前ME的研究。首先，关于ME数据库:为了开发更复杂的计算模型，仍然需要更多自发的ME数据。与普通FE数据库相比，目前ME数据库的规模还不够大。未来ME数据的收集可以通过三种方式进行改进:一是增加样本量;二是涉及AU标签;第三个是包含深度信息来构建3D ME模型。一组英国研究人员正在合作建立一个大型3D ME数据库。
+
+Second, about ME spotting: the framework using feature difference analysis for ME spotting described in Section 2.5 was the first method proposed for spotting MEs from spontaneous long videos. One challenge of the current spotting framework is that there are other brief but non-emotional movements (e.g., eye blinks) that need to be ruled out from MEs. In future, more refined spotting method will be developed on the AU level, so that non-emotional brief movements can be ruled out to reduce the false positive rate. Besides, future ME spotting method will also try to target at providing more precise temporal information of the ME including the onset, apex and offset frames.
+第二，关于ME点测:2.5节中描述的ME点测特征差异分析框架是第一个从自发长视频中提取MEs的方法。当前的识别框架的一个挑战是，需要排除MEs中其他短暂但非情绪的动作(例如眨眼)。未来将在AU水平上开发更精细的点样方法，排除非情绪短暂运动，降低假阳性率。此外，未来的ME定位方法也将致力于提供更精确的ME的时间信息，包括起始帧、顶点帧和偏移帧。
+
+Third, about ME recognition: the latest method proposed in paper III showed advantage over previous methods by employing one extra step to magnify the subtle motions. Other video processing methods will be explored and added to the framework, if they are demonstrated to be helpful for the ME recognition task. More sophisticate machine learning models will be studied including deep learning models. It is also planned to use 3D information for ME recognition when the new 3D ME database is finished.
+第三，关于ME识别:第三篇论文中提出的最新方法比之前的方法有优势，多了一步放大了细微的运动。如果其他视频处理方法被证明对ME识别任务有帮助，我们将探索并添加到该框架中。将研究更复杂的机器学习模型，包括深度学习模型。也计划在新的3D ME数据库完成后使用3D信息进行ME识别。
+
+Fourth, about integrated ME spotting and recognition systems: after progresses are made for both ME recognition methods and ME spotting methods, it is also planned to build advanced integrated systems for more accurate ME spotting and recognition.
+第四，ME点测与识别集成系统:在ME点测与识别方法取得进展后，计划构建先进的ME点测与识别集成系统，提高ME点测与识别的准确率。
 
 \section{总结}
 

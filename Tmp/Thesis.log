@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.25)  25 JAN 2019 14:28
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.25)  26 JAN 2019 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,6 +1115,18 @@ LaTeX Warning: Label `fig14' multiply defined.
 
 LaTeX Warning: Label `fig15' multiply defined.
 
+
+LaTeX Warning: Label `eq6' multiply defined.
+
+
+LaTeX Warning: Label `eq6' multiply defined.
+
+
+LaTeX Warning: Label `eq6' multiply defined.
+
+
+LaTeX Warning: Label `eq6' multiply defined.
+
 )
 \openout1 = `Thesis.aux'.
 
@@ -1516,74 +1528,73 @@ File: LR0.pdf Graphic file (type pdf)
 [27]
 File: LR1.pdf Graphic file (type pdf)
 <use LR1.pdf>
- [28]
+ [28] [29]
 File: 3LR1.pdf Graphic file (type pdf)
 <use 3LR1.pdf>
- [29]
 File: 3LR2.pdf Graphic file (type pdf)
 <use 3LR2.pdf>
 File: LR2.pdf Graphic file (type pdf)
 <use LR2.pdf>
- [30]
+ [30] [31] [32]
 File: LR3.pdf Graphic file (type pdf)
 <use LR3.pdf>
- [31] [32] [33]
+ [33] [34] [35] [36] [37] [38]
 File: LR41.pdf Graphic file (type pdf)
 <use LR41.pdf>
 File: LR42.pdf Graphic file (type pdf)
 <use LR42.pdf>
 File: LR5.pdf Graphic file (type pdf)
 <use LR5.pdf>
- [34]
+ [39] [40]
 File: LR6.pdf Graphic file (type pdf)
 <use LR6.pdf>
- [35]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 246.
-
+ [41]
 File: LR7.pdf Graphic file (type pdf)
 <use LR7.pdf>
-[36]) (./Tex/Chap_Owner2.tex [37] [38]
+
+[42] [43]) (./Tex/Chap_Owner2.tex [44] [45] [46
+
+]
 第四章
+[47] [48]
+File: 4LR1.pdf Graphic file (type pdf)
+<use 4LR1.pdf>
+ [49] [50] [51] [52] [53]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 46.
+               Default added (so using `tbp') on input line 131.
 
 File: P3D0.pdf Graphic file (type pdf)
 <use P3D0.pdf>
-[39
+[54]) (./Tex/Chap_System.tex [55] [56
 
-]) (./Tex/Chap_System.tex [40]
+]
 第五章
-) (./Tex/Chap_Conclusions.tex [41
-
-] [42
+) (./Tex/Chap_Conclusions.tex [57] [58
 
 ]
 第六章
-)) [43] [44
-
-] (./Tex/Appendix.tex
+[59])) [60] (./Tex/Appendix.tex
 附录 A
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
 (d:/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [45
-
-] [46] (Tmp/Thesis.bbl
-[47
+)) [61
 
 
+] [62] (Tmp/Thesis.bbl
+[63
 
-] [48] [49] [50]) (./Tex/Acknowledgement.tex [51] [52
 
-] [53] [54
+
+] [64] [65] [66]) (./Tex/Acknowledgement.tex [67] [68
+
+] [69] [70
 
 ])
-(./Tex/Achievement.tex [55
+(./Tex/Achievement.tex [71
 
-] [56
+] [72
 
 ])
 
@@ -1596,19 +1607,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3C120D2F85D856D24C029CB869629B5D.
+(rerunfilecheck)             Checksum: ACD03EDC90B3FB39FF00D83F1F694D72.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31326 strings out of 492933
- 622462 string characters out of 6136536
- 672771 words of memory out of 5000000
- 34890 multiletter control sequences out of 15000+600000
+ 31373 strings out of 492933
+ 625300 string characters out of 6136536
+ 672813 words of memory out of 5000000
+ 34936 multiletter control sequences out of 15000+600000
  579668 words of font info for 168 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,21n,94p,1576b,685s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tmp/Thesis.pdf (78 pages).
+Output written on Tmp/Thesis.pdf (94 pages).
