@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{80}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -321,9 +321,12 @@ Liong~S~T, See~J, Phan~R~C~W, et~al.
   features\allowbreak[C]//\allowbreak{}Asian Conference on Computer Vision.
 \newblock Springer, 2014: 644-657.
 
-\bibitem[Xu\ et~al.()Xu, Zhang, and Wang]{xu2017microexpression}
+\bibitem[Xu\ et~al.(2017)Xu, Zhang, and Wang]{xu2017microexpression}
 Xu~F, Zhang~J, Wang~J~Z.
-\newblock \allowbreak[C].
+\newblock Microexpression identification and categorization using a facial
+  dynamics map\allowbreak[C]//\allowbreak{}IEEE Transactions on Affective
+  Computing.
+\newblock IEEE, 2017.
 
 \bibitem[Song\ et~al.(2013)Song, Morency, and Davis]{Song2013Learning}
 Song~Y, Morency~L~P, Davis~R.
@@ -401,82 +404,115 @@ Coan~J~A, Allen~J~J~B.
 \newblock Handbook of emotion elicitation and assessment\allowbreak[J].
 \newblock Neuroimage, 2015, 37\penalty0 (3):\penalty0 866–875.
 
-\bibitem[Wikibook(2014)]{wikibook2014latex}
-Wikibook.
-\newblock http://en.wikibooks.org/wiki/latex\allowbreak[M].
-\newblock On-line Resources, 2014.
+\bibitem[Ojala\ et~al.(2002)Ojala, Pietikäinen, and Mäenpää]{Ojala2002Gray}
+Ojala~T, Pietikäinen~M, Mäenpää~T.
+\newblock Gray scale and rotation invariant texture classification with local
+  binary patterns\allowbreak[J].
+\newblock IEEE Transactions on Pattern Analysis \& Machine Intelligence, 2002,
+  24\penalty0 (7):\penalty0 971-987.
 
-\bibitem[Leslie(1986)]{lamport1986document}
-Leslie~L.
-\newblock Document preparation system\allowbreak[M].
-\newblock Addison-Wesley Reading, MA, 1986.
+\bibitem[Zhao\ et~al.(2007)Zhao and Pietik{\"a}inen]{zhao2007dynamic}
+Zhao~G, Pietik{\"a}inen~M.
+\newblock Dynamic texture recognition using local binary patterns with an
+  application to facial expressions\allowbreak[C]//\allowbreak{}IEEE
+  transactions on pattern analysis and machine intelligence.
+\newblock IEEE, 2007.
 
-\bibitem[初景利(2004)]{chu2004tushu}
-初景利.
-\newblock 图书馆数字参考咨询服务研究\allowbreak[M].
-\newblock 北京: 北京图书馆出版社, 2004.
+\bibitem[Gibson(1950)]{Gibson1950}
+Gibson~J~J.
+\newblock The perception of the visual world\allowbreak[M].
+\newblock Boston: Houghton Mifflin, 1950.
 
-\bibitem[陈浩元(2005)]{chen2005zhulu}
-陈浩元.
-\newblock 著录文后参考文献的规则及注意事项\allowbreak[J].
-\newblock 编辑学报, 2005, 17\penalty0 (6):\penalty0 413-415.
+\bibitem[Poggio\ et~al.(1976)Poggio and Reichardt]{poggio1976visual}
+Poggio~T, Reichardt~W.
+\newblock Visual control of orientation behaviour in the fly: Part ii. towards
+  the underlying neural interactions\allowbreak[J].
+\newblock Quarterly reviews of biophysics, 1976, 9\penalty0 (3):\penalty0
+  377-438.
 
-\bibitem[Walls\ et~al.(2013)Walls, Barichivich, and Brown]{walls2013drought}
-Walls~S~C, Barichivich~W~J, Brown~M.
-\newblock Drought, deluge and declines: the impact of precipitation extremes on
-  amphibians in a changing climate\allowbreak[J/OL].
-\newblock Biology, 2013, 2\penalty0 (1):\penalty0
-  399-418\allowbreak[2013-11-04].
-\newblock \url{http://www.mdpi.com/2079-7737/2/1/399}.
-\newblock DOI: \doi{10.3390/biology2010399}.
+\bibitem[Lucas\ et~al.(1981)Lucas and Kanade]{Lucas1981}
+Lucas~B~D, Kanade~T.
+\newblock An iterative image registration technique with an application to
+  stereo vision\allowbreak[C]//\allowbreak{}Proceedings of the 7th
+  International Joint Conference on Artificial Intelligence.
+\newblock 1981: 674-679.
 
-\bibitem[陈晋镳\ 等(1980)陈晋镳, 张惠民, 朱士兴, 赵震, and
-  王振刚]{chen1980zhongguo}
-陈晋镳, 张惠民, 朱士兴, 等.
+\bibitem[Horn\ et~al.(1981)Horn and Schunck]{HORN1981185}
+Horn~B~K, Schunck~B~G.
+\newblock Determining optical flow\allowbreak[J/OL].
+\newblock Artificial Intelligence, 1981, 17\penalty0 (1):\penalty0 185-203.
 \newblock
-  蓟县震旦亚界研究\allowbreak[M]//\allowbreak{}中国地质科学院天津地质矿产研究所.
-\newblock 中国震旦亚界.
-\newblock 天津: 天津科学技术出版社, 1980: 56-114.
+  \url{http://www.sciencedirect.com/science/article/pii/0004370281900242}.
 
-\bibitem[袁训来\ 等(2012)袁训来, 陈哲, and 肖书海]{yuan2012lanc}
-袁训来, 陈哲, 肖书海.
-\newblock 蓝田生物群:
-  一个认识多细胞生物起源和早期演化的新窗口 --
-  篇三\allowbreak[J].
-\newblock 科学通报, 2012, 57\penalty0 (34):\penalty0 3219.
+\bibitem[Barron\ et~al.(1992)Barron, Fleet, and Beauchemin]{Barron1992}
+Barron~J~L, Fleet~D~J, Beauchemin~S~S.
+\newblock Performance of optical flow
+  techniques\allowbreak[C]//\allowbreak{}Computer Vision and Pattern
+  Recognition, 1992 IEEE Computer Society Conference on.
+\newblock 1992: 43-77.
 
-\bibitem[Heinrich\ et~al.(2009)Heinrich, Deyan, Catalin, Dimitar, Vladimir, and
-  Michael]{stamerjohanns2009mathml}
-Heinrich~S, Deyan~G, Catalin~D, et~al.
-\newblock {MathML}-aware article conversion from {LaTeX}\allowbreak[J].
-\newblock Towards a Digital Mathematics Library, 2009, 16\penalty0
-  (2):\penalty0 109-120.
+\bibitem[Daugman(1988)]{Daugman1988}
+Daugman~J~G.
+\newblock Complete discrete 2-d gabor transforms by neural networks for image
+  analysis and compression\allowbreak[J].
+\newblock IEEE Transactions on Acoustics, Speech, and Signal Processing, 1988,
+  36\penalty0 (7):\penalty0 1169-1179.
 
-\bibitem[哈里森·沃尔德伦(2012)]{hls2012jinji}
-哈里森·沃尔德伦.
-\newblock 经济数学与金融数学\allowbreak[M].
-\newblock 谢远涛, 译.
-\newblock 北京: 中国人民大学出版社, 2012: 235-236.
+\bibitem[Kyrki\ et~al.(2004)Kyrki, Kamarainen, and
+  Kälviäinen]{Kyrki2004Simple}
+Kyrki~V, Kamarainen~J~K, Kälviäinen~H.
+\newblock Simple gabor feature space for invariant object
+  recognition\allowbreak[J].
+\newblock Pattern Recognition Letters, 2004, 25\penalty0 (3):\penalty0 311-318.
 
-\bibitem[牛志明\ 等(2013)牛志明, 斯温兰德, and
-  雷光春]{niu2013zonghe}
-牛志明, 斯温兰德, 雷光春.
-\newblock 综合湿地管理国际研讨会论文集\allowbreak[C].
-\newblock 北京: 海洋出版社, 2013.
+\bibitem[LeCun\ et~al.(1998)LeCun, Bottou, Bengio, and
+  Haffner]{lecun1998gradient}
+LeCun~Y, Bottou~L, Bengio~Y, et~al.
+\newblock Gradient-based learning applied to document
+  recognition\allowbreak[J].
+\newblock Proceedings of the IEEE, 1998, 86\penalty0 (11):\penalty0 2278-2324.
 
-\bibitem[ボハンデ(1928)]{Bohan1928}
-ボハンデ.
-\newblock 過去及び現在に於ける英国と会\allowbreak[J].
-\newblock 日本時報, 1928, 17:\penalty0 5-9.
+\bibitem[Krizhevsky\ et~al.(2012)Krizhevsky, Sutskever, and
+  Hinton]{krizhevsky2012imagenet}
+Krizhevsky~A, Sutskever~I, Hinton~G~E.
+\newblock Imagenet classification with deep convolutional neural
+  networks\allowbreak[C]//\allowbreak{}Advances in neural information
+  processing systems.
+\newblock 2012: 1097-1105.
 
-\bibitem[ДубровинА.~И(1906)]{Dubrovin1906}
-ДубровинА.~И.
-\newblock Открытое письмо Председателя
-  Главного Совета Союза Русского Народа
-  Санкт-Петербургскому Антонию,
-  Первенствующему члену Священного
-  Синода\allowbreak[J].
-\newblock Вече, 1906:\penalty0 1-3.
+\bibitem[Simonyan\ et~al.(2014)Simonyan and Zisserman]{Simonyan2014Very}
+Simonyan~K, Zisserman~A.
+\newblock Very deep convolutional networks for large-scale image
+  recognition\allowbreak[J].
+\newblock Computer Science, 2014.
+
+\bibitem[Szegedy\ et~al.(2015)Szegedy, Liu, Jia, Sermanet, Reed, Anguelov,
+  Erhan, Vanhoucke, and Rabinovich]{szegedy2015going}
+Szegedy~C, Liu~W, Jia~Y, et~al.
+\newblock Going deeper with
+  convolutions\allowbreak[C]//\allowbreak{}Proceedings of the IEEE conference
+  on computer vision and pattern recognition.
+\newblock 2015: 1-9.
+
+\bibitem[Shuiwang\ et~al.(2013)Shuiwang, Ming, and Kai]{Shuiwang20133D}
+Shuiwang~J, Ming~Y, Kai~Y.
+\newblock 3d convolutional neural networks for human action
+  recognition\allowbreak[J].
+\newblock IEEE Transactions on Pattern Analysis \& Machine Intelligence, 2013,
+  35\penalty0 (1):\penalty0 221-231.
+
+\bibitem[He\ et~al.(2016)He, Zhang, Ren, and Sun]{he2016deep}
+He~K, Zhang~X, Ren~S, et~al.
+\newblock Deep residual learning for image
+  recognition\allowbreak[C]//\allowbreak{}Proceedings of the IEEE conference on
+  computer vision and pattern recognition.
+\newblock 2016: 770-778.
+
+\bibitem[Srivastava\ et~al.(2015)Srivastava, Greff, and
+  Schmidhuber]{Srivastava2015Highway}
+Srivastava~R~K, Greff~K, Schmidhuber~J.
+\newblock Highway networks\allowbreak[J].
+\newblock Computer Science, 2015.
 
 \bibitem[Lei\ et~al.(2011)Lei, Ahonen, Pietik{\"a}inen, and Li]{lei2011local}
 Lei~Z, Ahonen~T, Pietik{\"a}inen~M, et~al.
@@ -499,13 +535,6 @@ Shi~J, Liu~X, Zong~Y, et~al.
   Processing.
 \newblock IEEE, 2018.
 
-\bibitem[Zhou\ et~al.(2011)Zhou, Zhao, and Pietik{\"a}inen]{zhou2011towards}
-Zhou~Z, Zhao~G, Pietik{\"a}inen~M.
-\newblock Towards a practical lipreading
-  system\allowbreak[C]//\allowbreak{}Computer Vision and Pattern Recognition
-  (CVPR), 2011 IEEE Conference on.
-\newblock IEEE, 2011.
-
 \bibitem[Cootes\ et~al.(1995)Cootes, Taylor, Cooper, and
   Graham]{cootes1995active}
 Cootes~T~F, Taylor~C~J, Cooper~D~H, et~al.
@@ -520,12 +549,12 @@ Goshtasby~A.
   methods\allowbreak[C]//\allowbreak{}Image and Vision Computing.
 \newblock Elsevier, 1988.
 
-\bibitem[Zhao\ et~al.(2007)Zhao and Pietik{\"a}inen]{zhao2007dynamic}
-Zhao~G, Pietik{\"a}inen~M.
-\newblock Dynamic texture recognition using local binary patterns with an
-  application to facial expressions\allowbreak[C]//\allowbreak{}IEEE
-  transactions on pattern analysis and machine intelligence.
-\newblock IEEE, 2007.
+\bibitem[Zhou\ et~al.(2011)Zhou, Zhao, and Pietik{\"a}inen]{zhou2011towards}
+Zhou~Z, Zhao~G, Pietik{\"a}inen~M.
+\newblock Towards a practical lipreading
+  system\allowbreak[C]//\allowbreak{}Computer Vision and Pattern Recognition
+  (CVPR), 2011 IEEE Conference on.
+\newblock IEEE, 2011.
 
 \bibitem[Chang\ et~al.(2011)Chang and Lin]{chang2011libsvm}
 Chang~C~C, Lin~C~J.

@@ -1,299 +1,278 @@
-\chapter{个人研究1}\label{chap:owner1}
+\chapter{基于传统机器学习方法的低分辨率环境下微表情识别}\label{chap:owner1}
 
-% 为方便使用及更好地展示\LaTeX{}排版的优秀特性，ucasthesis的框架和文件体系进行了细致地处理，尽可能地对各个功能和板块进行了模块化和封装，对于初学者来说，众多的文件目录也许一开始让人觉得有些无所适从，但阅读完下面的使用说明后，会发现原来使用思路是简单而清晰的，而且，当对\LaTeX{}有一定的认识和了解后，会发现其相对Word类排版系统极具吸引力的优秀特性。所以，如果是初学者，请不要退缩，请稍加尝试和坚持，以领略到\LaTeX{}的非凡魅力，并可以通过阅读相关资料如\LaTeX{} Wikibook\citep{wikibook2014latex}来完善自己的使用知识。
+微表情是一种基本的非言语行为，可以忠实地表达人类隐藏的情感。它在国家安全、计算机辅助诊断等领域有着广泛的应用，鼓励我们开展微表情自动识别的研究。然而，从监控视频中获取的图像容易出现质量低下的问题，给实际应用带来困难。由于所捕获图像的质量较低，现有的算法无法达到预期的效果。针对这一问题，我们对面部幻觉法在低分辨率情况下的微表情识别问题进行了全面的研究。实验结果表明，该框架在低分辨率情况下的微表情识别中取得了良好的效果。
+
+目前的微表情识别算法虽然取得了较为合理的效果，但其性能在很大程度上取决于人脸视频剪辑的质量。一旦用于识别的人脸视频片段质量较差(如分辨率较低)，上述算法就无法正常工作。原因主要有两个方面:(1)低分辨率图像丢失了大量的细节信息，导致从低分辨率图像序列中提取可用特征的困难\citep{lei2011local}。(2)低分辨率图像与高分辨率图像(如不同分辨率、不同清晰度)不一致，导致我们在测试阶段无法直接使用低分辨率图像作为输入。在现实世界中，从监控录像中获取的面部图像通常只占整个画面的一小部分。例如，用于微表情识别的SMIC数据集的面部分辨率为$190\times230$。然而，监控视频捕捉到的面部图像序列的分辨率往往在$50\times50$(或更低)以下。这意味着以前的微表情识别方法不能直接用于处理低分辨率的情况。因此，低分辨率情况下的微表情识别研究具有重要意义和挑战性。
+
+为了解决上述问题，我们利用最近的面部幻觉方法进行了低分辨率微表情识别的研究。我们首先对低质量的人脸图像序列产生幻觉，以恢复丢失的动态特征。然后，我们采用传统的微表情识别方法来探索低质量的微表情识别。我们评估了不同分辨率下微表情识别准确率的表现，研究了分辨率与识别准确率之间的关系。一般来说，本文的目标是全面研究分辨率对微表情识别的影响，同时开发一个框架来处理低质量条件下的微表情识别任务。
+
+低分辨率微表情识别过程包括图像序列预处理、超分辨率重建、特征提取和分类，如图~\ref{fig10}所示。详细描述如下:
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{LR0}
+    \caption{低分辨率环境下微表情识别框架}
+    \label{fig10}
+\end{figure}
 
 \section{低分辨率微表情数据获取}
 
-% \begin{enumerate}
-%     \item 安装软件：根据所用操作系统和章节~\ref{sec:system}中的信息安装\LaTeX{}编译环境。
-%     \item 获取模板：下载 \href{https://github.com/mohuangrui/ucasthesis}{ucasthesis} 模板并解压。ucasthesis模板不仅提供了相应的类文件，同时也提供了包括参考文献等在内的完成学位论文的一切要素，所以，下载时，推荐下载整个ucasthesis文件夹，而不是单独的文档类。
-%     \item 编译模板：
-%         \begin{enumerate}
-%             \item Windows：双击运行artratex.bat脚本。
-%             \item Linux或MacOS: {\scriptsize \verb|terminal| -> \verb|chmod +x ./artratex.sh| -> \verb|./artratex.sh xa|}
-%             \item 任意系统：都可使用\LaTeX{}编辑器打开Thesis.tex文件并选择xelatex编译引擎进行编译。
-%         \end{enumerate}
-%     \item 错误处理：若编译中遇到了问题，请先查看“常见问题”（章节~\ref{sec:qa}）。
-% \end{enumerate}
-%
-% 编译完成即可获得本PDF说明文档。而这也完成了学习使用ucasthesis撰写论文的一半进程。什么？这就学成一半了，这么简单？？？，是的，就这么简单！
+微表情识别的数据集有很多，如SMIC和CASME II。然而，这些数据集都是专业相机在特定环境下获取的高清图像序列。图~\ref{fig11}显示了SMIC-HS数据集的视频片段中的两帧。我们可以在红色框中发现面部表情的细微变化。特别是白色椭圆区域的运动和白色箭头的位置更为明显。如果图像分辨率太低，这些细节很难被注意到。
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.65\textwidth]{LR1}
+\caption{来自SMIC-HS数据集的两帧}
+\label{fig11}
+\end{figure}
+
+由于现有的自发微表情数据集中不存在低分辨率的图像序列，我们采用图像恶化处理的方法来获得模拟的低分辨率的微表情图像序列。本文将低分辨率图像分为三大类:小尺寸、低质量和小尺寸放大器、质量较差\citep{wang2014low}。我们考虑第三种类型的图像(小尺寸、质量差)，即更接近真实应用的情况，如模拟图像。
+
+在图像重建任务中，低分辨率图像序列是通过对高分辨率图像序列进行模糊、下采样和噪声处理得到的\citep{shi2018hallucinating}:
+\begin{equation}
+    \label{eq1}
+    \boldsymbol{L} = \boldsymbol{DBH}+\boldsymbol{n}
+\end{equation}
+其中 $\boldsymbol{D}$和$\boldsymbol{B}$分别是下采样和模糊处理，$\boldsymbol{H}$是高分辨率图像，$\boldsymbol{n}$是加性噪声，$\boldsymbol{L}$是低分辨率图像。
 
 \section{数据预处理}
 
-\subsection{ASM}
+在我们提出的框架中，预处理主要包括三个步骤:人脸对齐、人脸分割和TIM。原始视频中有自然的姿势变化和无意识的运动。同时，收集不同性别、年龄、种族的参与者的微表情视频片段。因此，为了避免上述非表达因子的干扰，进行人脸对齐和人脸分割是必不可少的。
 
-% Thesis.tex为主文档，其设计和规划了论文的整体框架，通过对其的阅读可以了解整个论文框架的搭建。
+\subsection{主动形状模型}
 
-\subsection{LWM}
+我们从一个特定的片段中选取一个正面和中性表情的帧作为标准模板，手工定位两只眼睛的位置。然后，利用主动形状模型(Active Shape Model, ASM)检测68个面部地标\citep{cootes1995active}。利用局部加权平均(LWM)建立正则帧68个面部地标与其他帧68个面部地标之间的关系，将微表情图像与正则帧对齐，减少非表情因素的干扰\citep{goshtasby1988image}。
 
-% \begin{itemize}
-%     \item Windows：双击Dos脚本artratex.bat可得全编译后的PDF文档，其存在是为了帮助不了解\LaTeX{}编译过程的初学者跨过编译这第一道坎，请勿通过邮件传播和接收此脚本，以防范Dos脚本的潜在风险。
-%     \item Linux或MacOS：在terminal中运行
-%         \begin{itemize}
-%             \item \verb|./artratex.sh xa|：获得全编译后的PDF文档
-%             \item \verb|./artratex.sh x|：快速编译模式
-%         \end{itemize}
-%     \item 全编译指运行 \verb|xelatex+bibtex+xelatex+xelatex| 以正确生成所有的引用链接，如目录，参考文献及引用等。在写作过程中若无添加新的引用，则可用快速编译，即只运行一遍\LaTeX{}编译引擎以减少编译时间。
-% \end{itemize}
+从采集的视频中选取其中没有表情且正面人脸的一帧作为模型脸$\boldsymbol{I_{mod}}$ ，应用ASM算法标定68个人脸关键点$\boldsymbol{\psi(I_{mod})}$，若错误标定其他物品或其他人脸（非主要人脸）时，计算任意对应位置关键点的相对距离$\boldsymbol{L(I_{mod})}$ ：
+\begin{equation}
+    \label{eq2}
+    \boldsymbol{L^{(i)}(I_{mod})}=\left \| \boldsymbol{\psi_{I_{mod}}}(p\pm 68)-\boldsymbol{\psi_{I_{mod}}}(q\pm 68) \right \|_{2}^{2\displaystyle }
+\end{equation}
+其中$i$指标定的关键点组数；$p$、$q$指一个关键点组中任意两点；$n$为关键点的个数，数量为68的倍数。选择相对距离$\boldsymbol{L^{(i)}(I_{mod})}$ 最大的一组关键点确定视频帧中主要人脸。如图~\ref{fig12}所示，1框内为主要人脸，2框为错误识别。
 
-\subsection{TIM}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.65\textwidth]{3LR1}
+\caption{ASM算法标定的68个人脸关键点}
+\label{fig12}
+\end{figure}
 
-% 运行编译脚本后，编译所生成的文档皆存于Tmp文件夹内，包括编译得到的PDF文档，其存在是为了保持工作空间的整洁，因为好的心情是很重要的。
+\subsection{局部加权平均算法}
 
-\section{超分辨重建}
+对每段个视频的第一帧$\boldsymbol{I_{j,1}}$应用ASM算法标定68个人脸关键点$\boldsymbol{\psi (I_{j,1})}$，使用LWM函数建立模型脸关键点集$\boldsymbol{\psi (I_{mod})}$与视频第一帧关键点集$\boldsymbol{\psi (I_{j,1})}$之间的对应关系：
+\begin{equation}
+    \label{eq3}
+    \boldsymbol{T_{j}}=LWM(\boldsymbol{\psi (I_{mod})},\boldsymbol{\psi (I_{J,1}))},~~j=1,\cdots ,l
+\end{equation}
+其中$j$是视频段号，$l$是视频片段总数。对视频片段的所有帧应用该关系，使视频的每一帧具有与模型脸$\boldsymbol{\psi (I_{mod})}$统一的姿态：
+\begin{equation}
+    \label{eq3}
+    \boldsymbol{I_{j,k}^{'}}=\boldsymbol{T_{j}}\times \boldsymbol{I_{j,k}},\quad k=1,\cdots ,n_{j}
+\end{equation}
+其中$\boldsymbol{I_{j,k}}$为第$j$个视频片段的第$k$帧，$\boldsymbol{I_{j,k}^{'}}$为统一姿态后的第$j$个视频片段的第$k$帧，$n_{j}$为$j$视频片段的帧数。如图~\ref{fig13}所示，两图均按照模型脸统一姿态，左图剔除了错误识别，右图改变了头部的倾斜角度。
 
-\subsection{基于块方法}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.65\textwidth]{3LR2}
+\caption{LWM算法人脸对齐后的图像}
+\label{fig13}
+\end{figure}
 
-% 包含ucasthesis文档类的定义文件和配置文件，通过对它们的修改可以实现特定的模版设定。若需更新模板，一般只需用新的样式文件替换旧的即可。
-%
-% \begin{enumerate}
-%     \item ucasthesis.cls：文档类定义文件，论文的最核心的格式即通过它来定义的。
-%     \item ucasthesis.cfg：文档类配置文件，设定如目录显示为“目~录”而非“目录”。
-%     \item artratex.sty: 常用宏包及文档设定，如参考文献样式、文献引用样式、页眉页脚设定等。这些功能具有开关选项，常只需在Thesis.tex中的如下命令中进行启用即可，一般无需修改artratex.sty本身。
-%
-%         \path{\usepackage[options]{artratex}}
-%     \item artracom.sty：自定义命令以及添加宏包的推荐放置位置。
-% \end{enumerate}
+\subsection{时间插值模型}
 
-\subsection{基于像素的方法}
+微表情视频有不同的长度，从4帧到50帧(如果用100帧/秒的相机拍摄)。为了解决视频片段长度不同的问题，Li等人利用TIM算法将序列的所有帧映射到曲线上，对新合成的人脸图像进行固定间隔采样，最终得到相同的预定义序列长度。实验结果表明，该算法提高了识别精度。图~\ref{fig14}显示了TIM的映射过程\citep{zhou2011towards}。
 
-% 文件夹内为论文的所有实体内容，正常情况下，这也是\textbf{使用ucasthesis撰写学文论文时，主要关注和修改的一个位置，注：所有文件都必须采用UTF-8编码，否则编译后将出现乱码文本}，详细分类介绍如下：
-%
-% \begin{itemize}
-%     \item Frontpage.tex：为论文中英文封面及中英文摘要。\textbf{论文封面会根据英文学位名称如Bachelor，Master，或是Doctor自动切换为相应的格式}。
-%     \item Mainmatter.tex：索引需要出现的Chapter。开始写论文时，可以只索引当前章节，以快速编译查看，当论文完成后，再对所有章节进行索引即可。
-%     \item Chap{\_}xxx.tex：为论文主体的各个章节，可根据需要添加和撰写。
-%     \item Appendix.tex：为附录内容
-%     \item Backmatter.tex：为发表文章信息和致谢部分等。
-% \end{itemize}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.65\textwidth]{LR2}
+\caption{输入为原始图像序列，输出为TIM算法插值后图像序列}
+\label{fig14}
+\end{figure}
 
-\section{LSVM及参数设置}
+对由重建出的高分辨率图像组成的图像序列应用TIM算法统一帧数。具体操作为：将重建的图像序列映射到一条非线性曲线上$\mathcal{F}^{n}:\left [ 1/n,1 \right ]\rightarrow \mathbb{R}^{n-1}$ ,
+\begin{equation}
+    \label{eq4}
+    \mathcal{F}^{n}(t)=\begin{bmatrix}f_{1}^{n}(t)\\ f_{2}^{n}(t)\\ \vdots \\ f_{n-1}^{n}(t)\end{bmatrix}
+\end{equation}
+其中$f_{k}^{n}(t)=sin(\pi kt+\pi (n-k)/n),\quad t\in \left [ 1/n,1 \right ]$ ，$n$为视频段中帧数（图像序列个数），根据实验需求等间距采样，获得统一帧数。
+
+\section{超分辨重建过程}
+
+低分辨率图像和高分辨率图像在质量和分辨率上都是不同的。高分辨率图像序列的微表情识别方法不能直接应用于低分辨率图像序列。在2.1节中，我们介绍了从高分辨率图像生成低分辨率图像的过程。
+
+为了重建高分辨率图像，论文\citepns{shi2018hallucinating}提出了一种新的人脸幻觉算法。将基于块的正则化项与基于像素的正则化项相结合，对目标函数进行约束。重构后的高分辨率图像$\boldsymbol{H}$可以通过最小化以下目标函数得到:
+\begin{equation}
+ \label{eq4}
+ \begin{split}
+    f\left ( \boldsymbol{H} \right )= \left \| \boldsymbol{L}-\boldsymbol{DBH} \right \|{_{2}^{2}}+\alpha \boldsymbol{F}_{patch}+\eta \boldsymbol{F}_{pixel}+\lambda \boldsymbol{F}_{penalty}
+ \end{split}
+\end{equation}
+其中右侧第一项为重建误差，后三项分别是基于块的正则项、基于像素的正则项以及惩罚项。图~\ref{fig15}展现了重建工作的具体流程。具体将在下文详细介绍。
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.75\textwidth]{LR3}
+\caption{Super-resolution Reconstruction.}
+\label{fig15}
+\end{figure}
+
+\subsection{基于的块方法}
+
+将分割后的图像$\boldsymbol{L}$（低分辨率图像）应用三线性插值法调整为与训练样本图像$\boldsymbol{H}$（高分辨率图像，来自公开的高分辨率图像集）大小相等的尺寸，将此图命为$\boldsymbol{H^{(0)}}$（超分辨重建过程的初始图像），对图像分块处理（如分块数为$8\times8$），如图7所示，最小化代价函数：
+\begin{equation}
+ \label{eq5}
+ \begin{split}
+   \boldsymbol{J_{\tau }(\omega _{\tau },H^{(k)})} & =\left \{ \left \| \boldsymbol{\phi (R_{\tau }H^{k})}-\boldsymbol{\phi (H_{\tau })\omega _{\tau }} \right \| _{2}^{2}+\boldsymbol{\lambda} \left \| \boldsymbol{d_{\tau }}\bigotimes \boldsymbol{\omega _{\tau }} \right \|_{2}^{2}\right \} \\
+   \boldsymbol{s.t. 1^{T}\omega _{\tau }}= 1 & ,2,\cdots ,M
+ \end{split}
+\end{equation}
+估算结合系数$\boldsymbol{\omega _{\tau }}$ ，将其初始结合系数命名为$\boldsymbol{\omega_{\tau }^{0}}$，此时$\boldsymbol{H^{(k)}}$ 已知，即$\boldsymbol{H^{(0)}}$ ，其中$\boldsymbol{\tau}$为图像中图像块的位置，$\boldsymbol{R_{\tau }}$为提取所有图像集位置$\tau$的图像块的矩阵， $\boldsymbol{H_{\tau }}=\left [ h_{\tau }^{1},\cdots ,h_{\tau }^{N} \right ]$为高分辨率图像位置$\boldsymbol{\tau}$处图像块集（$N$为训练样本的数量，即高分辨率图像集的数量），$\boldsymbol{\phi (\cdot )}$ 为从原始空间到无限维再生核希尔 伯特空间（Reproducing Kernel Hilbert Space, RKHS）的映射，$\boldsymbol{d_{p}}$ 描述了目标高分辨率块（重建出的块）与相应的训练样本块在核映射空间的核相似性，$\bigotimes$ 表示哈达玛积，$\boldsymbol{\lambda}$为惩罚参数，$\boldsymbol{1}$为全为1的列向量，$M$为图像的块数。
+
+将获得的$\boldsymbol{\omega _{\tau }}$（$\boldsymbol{\omega_{\tau }^{0}}$）代入公式（5），并最小化：
+\begin{equation}
+ \label{eq6}
+ \begin{split}
+   \boldsymbol{f(H)}= \left \| \boldsymbol{L^{k}}-\boldsymbol{DBH^{k}} \right \|_{2}^{2}+\boldsymbol{\eta \sum_{\tau }}\left \| \boldsymbol{x_{\tau }h^{k}}-\boldsymbol{\beta _{\tau }H_{\tau }} \right \|_{2}^{2}+ \\
+   \boldsymbol{\alpha \sum_{\tau }}(\left \| \boldsymbol{\phi (R_{\tau }H^{k})}-\boldsymbol{\phi (H_{\tau })\omega _{\tau } }\right \|_{2}^{2}+ \boldsymbol{\lambda} & \left \| \boldsymbol{d_{\tau }}\bigotimes \boldsymbol{\omega _{\tau } }\right \|_{2}^{2})+\boldsymbol{\sigma MSE} \\
+   \boldsymbol{s.t. \quad 1^{T}\omega _{\tau }}= 1,2,\cdots ,M \qquad \qquad \qquad \qquad \qquad \quad &
+ \end{split}
+\end{equation}
+获得重建的高分辨率图像$\boldsymbol{H^{(k)}}$（初始结果命名为$\boldsymbol{H^{(1)}}$），其中$\boldsymbol{D}$为下采样矩阵，$\boldsymbol{B}$为模糊处理矩阵，$\boldsymbol{\beta _{\tau }}$为规范全局优化的像素间关系矩阵，$\boldsymbol{MSE}$为均方误差，$\boldsymbol{\eta }$为基于像素正则项的权重，$\boldsymbol{\alpha}$为基于块正则项的权重，$\boldsymbol{\sigma}$为均方误差的权重。
+% \subsection{基于像素的方法}
+
+
+\section{微表情识别}
+如图~\ref{fig10}所示，微表情识别主要分为两部分:特征提取和分类。在以往的微表达分析方法中研究人员展示了LBP-TOP及其变体作为特征描述符的优势。与传统的基于单个图像的LBP特征不同，LBP-TOP可以捕捉到空间和时间域的动态变化，这对于微表情识别是必不可少的。我们首先将整个人脸图像序列划分为几个长方体，如$ 5\times5\times1 $，$ 8\times8\times2 $等，其中前两个参数决定了空间域中的块数，最后一个参数是时间方向上的段数。每个长方体都可以看作一个新的单位。LBP特征提取自新单元中三个不同的正交平面(XY、XT、YT)。我们遍历所有长方体，得到图像序列的LBP-TOP特征，然后将每个长方体的LBP-TOP特征串联起来。如图5所示。
+
+在分类部分，我们使用线性支持向量机(LSVM)作为分类器\citep{chang2011libsvm}。为了进行公平的比较，我们在实验中采用了一主体退出协议。根据数据集发布方提供的微表情表签，我们将来自SMIC的样本分为三类(positive, negative, surprise)，来自CASME II的样本分为五类(happiness, surprise, repression，disgust， and other)。
+
+% \subsection{LBP-TOP特征提取}
+
+
 
 \subsection{LSVM}
 
-% 用于放置论文中所需要的图类文件，支持格式有：.jpg, .png, .pdf。其中，\verb|ucas_logo.pdf|为国科大校徽。不建议为各章节图片建子目录，即使图片众多，若命名规则合理，图片查询亦是十分方便。
+支持向量机(Support Vector Machine, SVM)是曾经打败神经网络的分类方法，从90年代后期开始在很多领域均有举足轻重的应用，近年来，由于深度学习的兴起，SVM的风光开始衰退，但是其仍然不失为一种经典的分类方法。SVM最初由 Vladimir N. Vapnik 和 Alexey Ya. Chervonenkis于1963年提出，之后经过一系列改进，现今普遍使用的版本由Corinna Cortes 和 Vapnik于1993年提出，并在1995年发表。深度学习兴起之前，SVM被认为是机器学习近几十年来最成功、表现最好的方法。
 
-\subsection{参数设置}
+本文讨论线性可分的支持向量机，详细推导其最大间隔和对偶问题的原理。简单起见，以二分类为例，如下图，设训练集为D={(x1,y1),...,(xn,yn)}D={(x1,y1),...,(xn,yn)}，蓝色圆点为一类，红色方块为另一类，分类的目标是寻找一个超平面，将两类数据分开。在二维平面中，分类超平面就是一条直线，从图中可以看出，能将训练样本分开的超平面有很多可能(图中绿色虚线)，超平面除了要将训练集中的数据分开，还要有较好的泛化性能，需要把测试集中的数据也划分开。从直观上看，绿色实线是比较好的一个划分，因为该直线距离两类数据点均较远，对于数据局部扰动的容忍性较好，能够以较大的置信度将数据进行分类。
 
-% \begin{enumerate}
-%     \item ref.bib：参考文献信息库。
-%     \item gbt7714-xxx.bst：符合国标的文献样式定义文件。由 \href{https://github.com/zepinglee/gbt7714-bibtex-style}{zepinglee}  开发，并满足最新国标要求。与文献样式有关的问题，请查阅开发者所提供的文档，并建议适当追踪其更新。
-% \end{enumerate}
 
 \section{实验及分析}
 
-% \subsection{数学公式}
-%
-% 比如Navier-Stokes方程:
-% \begin{equation} \label{eq:ns}
-%     \begin{cases}
-%         \frac{\partial \rho}{\partial t} + \nabla\cdot(\rho\Vector{V}) = 0 \ \mathrm{times\ font\ test}\\
-%         \frac{\partial (\rho\Vector{V})}{\partial t} + \nabla\cdot(\rho\Vector{V}\Vector{V}) = \nabla\cdot\Tensor{\sigma} \ \text{times font test}\\
-%         \frac{\partial (\rho E)}{\partial t} + \nabla\cdot(\rho E\Vector{V}) = \nabla\cdot(k\nabla T) + \nabla\cdot(\Tensor{\sigma}\cdot\Vector{V})
-%     \end{cases}
-% \end{equation}
-% \begin{equation}
-%     \frac{\partial }{\partial t}\int\limits_{\Omega} u \, \mathrm{d}\Omega + \int\limits_{S} \unitVector{n}\cdot(u\Vector{V}) \, \mathrm{d}S = \dot{\phi}
-% \end{equation}
-%
-% 数学公式常用命令请见 \href{https://en.wikibooks.org/wiki/LaTeX/Mathematics}{WiKibook Mathematics}。artracom.sty中对一些常用数据类型如矢量矩阵等进行了封装，这样的好处是如有一天需要修改矢量的显示形式，只需单独修改artracom.sty中的矢量定义即可实现全文档的修改。
+我们现在在三个不同的自发微表达数据集上展示实验和结果，即SMIC-HS, SMIC-subHS和CASME II。实验参数的设置和结果分析将在下面的小节中讨论。
 
-% \subsection{表格}
-%
-% 请见表~\ref{tab:sample}。制表的更多范例，请见 \href{https://en.wikibooks.org/wiki/LaTeX/Tables}{WiKibook Tables}。
-% \begin{table}[!htbp]
-%     \caption{这是一个样表}
-%     \label{tab:sample}
-%     \centering
-%     \footnotesize% fontsize
-%     \setlength{\tabcolsep}{4pt}% column separation
-%     \renewcommand{\arraystretch}{1.2}%row space
-%     \begin{tabular}{lcccccccc}
-%         \hline
-%         Row number & \multicolumn{8}{c}{This is a multicolumn} \\
-%         %\cline{2-9}% partial hline from column i to column j
-%         \hline
-%         Row 1 & $1$ & $2$ & $4$ & $5$ & $6$ & $7$ & $8$\\
-%         Row 2 & $1$ & $2$ & $4$ & $5$ & $6$ & $7$ & $8$\\
-%         Row 3 & $1$ & $2$ & $4$ & $5$ & $6$ & $7$ & $8$\\
-%         Row 4 & $1$ & $2$ & $4$ & $5$ & $6$ & $7$ & $8$\\
-%         \hline
-%     \end{tabular}
-% \end{table}
-%
-% \subsection{图片插入}
-%
-% 论文中图片的插入通常分为单图和多图，下面分别加以介绍：
-%
-% 单图插入：假设插入名为\verb|tc_q_criteria|（后缀可以为.jpg、.png、.pdf，下同）的图片，其效果如图\ref{fig:tc_q_criteria}。
-% \begin{figure}[!htbp]
-%     \centering
-%     \includegraphics[width=0.40\textwidth]{tc_q_criteria}
-%     \caption{Q判据等值面图，同时测试一下一个很长的标题，比如这真的是一个很长很长很长很长很长很长很长很长的标题}
-%     \label{fig:tc_q_criteria}
-% \end{figure}
-%
-% 如果插图的空白区域过大，以图片\verb|shock_cyn|为例，自动裁剪如图\ref{fig:shock_cyn}。
-% \begin{figure}[!htbp]
-%     \centering
-%     %trim option's parameter order: left bottom right top
-%     \includegraphics[trim = 30mm 0mm 30mm 0mm, clip, width=0.40\textwidth]{shock_cyn}
-%     \caption{激波圆柱作用}
-%     \label{fig:shock_cyn}
-% \end{figure}
-%
-% 多图的插入如图\ref{fig:oaspl}，多图不应在子图中给文本子标题，只要给序号，并在主标题中进行引用说明。
-% \begin{figure}[!htbp]
-%     \centering
-%     \begin{subfigure}[b]{0.35\textwidth}
-%       \includegraphics[width=\textwidth]{oaspl_a}
-%       \caption{}
-%       \label{fig:oaspl_a}
-%     \end{subfigure}%
-%     ~%add desired spacing
-%     \begin{subfigure}[b]{0.35\textwidth}
-%       \includegraphics[width=\textwidth]{oaspl_b}
-%       \caption{}
-%       \label{fig:oaspl_b}
-%     \end{subfigure}
-%     \begin{subfigure}[b]{0.35\textwidth}
-%       \includegraphics[width=\textwidth]{oaspl_c}
-%       \caption{}
-%       \label{fig:oaspl_c}
-%     \end{subfigure}%
-%     ~%add desired spacing
-%     \begin{subfigure}[b]{0.35\textwidth}
-%       \includegraphics[width=\textwidth]{oaspl_d}
-%       \caption{}
-%       \label{fig:oaspl_d}
-%     \end{subfigure}
-%     \caption{总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息}
-%     \label{fig:oaspl}
-% \end{figure}
-%
-% \subsection{算法}
-%
-% 如见算法~\ref{alg:euclid}，详细使用方法请参见文档 \href{https://ctan.org/pkg/algorithmicx?lang=en}{algorithmicx}。
-%
-% \begin{algorithm}[!htbp]
-%     \small
-%     \caption{Euclid's algorithm}\label{alg:euclid}
-%     \begin{algorithmic}[1]
-%         \Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
-%         \State $r\gets a\bmod b$
-%         \While{$r\not=0$}\Comment{We have the answer if r is 0}
-%         \State $a\gets b$
-%         \State $b\gets r$
-%         \State $r\gets a\bmod b$
-%         \EndWhile\label{euclidendwhile}
-%         \State \textbf{return} $b$\Comment{The gcd is b}
-%         \EndProcedure
-%     \end{algorithmic}
-% \end{algorithm}
-%
-% \subsection{参考文献引用}
-%
-% 参考文献引用过程以实例进行介绍，假设需要引用名为"Document Preparation System"的文献，步骤如下：
-%
-% 1）使用Google Scholar搜索Document Preparation System，在目标条目下点击Cite，展开后选择Import into BibTeX打开此文章的BibTeX索引信息，将它们copy添加到ref.bib文件中（此文件位于Biblio文件夹下）。
-%
-% 2）索引第一行 \verb|@article{lamport1986document,|中 \verb|lamport1986document| 即为此文献的label (\textbf{中文文献也必须使用英文label}，一般遵照：姓氏拼音+年份+标题第一字拼音的格式)，想要在论文中索引此文献，有两种索引类型：
-%
-% 文本类型：\verb|\citet{lamport1986document}|。正如此处所示 \citet{lamport1986document};
-%
-% 括号类型：\verb|\citep{lamport1986document}|。正如此处所示 \citep{lamport1986document}。
-%
-% \textbf{多文献索引用英文逗号隔开}：
-%
-% \verb|\citep{lamport1986document, chu2004tushu, chen2005zhulu}|。正如此处所示 \citep{lamport1986document, chu2004tushu, chen2005zhulu}
-%
-% 更多例子如：
-%
-% \citet{walls2013drought}根据...的研究，首次提出...。其中关于...\citep{walls2013drought}，是当前中国...得到迅速发展的研究领域\citep{chen1980zhongguo}。引用同一著者在同一年份出版的多篇文献时,在出版年份之后用
-% 英文小写字母区别，如：\citep{yuan2012lana, yuan2012lanb, yuan2012lanc}。同一处引用多篇文献时,按出版年份由近及远依次标注,中间用
-% 分号分开。例如\citep{chen1980zhongguo, stamerjohanns2009mathml, hls2012jinji, niu2013zonghe}。
-%
-% 使用著者-出版年制（authoryear）式参考文献样式时，中文文献必须在BibTeX索引信息的 \textbf{key} 域（请参考ref.bib文件）填写作者姓名的拼音，才能使得文献列表按照拼音排序。参考文献表中的条目（不排序号），先按语种分类排列，语种顺 序是：中文、日文、英文、俄文、其他文种。然后，中文按汉语拼音字母顺序排列，日文按第一著者的姓氏笔画排序，西文和 俄文按第一著者姓氏首字母顺序排列。如中\citep{niu2013zonghe}、日\citep{Bohan1928}、英\citep{stamerjohanns2009mathml}、俄\citep{Dubrovin1906}。
-%
-% 如此，即完成了文献的索引，请查看下本文档的参考文献一章，看看是不是就是这么简单呢？是的，就是这么简单！
-%
-% 不同文献样式和引用样式，如著者-出版年制（authoryear）、顺序编码制（numbers）、上标顺序编码制（super）可在Thesis.tex中对artratex.sty调用实现，如：
-% \begin{itemize}
-%     \footnotesize
-%     \item \verb+\usepackage[numbers]{artratex}+ $\%$ 文本: Jones [1]; 括号: [1]
-%     \item \verb+\usepackage[super]{artratex}+ $\%$ 文本: Jones 上标[1]; 括号: 上标[1]
-%     \item \verb+\usepackage[authoryear]{artratex}+ $\%$ 文本: Jones (1995); 括号: (Jones, 1995)
-%     \item \verb+\usepackage[alpha]{artratex}+ $\%$ 文本: 不可用; 括号: [Jon95]
-% \end{itemize}
-%
-% 当前文档的默认参考文献样式为\textbf{authoryear}。若在上标（\textbf{super}）模式下，希望在特定位置将上标改为嵌入式标，可使用
-%
-% 文本类型：\verb|\citetns{lamport1986document,chen2005zhulu}|。
-%
-% 正如此处所示\citetns{lamport1986document,chen2005zhulu}
-%
-% 括号类型：\verb|\citepns{lamport1986document,chen2005zhulu}|。
-%
-% 正如此处所示\citepns{lamport1986document,chen2005zhulu}
-%
-% 参考文献索引更为详细的信息，请见 \href{https://github.com/zepinglee/gbt7714-bibtex-style}{zepinglee} 和 \href{https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management}{WiKibook Bibliography}。
-%
-% \nocite{*}
-%
-% \section{常见使用问题}\label{sec:qa}
-%
-% \begin{enumerate}
-%     \item 模板每次发布前，都已在Windows，Linux，MacOS系统上测试通过。下载模板后，若编译出现错误，则请见 \href{https://github.com/mohuangrui/ucasthesis/wiki}{ucasthesis和\LaTeX{}知识小站} 的 \href{https://github.com/mohuangrui/ucasthesis/wiki/%E7%BC%96%E8%AF%91%E6%8C%87%E5%8D%97}{编译指南}。
-%
-%     \item 模板文档的编码为UTF-8编码。所有文件都必须采用UTF-8编码，否则编译后生成的文档将出现乱码文本。若出现文本编辑器无法打开文档或打开文档乱码的问题，请检查编辑器对UTF-8编码的支持。如果使用WinEdt作为文本编辑器（\textbf{不推荐使用}），应在其Options -> Preferences -> wrapping选项卡下将两种Wrapping Modes中的内容：
-%
-%         TeX;HTML;ANSI;ASCII|DTX...
-%
-%         修改为：TeX;\textbf{UTF-8|ACP;}HTML;ANSI;ASCII|DTX...
-%
-%         同时，取消Options -> Preferences -> Unicode中的Enable ANSI Format。
-%
-%     \item 推荐选择xelatex或lualatex编译引擎编译中文文档。编译脚本的默认设定为xelatex编译引擎。你也可以选择不使用脚本编译，如直接使用 \LaTeX{}文本编辑器编译。注：\LaTeX{}文本编辑器编译的默认设定为pdflatex编译引擎，若选择xelatex或lualatex编译引擎，请进入下拉菜单选择。为正确生成引用链接，需要进行全编译。
-%
-%     \item Texmaker使用简介
-%         \begin{enumerate}
-%             \footnotesize
-%             \item 使用 Texmaker “打开 (Open)” Thesis.tex。
-%             \item 菜单 “选项 (Options)” -> “设置当前文档为主文档 (Define as Master Document)”
-%             \item 菜单 “自定义 (User)” -> “自定义命令 (User Commands)” -> “编辑自定义命令 (Edit User Commands)” -> 左侧选择 “command 1”，右侧 “菜单项 (Menu Item)” 填入 Auto Build -> 点击下方“向导 (Wizard)” -> “添加 (Add)”: xelatex + bibtex + xelatex + xelatex + pdf viewer -> 点击“完成 (OK)”
-%             \item 使用 Auto Build 编译带有未生成引用链接的源文件，可以仅使用 xelatex 编译带有已经正确生成引用链接的源文件。
-%             \item 编译完成，“查看(View)” PDF，在PDF中 “ctrl+click” 可链接到相对应的源文件。
-%         \end{enumerate}
-%
-%     \item 模版的设计可能地考虑了适应性。致谢等所有条目都是通过最为通用的
-%
-%         \verb+\chapter{item name}+  and \verb+\section*{item name}+
-%
-%         来显式实现的 (请观察Backmatter.tex)，从而可以随意添加，放置，和修改，如同一般章节。对于图表目录名称则可在ucasthesis.cfg中进行修改。
-%
-%     \item 设置文档样式: 在artratex.sty中搜索关键字定位相应命令，然后修改
-%         \begin{enumerate}
-%             \item 正文行距：启用和设置 \verb|\linespread{1.5}|，默认1.5倍行距。
-%             \item 参考文献行距：修改 \verb|\setlength{\bibsep}{0.0ex}|
-%             \item 目录显示级数：修改 \verb|\setcounter{tocdepth}{2}|
-%             \item 文档超链接的颜色及其显示：修改 \verb|\hypersetup|
-%         \end{enumerate}
-%
-%     \item 文档内字体切换方法：
-%         \begin{itemize}
-%             \item 宋体：国科大论文模板ucasthesis 或 \textrm{国科大论文模板ucasthesis}
-%             \item 粗宋体：{\bfseries 国科大论文模板ucasthesis} 或 \textbf{国科大论文模板ucasthesis}
-%             \item 黑体：{\sffamily 国科大论文模板ucasthesis} 或 \textsf{国科大论文模板ucasthesis}
-%             \item 粗黑体：{\bfseries\sffamily 国科大论文模板ucasthesis} 或 \textsf{\bfseries 国科大论文模板ucasthesis}
-%             \item 仿宋：{\ttfamily 国科大论文模板ucasthesis} 或 \texttt{国科大论文模板ucasthesis}
-%             \item 粗仿宋：{\bfseries\ttfamily 国科大论文模板ucasthesis} 或 \texttt{\bfseries 国科大论文模板ucasthesis}
-%             \item 楷体：{\itshape 国科大论文模板ucasthesis} 或 \textit{国科大论文模板ucasthesis}
-%             \item 粗楷体：{\bfseries\itshape 国科大论文模板ucasthesis} 或 \textit{\bfseries 国科大论文模板ucasthesis}
-%         \end{itemize}
-%
-%     \item 封面下划线上的文本不居中下划线，这是因为下划线前面还有字头，导致文本只能在页面居中和在下划线上居中二选一。当前封面采取页面居中。如需要调整文本在下划线上的位置，可用 \verb|\hspace{+/- n.0em}| 命令来插入或删除 n 个空格，进行手动调整，比如
-%
-%         \verb|\advisor{\hspace{+3.0em} xxx~研究员~xxx单位}|
-%
-%     有时下划线看上去粗细不一致，这是显示的问题，打印正常。
-% \end{enumerate}
+\begin{table}[!htbp]
+\centering
+\caption{实验中使用的数据集}
+\label{tab4}
+\begin{tabular}{c|ccc}
+\hline
+ & SMIC-HS & SMIC-subHS & CASME II \\ \hline
+微表情数 & 164 & 71 & 247 \\
+参与者 & 16 & 8 & 26 \\
+分类 & 3 & 3 & 5 \\ \hline
+\end{tabular}
+\end{table}
+
+SMIC- hs和SMIC- subhs是SMIC的两个子集。SMIC-HS数据集包含来自16名参与者的164个自发微表情片段，分为三类:阳性(51个片段)、阴性(70个片段)和惊奇(43个片段)。SMIC-subHS数据集是SMIC-HS的子集，只包含最后8个参与者。前8名受试者的微表达片段数量差异较大，其中3名受试者贡献了整个组近一半的微表达样本，这可能会影响“一受试者退出”的表现，而后8名受试者的s (SMIC-subHS)片段数量分布较为均匀。SMIC-subHS数据集中，正负、惊喜片段分别为28、23、20个。同时，CASME II数据集包含26名参与者，分别属于5个不同的类别:惊讶(25个片段)、幸福(32个片段)、其他(99个片段)、厌恶(64个片段)和压抑(27个片段)。表1显示了实验中使用的数据集的摘要。面部高分辨率图像的分辨率设置为$ 128 \times 128 $的实验。$ 128 \times 128 $分辨率的图像下采样乘以2,4,8次获得低分辨率图像(如图6)。这意味着我们评估三个不同层次的低分辨率的面部图像序列(如$ 16 \times 16 $, $ 32 \times 32 $, $ 64 \times 64 $)的微识别任务。
+
+\begin{figure}[!htbp]
+    \centering
+    \begin{subfigure}[b]{0.35\textwidth}
+      \includegraphics[width=\textwidth]{LR41}
+      \caption{}
+    \end{subfigure}%
+    ~ ~%add desired spacing
+    \begin{subfigure}[b]{0.35\textwidth}
+      \includegraphics[width=\textwidth]{LR42}
+      \caption{}
+    \end{subfigure}
+    \caption{低分辨率图像\\ \footnotesize \textmd{(a) SMIC-HS/SMIC-subHS数据集低分辨率图像，(b) CASME II数据集低分辨率图像}}
+    \label{fig14}
+\end{figure}
+
+在本节中，利用论文\citepns{shi2018hallucinating}提出的方法将低分辨率图像重建为高分辨率图像，该方法在2.3节中进行了简要介绍。表2-3列出了不同分辨率下重建图像序列的平均峰值信噪比(PSNR)和结构相似度(SSIM)指数。在这里，我们分别使用S64、S32和S16来命名分辨率为$ 64 \times 64 $, $ 32 \times 32 $和$ 16 \times 16 $的重建图像序列。
+
+\begin{table}[!htbp]
+\centering
+\caption{重建图像序列的平均PSNR(dB)指标}
+\label{tab5}
+\begin{tabular}{c|ccc}
+\hline
+PSNR (dB) & $ 16 \times 16 $ & $ 32 \times 32 $ & $ 64 \times 64 $ \\ \hline
+SMIC-HS & 31.25 & 37.67 & 44.30 \\
+SMIC-subHS & 31.67 & 38.26 & 43.22 \\
+CASME II & 31.80 & 36.49 & 37.83 \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{重建图像序列的平均SSIM指标}
+\label{tab6}
+\begin{tabular}{c|ccc}
+\hline
+SSIM & $ 16 \times 16 $ & $ 32 \times 32 $ & $ 64 \times 64 $ \\ \hline
+SMIC-HS & 0.9397 & 0.9775 & 0.9883 \\
+SMIC-subHS & 0.8970 & 0.9346 & 0.9424 \\
+CASME II & 0.9439 & 0.9761 & 0.9882 \\ \hline
+\end{tabular}
+\end{table}
+
+如表2和表3所示，重建的人脸图像序列的定量指标(PSNR/SSIM)与输入人脸图像序列的分辨率成正比。例如，在SMIC-HS数据集中，S16的PSNR指数为31.25dB，比S32低6.42dB，比S64低13.05dB。对于SSIM指数，S16达到0.9397，比S32低0.0378，比S64低0.0486。此外，图7给出了重建后的图像序列的视觉表现，也表明了与上述观点相同的结论。
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.75\textwidth]{LR5}
+\caption{不同分辨率图像重建结果比较}
+\label{fig15}
+\end{figure}
+
+为了对视频片段的时长进行归一化，使用TIM算法将视频片段的帧数插值为10帧，如2.2节所述。我们应用快速LBP-TOP将视频剪辑成不同的长方体和提取每个长方体的LBP-TOP特征构成一个完整的功能,使用统一的映射,半径设置为$ r=2 $,和相邻点$p$的数量设置为$ p=8 $。我们使用leave-one-subject-out协议进行实验，即，将一个受试者的所有样本作为测试集，其他受试者的所有样本作为训练集。我们采用LSVM作为分类器，其中惩罚系数$c=1$。
+
+在本节中，我们提出了低分辨率图像序列的微表情识别性能的基线。为了适应不同分辨率的测试样本，我们将训练集从$ 128 \times 128 $下采样到对应的分辨率(即)，以便进行分类程序。注意，下采样操作导致微表达式缺乏判别特征。接下来的实验也表明，在非常低的分辨率下，识别的准确率会急剧下降。
+
+图8显示了不同分辨率图像序列在不同数据集上的识别精度。在这里，我们分别使用L64、L32和L16来命名低分辨率图像序列。从图8可以看出，当输入图像序列的分辨率从$ 64 \times 64 $降低到$ 32 \times 32 $时，SMIC-SubHS数据集(蓝色折线)的识别准确率显著降低。同时，我们可以看到低分辨率图像序列(如L16)的准确率相对较低。这一现象表明，低分辨率的图像序列很难获得满意的结果。主要原因是低分辨率导致微表情描述缺乏高频信息和纹理细节。
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.60\textwidth]{LR6}
+\caption{不同数据集不同分辨率的图像序列的识别准确度}
+\label{fig16}
+\end{figure}
+
+图9为低分辨率图像序列分类结果的混淆矩阵，并以$ 128 \times 128 $分辨率下的性能为参考。我们可以发现，在SMICSubHS数据集(图9第二列)中，当图像序列的分辨率为$ 128 \times 128 $时，混淆矩阵更加集中在对角线上，说明微表情识别方法的识别效果较好。然而，当图像序列的分辨率降低时，混淆矩阵逐渐变差。我们还可以发现，在SMICHS(图9第一列)和CASME II(图9第三列)中，误分类的比例大于SMICsubHS，图8所示的识别准确率也相对较低。对于SMIC-HS来说，上述问题的主要原因可能是后8个受试者(SMIC-subHS数据集)的分布比前8个受试者更加均衡。对于CASME II来说，主要是由于分布不平衡和类别过多。例如，在CASME II数据集中，来自类other的视频片段数量占40.08\%。
+
+\begin{figure}[]
+\centering
+\includegraphics[width=0.75\textwidth]{LR7}
+\caption{不同分辨率图像序列的识别准确度混淆矩阵}
+\label{fig17}
+\end{figure}
+
+水平方向，从左往右依次是SMIC-HS数据集、SMIC-subHS数据集和CASME II数据集。垂直方向，从上到下依次是$ 128 \times 128 $分辨率混淆矩阵、$ 64 \times 64 $分辨率混淆矩阵、$ 32 \times 32 $分辨率混淆矩阵和 $ 16 \times 16 $。其中P代表积极（positive）、N代表消极（negative）、S代表惊喜（surprise）、R代表蔑视（repression）、D代表沮丧（disgust）、O代表其他（others）、H代表开心（happiness）。
+
+在本小节中，我们将在三个数据集上对我们提出的框架进行实验。首先将测试集重构为$ 128 \times 128 $的分辨率，然后在高分辨率空间中进行分类。通过实证分析，选择了最优参数。表4给出了识别精度以及相应的块大小参数设置。从表4可以看出，实验结果有了显著的改善。例如在SMIC-subHS数据集中，$ 64 \times 64 $分辨率下的图像序列识别准确率从71.83\%提高到74.65\%，提高了2.82\%。S32的识别准确率为74.65\%，比L32高19.72\%。S16的识别准确率为73.24\%，比L16高26.76\%。这表明该方法对低分辨率图像序列的微表情识别精度有较好的提高。我们还注意到，与直接将输入作为原始的128128个图像序列相比，该框架使用S64得到了更好的结果。这可能是因为原始SMIC-HS/subHS数据集中的样本在记录过程中存在明显的噪声，使得人脸序列实际上包含了冗余和噪声信息。
+
+超分辨率重建图像序列识别精度的混淆矩阵如图10所示。我们展示了$ 128 \times 128 $、S64、S32和S16图像序列根据不同数据集的识别精度。从图10可以看出，我们提出的框架的混淆矩阵比图9更集中在对角线上。特别是在$ 16 \times 16 $ SMIC-HS数据集(左下),积极的识别精度有显著提高。此外，我们可以从SMIC-subHS数据集(第二列)的结果中看出，将阴性误分类为阳性的比例显著降低，而将阳性正确分类的比例也得到了大幅提高。不幸的是，尽管CASME II数据集(第三列)的结果有所改善，但每个类别的分类仍然很差，通常错误地划分为其他类别。也许是因为其他微表情包含了所有其他类型的微表情，不包括惊讶、快乐、厌恶和压抑，所以它的分类是混合的。综上所述，从图10和图9的对比中我们可以看出，该框架对于低分辨率的微表情识别具有很好的性能提升。
+
+\begin{table}[!htbp]
+\centering
+\caption{不同分辨率图像在不同数据集上的识别精度比较}
+\label{tab7}
+\footnotesize% fontsize
+\setlength{\tabcolsep}{4pt}% column separation
+\renewcommand{\arraystretch}{1.2}%row space
+\begin{tabular}{c|c|ccc|ccc}
+\hline
+\multirow{2}{*}{Accuracy (\%)} & High-resolution & \multicolumn{3}{c|}{Super-resolution Reconstruction} & \multicolumn{3}{c}{Low-resolution} \\ \cline{2-8}
+ & $ 128 \times 128 $ & $ 64 \times 64 $ & $ 32 \times 32 $ & $ 16 \times 16 $ & $ 64 \times 64 $ & $ 32 \times 32 $ & $ 16 \times 16 $ \\ \hline
+SMIC-HS & \begin{tabular}[c]{@{}c@{}}50.00\\ ($ 8 \times 8 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}52.44\\ ($ 5 \times 5\times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}51.83\\ ($ 5 \times 5 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}51.83\\ ($ 5 \times 5 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}50.00\\ ($ 6 \times 6 \times 5 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}46.95\\ ($ 6 \times 6 \times 5 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}40.24\\ ($ 3 \times 3 \times 6 $)\end{tabular} \\
+SMIC-subHS & \begin{tabular}[c]{@{}c@{}}73.24\\ ($ 5 \times 5 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}74.65\\ ($ 5\times 5 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}74.65\\ ($ 5 \times 5 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}73.24\\ ($ 8 \times 8 \times 3 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}71.83\\ ($ 6 \times 6 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}54.93\\ ($ 6 \times 6 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}46.48\\ ($ 4 \times 4 \times 1 $)\end{tabular} \\
+CASME II & \begin{tabular}[c]{@{}c@{}}48.18\\ ($ 7 \times 7 \times 3 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}48.18\\ ($ 7 \times 7 \times 5 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}44.53\\ ($ 7 \times 7 \times 3 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}42.92\\ ($ 7 \times 7 \times 5 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}44.94\\ ($ 7 \times 7 \times 1 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}44.13\\ ($ 4 \times 4 \times 2 $)\end{tabular} & \begin{tabular}[c]{@{}c@{}}41.30\\ ($ 2 \times 2 \times 5 $)\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+High-resolution是指分辨率为$ 128 \times 128 $的图像序列，Super-resolution Reconstruction是指将低分辨率图像序列通过超分辨率重建方法为$ 128 \times 128 $，Low-resolution是指重建前的低分辨率图像序列。$ \mathrm{X} \times \mathrm{Y}  \times \mathrm{T} $指水平、垂直和时间方向块的数量。
+
+本文对低分辨率微表情识别问题进行了全面的研究。我们使用模糊和下采样模型来生成和模拟低分辨率的微表情人脸图像序列。我们在每一帧上使用面部幻觉的方法重建高质量的面部图像序列，增强局部细节，将低质量的图像序列放大到高分辨率的图像序列。然后利用快速LBP-TOP提取动态特征，利用SVM分类器对微表情进行识别。实验结果表明，在低分辨率的微表情识别问题上，该框架在可公开获取的微表情数据集(SMIC-HS、SMIC-subHS、CASME II)上表现良好。未来，我们将重点研究低分辨率情况下微表情识别的深度特征。

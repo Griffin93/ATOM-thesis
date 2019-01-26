@@ -2,113 +2,58 @@ This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: ./Tmp/Thesis.aux
 The style file: Biblio/gbt7714-unsrt.bst
-Multiple inclusions of entire database
----line 285 of file ./Tmp/Thesis.aux
- : \citation{*
- :            }
-I'm skipping whatever remains of this command
-Multiple inclusions of entire database
----line 342 of file ./Tmp/Thesis.aux
- : \citation{*
- :            }
-I'm skipping whatever remains of this command
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
-I was expecting a `,' or a `}'---line 505 of file Biblio/ref.bib
- :  
- :  TITLE =        {Microexpression identification and categorization using a facial dynamics map},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 521 of file Biblio/ref.bib
+Repeated entry---line 560 of file Biblio/ref.bib
  : @inproceedings{patel2016selective
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 548 of file Biblio/ref.bib
+Repeated entry---line 584 of file Biblio/ref.bib
  : @inproceedings{yan2014casme
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 618 of file Biblio/ref.bib
- : @book{wikibook2014latex
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 624 of file Biblio/ref.bib
- : @book{lamport1986document
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 630 of file Biblio/ref.bib
- : @article{chen2005zhulu
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 640 of file Biblio/ref.bib
- : @book{chu2004tushu
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 648 of file Biblio/ref.bib
- : @article{stamerjohanns2009mathml
- :                                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 658 of file Biblio/ref.bib
- : @book{hls2012jinji
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 668 of file Biblio/ref.bib
- : @proceedings{niu2013zonghe
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 676 of file Biblio/ref.bib
- : @incollection{chen1980zhongguo
- :                               ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "yuan2012lana"
-Warning--I didn't find a database entry for "yuan2012lanb"
-Warning--I didn't find a database entry for "li2018towards"
-Warning--empty year in xu2017microexpression
 Warning--empty journal in Shreve2011Macro
 Warning--empty journal in FLBPTOP_2016
-Warning--empty title in xu2017microexpression
-Warning--empty booktitle in xu2017microexpression
-Warning--empty year in xu2017microexpression
-Warning--empty year in xu2017microexpression
 Warning--empty journal in Song2013Learning
-You've used 77 entries,
+You've used 80 entries,
             3798 wiz_defined-function locations,
-            1259 strings with 20847 characters,
-and the built_in function-call counts, 420429 in all, are:
-= -- 4973
-> -- 49077
-< -- 65130
-+ -- 18140
-- -- 688
-* -- 2694
-:= -- 58795
-add.period$ -- 239
-call.type$ -- 77
-change.case$ -- 143
-chr.to.int$ -- 16338
-cite$ -- 85
-duplicate$ -- 1639
-empty$ -- 4155
-format.name$ -- 1297
-if$ -- 108637
+            1262 strings with 21542 characters,
+and the built_in function-call counts, 469042 in all, are:
+= -- 5148
+> -- 55534
+< -- 73101
++ -- 20016
+- -- 684
+* -- 2857
+:= -- 65129
+add.period$ -- 246
+call.type$ -- 80
+change.case$ -- 158
+chr.to.int$ -- 18116
+cite$ -- 83
+duplicate$ -- 1717
+empty$ -- 4306
+format.name$ -- 1395
+if$ -- 121381
 int.to.chr$ -- 5
-int.to.str$ -- 78
+int.to.str$ -- 81
 missing$ -- 0
-newline$ -- 402
-num.names$ -- 234
-pop$ -- 22467
+newline$ -- 415
+num.names$ -- 240
+pop$ -- 25794
 preamble$ -- 1
-purify$ -- 77
+purify$ -- 80
 quote$ -- 0
-skip$ -- 43233
+skip$ -- 48634
 stack$ -- 0
-substring$ -- 18090
-swap$ -- 235
-text.length$ -- 741
+substring$ -- 19911
+swap$ -- 251
+text.length$ -- 783
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 658
-warning$ -- 8
-while$ -- 960
+type$ -- 700
+warning$ -- 3
+while$ -- 1015
 width$ -- 0
-write$ -- 1133
-(There were 13 error messages)
+write$ -- 1178
+(There were 2 error messages)

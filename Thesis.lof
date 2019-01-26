@@ -5,24 +5,30 @@
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {1 }{\ignorespaces 人脸宏表情样本示例（CK+数据集） (a)厌恶, (b)快乐, (c)惊讶, (d)恐惧, (e)愤怒, (f)轻蔑, (g)沮丧, (h)中性表情\relax }}{12}{figure.caption.11}% 
+\contentsline {figure}{\numberline {1 }{\ignorespaces 人脸宏表情样本示例 \footnotesize \textmd {(a)厌恶、(b)快乐、 (c)惊讶、(d)恐惧、(e)愤怒、(f)轻蔑、(g)沮丧、(h)中性表情}\relax }}{12}{figure.caption.11}% 
 \contentsline {figure}{\numberline {2 }{\ignorespaces 一个消极的微表情片段示例（SMIC数据集）\relax }}{14}{figure.caption.13}% 
 \contentsline {figure}{\numberline {3 }{\ignorespaces 微表情数据采集示意图\relax }}{15}{figure.caption.14}% 
-\contentsline {figure}{\numberline {4 }{\ignorespaces 人脸面部肌肉划分\relax }}{18}{figure.caption.16}% 
-\contentsline {figure}{\numberline {5 }{\ignorespaces ResNet结构图\relax }}{21}{figure.caption.17}% 
+\contentsline {figure}{\numberline {4 }{\ignorespaces 人脸面部表情肌肉划分\relax }}{17}{figure.caption.16}% 
+\contentsline {figure}{\numberline {5 }{\ignorespaces LBP特征的光照鲁棒性\relax }}{19}{figure.caption.17}% 
+\contentsline {figure}{\numberline {6 }{\ignorespaces LBP-TOP特征提取过程\relax }}{19}{figure.caption.18}% 
+\contentsline {figure}{\numberline {7 }{\ignorespaces 光流大小和方向的表现\relax }}{20}{figure.caption.19}% 
+\contentsline {figure}{\numberline {8 }{\ignorespaces 三维卷积神经网络架构\relax }}{23}{figure.caption.20}% 
+\contentsline {figure}{\numberline {9 }{\ignorespaces ResNet的残差学习模块\relax }}{24}{figure.caption.21}% 
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {10 }{\ignorespaces 低分辨率环境下微表情识别框架\relax }}{28}{figure.caption.22}% 
+\contentsline {figure}{\numberline {11 }{\ignorespaces 来自SMIC-HS数据集的两帧\relax }}{28}{figure.caption.23}% 
+\contentsline {figure}{\numberline {12 }{\ignorespaces ASM算法标定的68个人脸关键点\relax }}{29}{figure.caption.24}% 
+\contentsline {figure}{\numberline {13 }{\ignorespaces LWM算法人脸对齐后的图像\relax }}{30}{figure.caption.25}% 
+\contentsline {figure}{\numberline {14 }{\ignorespaces 输入为原始图像序列，输出为TIM算法插值后图像序列\relax }}{30}{figure.caption.26}% 
+\contentsline {figure}{\numberline {15 }{\ignorespaces Super-resolution Reconstruction.\relax }}{31}{figure.caption.27}% 
+\contentsline {figure}{\numberline {16 }{\ignorespaces 低分辨率图像 \footnotesize \textmd {(a) SMIC-HS/SMIC-subHS数据集低分辨率图像，(b) CASME II数据集低分辨率图像}\relax }}{34}{figure.caption.29}% 
+\contentsline {figure}{\numberline {17 }{\ignorespaces 不同分辨率图像重建结果比较\relax }}{35}{figure.caption.32}% 
+\contentsline {figure}{\numberline {18 }{\ignorespaces 不同数据集不同分辨率的图像序列的识别准确度\relax }}{36}{figure.caption.33}% 
+\contentsline {figure}{\numberline {19 }{\ignorespaces 不同分辨率图像序列的识别准确度混淆矩阵\relax }}{37}{figure.caption.34}% 
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {20 }{\ignorespaces 伪3D残差网络三种设计模型\relax }}{40}{figure.caption.36}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {6 }{\ignorespaces Q判据等值面图，同时测试一下一个很长的标题，比如这真的是一个很长很长很长很长很长很长很长很长的标题\relax }}{28}{figure.caption.19}% 
-\contentsline {figure}{\numberline {7 }{\ignorespaces 激波圆柱作用\relax }}{28}{figure.caption.20}% 
-\contentsline {figure}{\numberline {8 }{\ignorespaces 总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息\relax }}{29}{figure.caption.21}% 
-\addvspace {10.0pt}
-\contentsline {figure}{\numberline {9 }{\ignorespaces Q判据等值面图，同时测试一下一个很长的标题，比如这真的是一个很长很长很长很长很长很长很长很长的标题\relax }}{36}{figure.caption.23}% 
-\contentsline {figure}{\numberline {10 }{\ignorespaces 激波圆柱作用\relax }}{36}{figure.caption.24}% 
-\contentsline {figure}{\numberline {11 }{\ignorespaces 总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息\relax }}{37}{figure.caption.25}% 
-\addvspace {10.0pt}
-\contentsline {figure}{\numberline {12 }{\ignorespaces Q判据等值面图，同时测试一下一个很长的标题，比如这真的是一个很长很长很长很长很长很长很长很长的标题。\relax }}{44}{figure.caption.27}% 
-\contentsline {figure}{\numberline {13 }{\ignorespaces 激波圆柱作用。\relax }}{44}{figure.caption.28}% 
-\contentsline {figure}{\numberline {14 }{\ignorespaces 总声压级。(a) 这是子图说明信息，(b) 这是子图说明信息，(c) 这是子图说明信息，(d) 这是子图说明信息。\relax }}{45}{figure.caption.29}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

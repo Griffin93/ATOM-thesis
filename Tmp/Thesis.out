@@ -19,80 +19,54 @@
 \BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 自发微表情数据集}{section.2.1}% 19
 \BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 宏表情与微表情比较}{section.2.1}% 20
 \BOOKMARK [1][-]{section.2.2}{2.2 微表情特征提取的一般方法}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1\040LBP-TOP}{section.2.2}% 22
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 光流法}{section.2.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Gabor特征}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 基于纹理信息的LBP-TOP特征提取符}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 基于光流法的特征提取}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 基于Gabor的特征提取}{section.2.2}% 24
 \BOOKMARK [1][-]{section.2.3}{2.3 相关深度学习网络}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1\0403DCNN}{section.2.3}% 26
-\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2\040ResNet}{section.2.3}% 27
-\BOOKMARK [0][-]{chapter.3}{第三章  个人研究1}{}% 28
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 三维卷积神经网络}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 残差神经网络}{section.2.3}% 27
+\BOOKMARK [0][-]{chapter.3}{第三章  基于传统机器学习方法的低分辨率环境下微表情识别}{}% 28
 \BOOKMARK [1][-]{section.3.1}{3.1 低分辨率微表情数据获取}{chapter.3}% 29
 \BOOKMARK [1][-]{section.3.2}{3.2 数据预处理}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1\040ASM}{section.3.2}% 31
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2\040LWM}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3\040TIM}{section.3.2}% 33
-\BOOKMARK [1][-]{section.3.3}{3.3 超分辨重建}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 基于块方法}{section.3.3}% 35
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 基于像素的方法}{section.3.3}% 36
-\BOOKMARK [1][-]{section.3.4}{3.4 LSVM及参数设置}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1\040LSVM}{section.3.4}% 38
-\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 参数设置}{section.3.4}% 39
-\BOOKMARK [1][-]{section.3.5}{3.5 实验及分析}{chapter.3}% 40
-\BOOKMARK [0][-]{chapter.4}{第四章  个人研究2}{}% 41
-\BOOKMARK [1][-]{section.4.1}{4.1 先试试效果}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.2}{4.2 文档目录简介}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1\040Thesis.tex}{section.4.2}% 44
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 编译脚本}{section.4.2}% 45
-\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Tmp文件夹}{section.4.2}% 46
-\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Style文件夹}{section.4.2}% 47
-\BOOKMARK [2][-]{subsection.4.2.5}{4.2.5 Tex文件夹}{section.4.2}% 48
-\BOOKMARK [2][-]{subsection.4.2.6}{4.2.6 Img文件夹}{section.4.2}% 49
-\BOOKMARK [2][-]{subsection.4.2.7}{4.2.7 Biblio文件夹}{section.4.2}% 50
-\BOOKMARK [1][-]{section.4.3}{4.3 数学公式、图表、参考文献等功能}{chapter.4}% 51
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 数学公式}{section.4.3}% 52
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 表格}{section.4.3}% 53
-\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 图片插入}{section.4.3}% 54
-\BOOKMARK [2][-]{subsection.4.3.4}{4.3.4 算法}{section.4.3}% 55
-\BOOKMARK [2][-]{subsection.4.3.5}{4.3.5 参考文献引用}{section.4.3}% 56
-\BOOKMARK [1][-]{section.4.4}{4.4 常见使用问题}{chapter.4}% 57
-\BOOKMARK [0][-]{chapter.5}{第五章  系统设计}{}% 58
-\BOOKMARK [1][-]{section.5.1}{5.1 先试试效果}{chapter.5}% 59
-\BOOKMARK [1][-]{section.5.2}{5.2 文档目录简介}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1\040Thesis.tex}{section.5.2}% 61
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 编译脚本}{section.5.2}% 62
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Tmp文件夹}{section.5.2}% 63
-\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Style文件夹}{section.5.2}% 64
-\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Tex文件夹}{section.5.2}% 65
-\BOOKMARK [2][-]{subsection.5.2.6}{5.2.6 Img文件夹}{section.5.2}% 66
-\BOOKMARK [2][-]{subsection.5.2.7}{5.2.7 Biblio文件夹}{section.5.2}% 67
-\BOOKMARK [1][-]{section.5.3}{5.3 数学公式、图表、参考文献等功能}{chapter.5}% 68
-\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 数学公式}{section.5.3}% 69
-\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 表格}{section.5.3}% 70
-\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 图片插入}{section.5.3}% 71
-\BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 算法}{section.5.3}% 72
-\BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 参考文献引用}{section.5.3}% 73
-\BOOKMARK [1][-]{section.5.4}{5.4 常见使用问题}{chapter.5}% 74
-\BOOKMARK [0][-]{chapter.6}{第六章  总结与展望}{}% 75
-\BOOKMARK [1][-]{section.6.1}{6.1 先试试效果}{chapter.6}% 76
-\BOOKMARK [1][-]{section.6.2}{6.2 文档目录简介}{chapter.6}% 77
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1\040Thesis.tex}{section.6.2}% 78
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 编译脚本}{section.6.2}% 79
-\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Tmp文件夹}{section.6.2}% 80
-\BOOKMARK [2][-]{subsection.6.2.4}{6.2.4 Style文件夹}{section.6.2}% 81
-\BOOKMARK [2][-]{subsection.6.2.5}{6.2.5 Tex文件夹}{section.6.2}% 82
-\BOOKMARK [2][-]{subsection.6.2.6}{6.2.6 Img文件夹}{section.6.2}% 83
-\BOOKMARK [2][-]{subsection.6.2.7}{6.2.7 Biblio文件夹}{section.6.2}% 84
-\BOOKMARK [1][-]{section.6.3}{6.3 数学公式、图表、参考文献等功能}{chapter.6}% 85
-\BOOKMARK [2][-]{subsection.6.3.1}{6.3.1 数学公式}{section.6.3}% 86
-\BOOKMARK [2][-]{subsection.6.3.2}{6.3.2 表格}{section.6.3}% 87
-\BOOKMARK [2][-]{subsection.6.3.3}{6.3.3 图片插入}{section.6.3}% 88
-\BOOKMARK [2][-]{subsection.6.3.4}{6.3.4 算法}{section.6.3}% 89
-\BOOKMARK [2][-]{subsection.6.3.5}{6.3.5 参考文献引用}{section.6.3}% 90
-\BOOKMARK [1][-]{section.6.4}{6.4 常见使用问题}{chapter.6}% 91
-\BOOKMARK [0][-]{appendix.A}{附录 A  附录}{}% 92
-\BOOKMARK [1][-]{section.A.1}{A.1 论文无附录者无需附录部分}{appendix.A}% 93
-\BOOKMARK [1][-]{section.A.2}{A.2 测试公式编号}{appendix.A}% 94
-\BOOKMARK [1][-]{section.A.3}{A.3 测试生僻字}{appendix.A}% 95
-\BOOKMARK [0][-]{section*.30}{参考文献}{}% 96
-\BOOKMARK [0][-]{appendix*.32}{攻读博士/硕士学位期间取得的科研成果}{}% 97
-\BOOKMARK [0][-]{appendix*.36}{作者简介}{}% 98
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 主动形状模型}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 局部加权平均算法}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 时间插值模型}{section.3.2}% 33
+\BOOKMARK [1][-]{section.3.3}{3.3 超分辨重建过程}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 基于的块方法}{section.3.3}% 35
+\BOOKMARK [1][-]{section.3.4}{3.4 微表情识别}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1\040LSVM}{section.3.4}% 37
+\BOOKMARK [1][-]{section.3.5}{3.5 实验及分析}{chapter.3}% 38
+\BOOKMARK [0][-]{chapter.4}{第四章  基于深度学习方法的低分辨率环境下微表情识别}{}% 39
+\BOOKMARK [1][-]{section.4.1}{4.1 数据增强}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 数据集混合}{section.4.1}% 41
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 直方图均衡化}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 亮度调整}{section.4.1}% 43
+\BOOKMARK [1][-]{section.4.2}{4.2\040P3D\040ResNet}{chapter.4}% 44
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1\0401}{section.4.2}% 45
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2\0402}{section.4.2}% 46
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3\0403}{section.4.2}% 47
+\BOOKMARK [1][-]{section.4.3}{4.3 实验设置及分析}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1\0401}{section.4.3}% 49
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2\0402}{section.4.3}% 50
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3\0403}{section.4.3}% 51
+\BOOKMARK [1][-]{section.4.4}{4.4 总结}{chapter.4}% 52
+\BOOKMARK [0][-]{chapter.5}{第五章  系统设计}{}% 53
+\BOOKMARK [1][-]{section.5.1}{5.1 需求分析}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.2}{5.2 功能设计}{chapter.5}% 55
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 功能图}{section.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 时序图}{section.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 等}{section.5.2}% 58
+\BOOKMARK [1][-]{section.5.3}{5.3 界面设计}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.4}{5.4 小节}{chapter.5}% 60
+\BOOKMARK [0][-]{chapter.6}{第六章  总结与展望}{}% 61
+\BOOKMARK [1][-]{section.6.1}{6.1 总结}{chapter.6}% 62
+\BOOKMARK [1][-]{section.6.2}{6.2 存在的问题与展望}{chapter.6}% 63
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 存在的问题}{section.6.2}% 64
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 展望}{section.6.2}% 65
+\BOOKMARK [0][-]{appendix.A}{附录 A  附录}{}% 66
+\BOOKMARK [1][-]{section.A.1}{A.1 论文无附录者无需附录部分}{appendix.A}% 67
+\BOOKMARK [1][-]{section.A.2}{A.2 测试公式编号}{appendix.A}% 68
+\BOOKMARK [1][-]{section.A.3}{A.3 测试生僻字}{appendix.A}% 69
+\BOOKMARK [0][-]{section*.37}{参考文献}{}% 70
+\BOOKMARK [0][-]{appendix*.39}{致谢}{}% 71
+\BOOKMARK [0][-]{appendix*.43}{攻读硕士学位期间取得的科研成果}{}% 72
