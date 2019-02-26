@@ -9,12 +9,12 @@
 \contentsline {table}{\numberline {2 }{\ignorespaces 摆拍微表情数据集\relax }}{13}{table.caption.12}% 
 \contentsline {table}{\numberline {3 }{\ignorespaces 自发微表情数据集\relax }}{17}{table.caption.15}% 
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {4 }{\ignorespaces 实验中使用的数据集\relax }}{39}{table.caption.28}% 
-\contentsline {table}{\numberline {5 }{\ignorespaces 重建图像序列的平均PSNR(dB)指标\relax }}{39}{table.caption.30}% 
-\contentsline {table}{\numberline {6 }{\ignorespaces 重建图像序列的平均SSIM指标\relax }}{40}{table.caption.31}% 
-\contentsline {table}{\numberline {7 }{\ignorespaces 不同分辨率图像在不同数据集上的识别精度比较\relax }}{43}{table.caption.35}% 
+\contentsline {table}{\numberline {4 }{\ignorespaces 实验中使用的数据集\relax }}{38}{table.caption.29}% 
+\contentsline {table}{\numberline {5 }{\ignorespaces 重建图像序列的平均PSNR（dB）指标\relax }}{39}{table.caption.31}% 
+\contentsline {table}{\numberline {6 }{\ignorespaces 重建图像序列的平均SSIM指标\relax }}{39}{table.caption.32}% 
+\contentsline {table}{\numberline {7 }{\ignorespaces 不同分辨率图像在不同数据集上的识别精度比较\relax }}{42}{table.caption.36}% 
 \addvspace {10.0pt}
-\addvspace {10.0pt}
+\contentsline {table}{\numberline {8 }{\ignorespaces 融合后数据集情况\relax }}{46}{table.caption.38}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

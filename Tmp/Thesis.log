@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.25)  26 JAN 2019 23:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.12.25)  26 FEB 2019 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,6 +501,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
+(d:/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 (d:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
@@ -711,7 +714,7 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
 text;"
 
-LaTeX Info: Redefining \rmfamily on input line 235.
+LaTeX Info: Redefining \rmfamily on input line 236.
 
 Package fontspec Info: Font family 'entextsf' created for font 'Times New
 (fontspec)             Roman' with options
@@ -745,7 +748,7 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
 text;"
 
-LaTeX Info: Redefining \sffamily on input line 236.
+LaTeX Info: Redefining \sffamily on input line 237.
 (d:/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip65
@@ -1081,9 +1084,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip85
 )
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 395.
-Package hyperref Info: Option `colorlinks' set `true' on input line 395.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 395.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 396.
+Package hyperref Info: Option `colorlinks' set `true' on input line 396.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 396.
 
 
 (d:/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty
@@ -1104,28 +1107,19 @@ Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
 )
 (Tmp/Thesis.aux
 
-LaTeX Warning: Label `eq3' multiply defined.
-
-
-LaTeX Warning: Label `eq4' multiply defined.
-
-
-LaTeX Warning: Label `fig14' multiply defined.
-
-
-LaTeX Warning: Label `fig15' multiply defined.
+LaTeX Warning: Label `fig20' multiply defined.
 
 
 LaTeX Warning: Label `eq6' multiply defined.
 
 
-LaTeX Warning: Label `eq6' multiply defined.
+LaTeX Warning: Label `eq7' multiply defined.
 
 
-LaTeX Warning: Label `eq6' multiply defined.
+LaTeX Warning: Label `eq8' multiply defined.
 
 
-LaTeX Warning: Label `eq6' multiply defined.
+LaTeX Warning: Label `eq9' multiply defined.
 
 )
 \openout1 = `Thesis.aux'.
@@ -1339,28 +1333,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--70
-
- []
-
-[3])
-Overfull \hbox (8.24356pt too wide) in paragraph at lines 71--69
+] [3])
+Overfull \hbox (8.24356pt too wide) in paragraph at lines 67--69
 \TU/entextrm/bx/n/12.045 Keywords: \TU/entextrm/m/n/12.045 Micro-expression rec
 ognition, Surveillance video, Low-resolution, Super-resolution,
  []
@@ -1400,6 +1374,26 @@ Overfull \hbox (1.33331pt too wide) in paragraph at lines 6--6
 
 
 Overfull \hbox (1.33331pt too wide) in paragraph at lines 7--7
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 8--8
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 9--9
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 10--10
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 11--11
 [][][] [] 
  []
 
@@ -1455,9 +1449,154 @@ Overfull \hbox (1.33331pt too wide) in paragraph at lines 13--13
 [][][] [] 
  []
 
-) [11] [12
 
-] (Tmp/Thesis.toc [13] [14])
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 14--14
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 15--15
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 16--16
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 17--17
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 18--18
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 19--19
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 20--20
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 21--21
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 22--22
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 23--23
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 24--24
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 25--25
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 26--26
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 27--27
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 28--28
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 29--29
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 30--30
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 31--31
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 32--32
+[][][] [] 
+ []
+
+[11]
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 33--33
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 34--34
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 35--35
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 36--36
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 37--37
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 38--38
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 39--39
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 40--40
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 41--41
+[][][] [] 
+ []
+
+
+Overfull \hbox (1.33331pt too wide) in paragraph at lines 42--42
+[][][] [] 
+ []
+
+) [12] (Tmp/Thesis.toc [13
+
+] [14])
 \tf@toc=\write6
 \openout6 = `Thesis.toc'.
 
@@ -1469,7 +1608,7 @@ Overfull \hbox (1.33331pt too wide) in paragraph at lines 13--13
 [1
 
 ] [2] [3] [4] [5] [6] [7]
-Overfull \hbox (6.59085pt too wide) in paragraph at lines 63--79
+Overfull \hbox (6.59085pt too wide) in paragraph at lines 64--80
  [][] 
  []
 
@@ -1494,10 +1633,10 @@ File: ME37.pdf Graphic file (type pdf)
 <use ME37.pdf>
 File: ME38.pdf Graphic file (type pdf)
 <use ME38.pdf>
- [12]
+ [12] [13]
 File: ME1.pdf Graphic file (type pdf)
 <use ME1.pdf>
- [13] [14]
+ [14]
 File: collect.pdf Graphic file (type pdf)
 <use collect.pdf>
  [15] [16]
@@ -1507,8 +1646,8 @@ File: ME2.pdf Graphic file (type pdf)
 File: LBP0.pdf Graphic file (type pdf)
 <use LBP0.pdf>
  [18]
-File: LBP1.pdf Graphic file (type pdf)
-<use LBP1.pdf>
+File: LBP.pdf Graphic file (type pdf)
+<use LBP.pdf>
  [19]
 File: OF0.pdf Graphic file (type pdf)
 <use OF0.pdf>
@@ -1528,77 +1667,90 @@ File: LR0.pdf Graphic file (type pdf)
 [27]
 File: LR1.pdf Graphic file (type pdf)
 <use LR1.pdf>
- [28] [29]
+ [28]
 File: 3LR1.pdf Graphic file (type pdf)
 <use 3LR1.pdf>
+ [29]
 File: 3LR2.pdf Graphic file (type pdf)
 <use 3LR2.pdf>
+ [30]
 File: LR2.pdf Graphic file (type pdf)
 <use LR2.pdf>
- [30] [31] [32]
+ [31] [32]
 File: LR3.pdf Graphic file (type pdf)
 <use LR3.pdf>
- [33] [34] [35] [36] [37] [38]
+ [33] [34]
+File: LBP1.pdf Graphic file (type pdf)
+<use LBP1.pdf>
+ [35] [36] [37]
 File: LR41.pdf Graphic file (type pdf)
 <use LR41.pdf>
 File: LR42.pdf Graphic file (type pdf)
 <use LR42.pdf>
+ [38]
 File: LR5.pdf Graphic file (type pdf)
 <use LR5.pdf>
- [39] [40]
+ [39]
 File: LR6.pdf Graphic file (type pdf)
 <use LR6.pdf>
- [41]
+ [40]
 File: LR7.pdf Graphic file (type pdf)
 <use LR7.pdf>
-
-[42] [43]) (./Tex/Chap_Owner2.tex [44] [45] [46
-
-]
+ [41])
+(./Tex/Chap_Owner2.tex [42]
 第四章
-[47] [48]
-File: 4LR1.pdf Graphic file (type pdf)
-<use 4LR1.pdf>
- [49] [50] [51] [52] [53]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 131.
-
 File: P3D0.pdf Graphic file (type pdf)
 <use P3D0.pdf>
-[54]) (./Tex/Chap_System.tex [55] [56
+[43
 
-]
+] [44] [45] [46] [47]
+File: P3D1.pdf Graphic file (type pdf)
+<use P3D1.pdf>
+ [48]
+File: P3D2.pdf Graphic file (type pdf)
+<use P3D2.pdf>
+File: P3D3.pdf Graphic file (type pdf)
+<use P3D3.pdf>
+File: 4LR0.pdf Graphic file (type pdf)
+<use 4LR0.pdf>
+File: 4LR2.pdf Graphic file (type pdf)
+<use 4LR2.pdf>
+File: 4LR3.pdf Graphic file (type pdf)
+<use 4LR3.pdf>
+File: 4LR4.pdf Graphic file (type pdf)
+<use 4LR4.pdf>
+ [49]) (./Tex/Chap_System.tex [50]
 第五章
-) (./Tex/Chap_Conclusions.tex [57] [58
+File: MERS0.pdf Graphic file (type pdf)
+<use MERS0.pdf>
+[51
 
 ]
+File: MERS1.pdf Graphic file (type pdf)
+<use MERS1.pdf>
+File: MERS2.pdf Graphic file (type pdf)
+<use MERS2.pdf>
+ [52] [53]) (./Tex/Chap_Conclusions.tex [54]
 第六章
-[59])) [60] (./Tex/Appendix.tex
-附录 A
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
-(d:/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [61
+[55
 
-
-] [62] (Tmp/Thesis.bbl
-[63
+])) [56] (Tmp/Thesis.bbl [57
 
 
 
-] [64] [65] [66]) (./Tex/Acknowledgement.tex [67] [68
 
-] [69] [70
+] [58] [59] [60]) (./Tex/Acknowledgement.tex
+[61] [62
 
-])
-(./Tex/Achievement.tex [71
+] [63] [64
 
-] [72
+]) (./Tex/Achievement.tex [65
+
+] [66
 
 ])
 
-Package caption Warning: Unused \captionsetup[bi-first] on input line 56.
+Package caption Warning: Unused \captionsetup[bi-first] on input line 57.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
@@ -1607,19 +1759,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: ACD03EDC90B3FB39FF00D83F1F694D72.
+(rerunfilecheck)             Checksum: 8536566E53A3EA1CA25F9B6BE33B72C4.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31373 strings out of 492933
- 625300 string characters out of 6136536
- 672813 words of memory out of 5000000
- 34936 multiletter control sequences out of 15000+600000
- 579668 words of font info for 168 fonts, out of 8000000 for 9000
+ 31452 strings out of 492933
+ 627632 string characters out of 6136536
+ 667695 words of memory out of 5000000
+ 35007 multiletter control sequences out of 15000+600000
+ 570831 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,21n,94p,1576b,685s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,21n,94p,2517b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tmp/Thesis.pdf (94 pages).
+Output written on Tmp/Thesis.pdf (88 pages).

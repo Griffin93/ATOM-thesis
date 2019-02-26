@@ -36,40 +36,32 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 基于像素的方法}{section.3.3}% 36
 \BOOKMARK [1][-]{section.3.4}{3.4 微表情的特征提取与分类}{chapter.3}% 37
 \BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 LBP-TOP特征提取}{section.3.4}% 38
-\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2\040LSVM}{section.3.4}% 39
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 线性支持向量机及交叉验证}{section.3.4}% 39
 \BOOKMARK [1][-]{section.3.5}{3.5 实验设置及分析}{chapter.3}% 40
-\BOOKMARK [1][-]{section.3.6}{3.6 总结}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.6}{3.6 本章小结}{chapter.3}% 41
 \BOOKMARK [0][-]{chapter.4}{第四章  基于深度学习方法的低分辨率环境下微表情识别}{}% 42
 \BOOKMARK [1][-]{section.4.1}{4.1 数据集预处理}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 数据集混合}{section.4.1}% 44
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 直方图均衡化}{section.4.1}% 45
-\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 亮度调整}{section.4.1}% 46
-\BOOKMARK [1][-]{section.4.2}{4.2 特征提取及识别}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 P3D 块}{section.4.2}% 48
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2\040P3D\040ResNet}{section.4.2}% 49
-\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3\0402}{section.4.2}% 50
-\BOOKMARK [1][-]{section.4.3}{4.3 实验设置及分析}{chapter.4}% 51
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1\0401}{section.4.3}% 52
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2\0402}{section.4.3}% 53
-\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3\0403}{section.4.3}% 54
-\BOOKMARK [1][-]{section.4.4}{4.4 总结}{chapter.4}% 55
-\BOOKMARK [0][-]{chapter.5}{第五章  系统设计}{}% 56
-\BOOKMARK [1][-]{section.5.1}{5.1 需求分析}{chapter.5}% 57
-\BOOKMARK [1][-]{section.5.2}{5.2 功能设计}{chapter.5}% 58
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 功能图}{section.5.2}% 59
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 时序图}{section.5.2}% 60
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 等}{section.5.2}% 61
-\BOOKMARK [1][-]{section.5.3}{5.3 界面设计}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.4}{5.4 小节}{chapter.5}% 63
-\BOOKMARK [0][-]{chapter.6}{第六章  总结与展望}{}% 64
-\BOOKMARK [1][-]{section.6.1}{6.1 总结}{chapter.6}% 65
-\BOOKMARK [1][-]{section.6.2}{6.2 存在的问题与展望}{chapter.6}% 66
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 存在的问题}{section.6.2}% 67
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 展望}{section.6.2}% 68
-\BOOKMARK [0][-]{appendix.A}{附录 A  附录}{}% 69
-\BOOKMARK [1][-]{section.A.1}{A.1 论文无附录者无需附录部分}{appendix.A}% 70
-\BOOKMARK [1][-]{section.A.2}{A.2 测试公式编号}{appendix.A}% 71
-\BOOKMARK [1][-]{section.A.3}{A.3 测试生僻字}{appendix.A}% 72
-\BOOKMARK [0][-]{section*.38}{参考文献}{}% 73
-\BOOKMARK [0][-]{appendix*.40}{致谢}{}% 74
-\BOOKMARK [0][-]{appendix*.44}{攻读硕士学位期间取得的科研成果}{}% 75
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 数据集融合}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 数据增强}{section.4.1}% 45
+\BOOKMARK [1][-]{section.4.2}{4.2 特征提取及识别}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 伪3D块}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2\040P3D\040ResNet}{section.4.2}% 48
+\BOOKMARK [1][-]{section.4.3}{4.3 实验设置及分析}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 数据增强}{section.4.3}% 50
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 特征提取及识别}{section.4.3}% 51
+\BOOKMARK [1][-]{section.4.4}{4.4 本章小结}{chapter.4}% 52
+\BOOKMARK [0][-]{chapter.5}{第五章  低分辨率环境下微表情识别系统}{}% 53
+\BOOKMARK [1][-]{section.5.1}{5.1 需求分析}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.2}{5.2 系统设计}{chapter.5}% 55
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 功能设计}{section.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 界面设计}{section.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 操作样例}{section.5.2}% 58
+\BOOKMARK [1][-]{section.5.3}{5.3 本章小结}{chapter.5}% 59
+\BOOKMARK [0][-]{chapter.6}{第六章  总结与展望}{}% 60
+\BOOKMARK [1][-]{section.6.1}{6.1 总结}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.2}{6.2 存在的问题与展望}{chapter.6}% 62
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 存在的问题}{section.6.2}% 63
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 展望}{section.6.2}% 64
+\BOOKMARK [0][-]{section*.46}{参考文献}{}% 65
+\BOOKMARK [0][-]{appendix*.48}{致谢}{}% 66
+\BOOKMARK [0][-]{appendix*.49}{攻读硕士学位期间取得的科研成果}{}% 67

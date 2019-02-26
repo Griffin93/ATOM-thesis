@@ -1,22 +1,25 @@
 \chapter{总结与展望}\label{chap:conclusions}
 
-The current ME studies can be continued and improved from four aspects in future work. First, about the ME database: more spontaneous ME data are still needed in order to develop more sophisticate computational models. Compared to ordinary FE databases, the size of current ME databases are not big enough. Future collection of ME data can be improved from three ways: the first is to increase the sample size; the second is to involve AU labelling; the third is to include depth information to build 3D ME models. A large 3D ME database is now under construction with collaboration of a group of UK researchers.
-在今后的工作中，可以从四个方面继续和完善目前ME的研究。首先，关于ME数据库:为了开发更复杂的计算模型，仍然需要更多自发的ME数据。与普通FE数据库相比，目前ME数据库的规模还不够大。未来ME数据的收集可以通过三种方式进行改进:一是增加样本量;二是涉及AU标签;第三个是包含深度信息来构建3D ME模型。一组英国研究人员正在合作建立一个大型3D ME数据库。
-
-Second, about ME spotting: the framework using feature difference analysis for ME spotting described in Section 2.5 was the first method proposed for spotting MEs from spontaneous long videos. One challenge of the current spotting framework is that there are other brief but non-emotional movements (e.g., eye blinks) that need to be ruled out from MEs. In future, more refined spotting method will be developed on the AU level, so that non-emotional brief movements can be ruled out to reduce the false positive rate. Besides, future ME spotting method will also try to target at providing more precise temporal information of the ME including the onset, apex and offset frames.
-第二，关于ME点测:2.5节中描述的ME点测特征差异分析框架是第一个从自发长视频中提取MEs的方法。当前的识别框架的一个挑战是，需要排除MEs中其他短暂但非情绪的动作(例如眨眼)。未来将在AU水平上开发更精细的点样方法，排除非情绪短暂运动，降低假阳性率。此外，未来的ME定位方法也将致力于提供更精确的ME的时间信息，包括起始帧、顶点帧和偏移帧。
-
-Third, about ME recognition: the latest method proposed in paper III showed advantage over previous methods by employing one extra step to magnify the subtle motions. Other video processing methods will be explored and added to the framework, if they are demonstrated to be helpful for the ME recognition task. More sophisticate machine learning models will be studied including deep learning models. It is also planned to use 3D information for ME recognition when the new 3D ME database is finished.
-第三，关于ME识别:第三篇论文中提出的最新方法比之前的方法有优势，多了一步放大了细微的运动。如果其他视频处理方法被证明对ME识别任务有帮助，我们将探索并添加到该框架中。将研究更复杂的机器学习模型，包括深度学习模型。也计划在新的3D ME数据库完成后使用3D信息进行ME识别。
-
-Fourth, about integrated ME spotting and recognition systems: after progresses are made for both ME recognition methods and ME spotting methods, it is also planned to build advanced integrated systems for more accurate ME spotting and recognition.
-第四，ME点测与识别集成系统:在ME点测与识别方法取得进展后，计划构建先进的ME点测与识别集成系统，提高ME点测与识别的准确率。
-
 \section{总结}
 
+在未来的工作中，可以从四个方面继续和完善微表情的研究。首先，关于微表情数据库：为了开发更复杂的计算模型，仍然需要更多自发的微表情数据。与普通人脸表情数据库相比，目前微表情数据库的规模还不够大。未来微表情数据的收集可以通过三种方式进行改进：一是增加样本量；二是增加AU标签；第三个是包含深度信息来构建3D微表情模型。目前已知有一组英国研究人员正在合作建立一个大型3D微表情数据库。
+
+第二，关于微表情检测：2.5节中描述的通过特征差检测微表情的分析框架是第一个从自发长视频中提取微表情的方法。当前微表情检测框架面临的一个挑战是，需要排除微表情中其他短暂但非情绪的动作(例如眨眼)。未来将在AU水平上开发更精细的检测方法，排除非情绪短暂运动，降低假阳性率。此外，未来的微表情检测方法也将致力于提供更精确的微表情产生的时间信息，包括起始帧、峰值帧和终止帧。
+
+第三，关于微表情识别：第三篇论文中提出的最新方法比之前的方法有优势，增加了放大细微运动步骤。如果其他视频处理方法被证明对微表情识别任务有帮助，我们将探索并添加到该框架中。将研究更复杂的机器学习模型，包括深度学习模型。也计划在新的3D微表情数据库完成后使用3D信息进行微表情识别。
+
+第四，微表情检测与识别集成系统：在微表情检测与识别方法取得进展后，计划构建先进的微表情检测与识别集成系统，提高微表情检测与识别的准确率。
+
+论文的贡献来自两个主要方面，每个方面都对应于我的研究的一个目标。贡献的第一个方面是关于自动微表情分析。微表情可以帮助揭示人们隐藏的感受，因此可以作为谎言检测的重要线索。几十年来，心理学家一直在研究微表情的现象，但直到2009年才开始进行计算机视觉领域的研究。进行微表情分析研究的第一个障碍是缺乏自发的微表情数据。之前的一些研究使用了摆拍的微表情片段，但是摆拍的微表情是非自愿行为与自发的微表情存在很大差异。 2011年，我们提出在论文I中使用抑制情绪诱导方式来构建第一个自发微表情数据集SMIC。我们还提出了第一个框架，使用TIM插值和LBP-TOP作为自发微表情识别的特征描述符。第一版的SMIC数据集只有有限的样本，后来扩展的SMIC完整版本，包括从16名参与者中获得的164个自发的微表情。 SMIC数据库在线共享用于研究用途。第二篇详细解释了诱导和标注SMIC的方法，以便为将来的微表情数据收集提供有用的信息。SMIC数据库吸引了其他研究人员的兴趣。从那时起，更多的微表情数据库开始出现，并且更多的方法被用于微表情分析。在我们最近的论文三的工作中，微表情检测和微表情识别问题都得到了解决。提出了一种基于特征差的微表情检测方法，该方法被证明对于从长视频中发现自发微表情是有效的。还提出了一种先进的微表情识别框架，该框架采用运动放大过程来消除微表情的微弱性。为了使微表情识别过程合理化以获得更好的性能，对框架的许多重要因素（例如，特征类型、特征维度和插值帧数）进行了彻底的探索。结果表明，所提出的微表情识别框架在SMIC和CASMEII数据库上都优于其他最先进的方法。
 
 \section{存在的问题与展望}
 
 \subsection{存在的问题}
 
+关于微表情的研究目前还处于起步阶段，未来具有良好的发展前景。目前的微表情研究可以在未来的工作中从四个方面继续和改进。
+
+首先，关于微表情数据库：为了开发更复杂的计算模型，仍然需要更多自发的微表情数据。与普通的人脸数据库相比，当前微表情数据库的规模还不够大。未来的微表情数据收集可以通过三种方式进行改进：第一种是增加样本量；第二是增加AU标签；第三是包含深度信息以构建3D微表情模型。目前正在与一群英国研究人员合作建立一个大型3D微表情数据库。第二，关于微表情检测：第2.5节中描述的使用微表情点测量特征差异分析的框架是第一种从自发长视频中发现微表情的方法。当前定位框架的一个挑战是需要从微表情中排除其他短暂但非情绪化的运动（例如，眨眼）。在未来，将在AU级别上开发更精细的定位方法，从而可以排除非情绪的短暂动作以降低误报率。此外，未来的微表情点测方法还将尝试以提供微表情的更精确的时间信息为目标，包括起始帧，顶点和偏移帧。第三，关于微表情识别：纸张III中提出的最新方法通过采用一个额外步骤来放大微妙运动，显示出优于先前方法的优势。如果它们被证明对微表情识别任务有帮助，则将探索其他视频处理方法并将其添加到框架中。将研究更复杂的机器学习模型，包括深度学习模型。当新的3D 微表情数据库完成时，还计划使用3D信息进行微表情识别。第四，关于集成的微表情点样和识别系统：在微表情识别方法和微表情点样方法的进展之后，还计划构建先进的集成系统以实现更准确的微表情点样和识别。
+
 \subsection{展望}
+
+除了继续研究这两个主题之外，另一个有价值的研究方向是将它们结合起来构建一个多模式系统，用于仅使用视频作为输入的情感状态分析。 文献综述结果表明，有可能从面部视频中提取其他生理信息，如呼吸率和血压。 因此，计划是将微表情与所有可从面部实现的生理信号结合起来进行情绪状态分析。 这个想法可能特别适合检测覆盖的情绪变化，而脸上没有明显的表情。
